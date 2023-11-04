@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navbar */
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: larger;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    background: rgb(247, 240, 240); /* Set your desired background color */
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.logo img{
+   height: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00f; /* Change to your desired hover color */
+}
+#accordionContent a {
+
+    color: #333;
+    text-decoration: none;
+}
+
+/* Style the language accordion */
+.language-accordion {
+    
+}
+
+/* Style the hero section */
+.hero-section {
+    position: relative;
+}
+
+.hero-overlay {
+    width: 65%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    background: rgba(0, 0, 255, 0.5); /* Set your desired overlay color and opacity */
+    padding: 25px;
+    
+    color: white;
+    border-bottom: 10px solid rgb(4, 4, 60);
+}
+
+.hero-overlay h1{
+    margin-bottom: 25px;
+    font-size: 70px;
+}
+.frase{
+    position: relative;
+    background-color: transparent;
+    line-height: 1.5;
+    width: 70%;
+}
+#accordionContent a {
+    padding: 0 5px;
+    
+}
+
+    </style>
+    <title>Your Website chat</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="../../logo/logoMEcaSynapse.png"></div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Project</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="language-accordion">
+           <!-- <button id="accordionBtn">Language</button>-->
+            <div id="accordionContent">
+                <a  href="#">ES</a>
+                <a href="#">EN</a>
+                <a href="#">FR</a>
+            </div>
+        </div>
+    </div>
+    <div class="hero-section">
+        <img style="width: 100%;" src="/imageneCopadas/grayom-cRpokieSiCI-unsplash.jpg">
+        <div class="hero-overlay">
+            <h1>Excelencia en Ingeniería</h1>
+            <div class="frase">
+            <p>Trabajando con equipos de profesionales altamente calificados desde nuestra sede en Toulouse, con una vasta experiencia en diferentes rubros de la industria y utilizando las mejores herramientas del mercado, acercamos soluciones eficaces a la más variada gama de necesidades.</p>
+             </div>
+        </div>
+        
+    </div>
+    <script>
+        document.getElementById("accordionBtn").addEventListener("click", function() {
+    var content = document.getElementById("accordionContent");
+    if (content.style.display === "block") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";
+    }
+});
+    </script>
+</body>
+</html>

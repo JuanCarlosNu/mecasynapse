@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Automático</title>
+    <style>
+        /* Agrega estilos CSS según tus preferencias */
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            width: 300px; /* Ajusta el ancho del carrusel según tus necesidades */
+        }
+
+        .carousel-item {
+            flex: 0 0 auto;
+            width: 300px; /* Ajusta el ancho de los elementos del carrusel */
+            transition: transform 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-item"> <!-- Primer elemento -->
+            <img src="imagen1.jpg" alt="Imagen 1">
+        </div>
+        <div class="carousel-item"> <!-- Segundo elemento -->
+            <img src="imagen2.jpg" alt="Imagen 2">
+        </div>
+        <div class="carousel-item"> <!-- Tercer elemento -->
+            <img src="imagen3.jpg" alt="Imagen 3">
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const items = document.querySelectorAll('.carousel-item');
+
+        let currentIndex = 0;
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % items.length;
+            const translateX = -currentIndex * 300; // Ancho del carrusel
+            carousel.style.transform = `translateX(${translateX}px)`;
+        }
+
+        setInterval(nextSlide, 3000); // Cambia de diapositiva cada 3 segundos (3000 ms)
+    </script>
+</body>
+</html>
