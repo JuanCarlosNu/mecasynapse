@@ -1,17 +1,15 @@
 
     <!--MainStyling-->
-    
-
 .hero-section {
     position: relative;
     background-color: black;
 }
-{/*
+
 .hero-section img{
     width: 100%;
     height: auto;
-}
-*/}
+   }
+
 .hero-overlay {
     width: 65%;
     font-family:Arial, Helvetica, sans-serif;
