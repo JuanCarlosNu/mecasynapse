@@ -77,6 +77,13 @@
       color: rgb(54, 47, 255);
       transition: all 0.2s ease-out;
       }
+      .language {
+        float: left;
+    }
+    .language a{
+        color:inherit;
+        text-decoration: none;
+    }
       
       
       
