@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idom NavBar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            z-index: 3;
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 100%;
+        }
+
+        .navbar {
+            margin: 0 2.5rem;
+            padding: 10px 0;
+        }
+
+        .navbar .logo_container {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .nav-menu {
+            float: left;
+        }
+
+        .nav-menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-menu li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        .language {
+            float: right;
+        }
+
+        .language span {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="visible">
+        <div class="navbar">
+            <a class="logo_container"><img class="logo_img" src="your-logo-image.jpg" alt="Logo"></a>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Expertise</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="language">
+                <span>EN</span>
+                <span>ES</span>
+                <span>FR</span>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
