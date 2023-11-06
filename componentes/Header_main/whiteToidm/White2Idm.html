@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--navbarStyling-->
+    <link rel="stylesheet" href="NavBarStyle.css">
+        <!--MainStyling-->
+        <link rel="stylesheet" href="MainStyle.css">
+   
+    <title>White to</title>
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+             <a id="navbar-logo"> <img src="../../../logo/logoMEcaSynapse.png" ></a>
+          <div class="menu-toggle" id="mobile-menu">
+             <!-- This draw the lines of the icon -->
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+          <ul class="nav-menu">
+                <li><a href="#" class="nav-links">INICIO</a></li>
+                <li><a href="#" class="nav-links">ACERCA DE</a></li>
+                <li><a href="#" class="nav-links">PROYECTOS</a></li>
+                <li><a href="#" class="nav-links">SERVICIOS</a></li>
+                <li><div id="accordionContent">
+                   <i><a id="ES" style="font-weight: bolder;" href="#">ES</a>
+                      <a id="EN" href="#">EN</a>
+                      <a id="FR" href="#">FR</a></i>  
+                </div></li>
+          </ul>
+    
+        </nav>
+      </div>
+   
+    <div class="hero-section">
+        <img src="/imageneCopadas/grayom-cRpokieSiCI-unsplash.jpg">
+        <div class="hero-overlay">
+          <div class="title_container">
+            <h1>Excelencia en Ingeniería</h1>
+          </div>
+            <div class="frase">
+            <p>Trabajando con equipos de profesionales altamente calificados desde nuestra sede en Toulouse, con una vasta experiencia en diferentes rubros de la industria y utilizando las mejores herramientas del mercado, acercamos soluciones eficaces a la más variada gama de necesidades.</p>
+             </div>
+        </div>
+        
+    </div>
+    <script>
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.nav-menu');
+
+menu.addEventListener('click', function(){
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('active');
+} )
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+      </script>
+  
+</body>
+</html>
