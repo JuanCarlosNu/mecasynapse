@@ -146,8 +146,9 @@
                 opacity: 0;
                 transition: all 0.5s ease;
                 }
+
             .language{
-              margin-right: 140px;
+              margin-right: 70px;
             }    
             #navbar-logo {
                 margin-left: 20px;
