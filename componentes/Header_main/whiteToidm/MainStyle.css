@@ -15,53 +15,37 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 2.5rem;
-  
-    
     color: white;
-    
-}
-.title_container{
-  margin-bottom: 5%;
+    }
+    .title_container{
+  margin-bottom: 5%; /*space between title and paragraph*/
   background: rgba(0, 0, 255, 0.5); /* Set your desired overlay color and opacity */border-bottom: 10px solid rgb(4,4,60);
   width:100%;
   padding:25px;
   border-bottom: 10px solid rgb(4, 4, 60);
 }
-
-.hero-overlay h1{
-    margin-bottom: 25px;
-    font-size: 70px;
-}
-.frase{
+     .hero-overlay h1{
+          font-size: 70px;
+              }
+    .frase{
     position: relative;
     background-color: transparent;
     line-height: 1.5;
     width: 70%;
-  
-}
-#accordionContent a{
-    font-family: 'Courier New', Courier, monospace;
-    color: inherit;
-    text-decoration: none;
-    margin-left: 3px;
-    }
-    .frase p{
+  }
+       .frase p{
         font-size: 20px;
-    }
-@media screen and (max-width: 1200px){
-    .hero-overlay h1{
-    margin-bottom: 25px;
-    font-size: 50px;
-}
+        }
+    
+
 @media screen and (max-width: 920px){
     .frase{
         width: 90%;
     }
     .hero-overlay {
-        transform: translate(-50%, -50%);
-        width: 85%;
+       border: 2px solid yellow;
          }
          .title_container{
           padding-bottom: 40px;
@@ -72,6 +56,14 @@
       text-decoration-thickness: 8px;
       text-underline-offset: 10px;
       font-size: 30px;
+     
+}
+@media screen and (max-width: 810px){
+   
+    .hero-overlay {
+        top: 5%;
+        
+         }
      
 }
 
@@ -118,18 +110,20 @@
         width: 100%;
         transform: translateX(0);
       }
-.frase{
-width: 100%
-}
+       .frase{
+         text-align: justify;
+          width: 100%;
+         }
+         .hero-section{
+            
+         }
 
-.hero-overlay {
-font-size: 30px;
-transform: translate(-40%, -50%)
-width: 100%;
-padding: 5 10px;
- }
-
-}
+        .hero-overlay {   
+         font-size: 30px;
+         width: 80%;
+         
+        }
+    }
 
 
 
