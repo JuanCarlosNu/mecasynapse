@@ -114,10 +114,7 @@
       display: inline-block;
     
     }
-      
-      
-      
-      .menu-toggle .bar {
+    .menu-toggle .bar {
         width: 25px;
         height: 3px;
         margin: 5px auto;
@@ -125,9 +122,8 @@
         background:#212329;
         position: sticky;
       }
-      
-      
-      @media screen and (max-width: 995px){
+    
+    @media screen and (max-width: 995px){
         .nav-container{
             padding: 0 0;
             position: sticky;

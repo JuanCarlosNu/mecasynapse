@@ -46,15 +46,13 @@
         width: 90%;
     }
     .hero-overlay {
-       border: 2px solid yellow;
+      
          }
          .title_container{
           padding-bottom: 40px;
          }
     .hero-overlay h1{
       display: inline;
-      text-decoration: underline black;
-      text-decoration-thickness: 8px;
       text-underline-offset: 10px;
       font-size: 30px;
      
