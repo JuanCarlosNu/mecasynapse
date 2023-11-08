@@ -36,6 +36,7 @@
     width: 70%;
   }
        .frase p{
+        width: 100%;
         font-size: 20px;
         }
     
@@ -61,7 +62,7 @@
 @media screen and (max-width: 810px){
    
     .hero-overlay {
-        top: 5%;
+        top: 15%;
         
          }
      
@@ -114,29 +115,29 @@
          text-align: justify;
           width: 100%;
          }
-         .hero-section{
-            
-         }
+        
 
-        .hero-overlay {   
+        .hero-overlay {  
+           
          font-size: 30px;
-         width: 80%;
+         width: 100%;
+        
+         
          
         }
     }
-
-
-
-    
- 
-
-
-    
-    .hero-section img{
+      .hero-section img{
         width: 100%;
         opacity: .6;
     }
+
     @media screen and (max-width: 500px){
+      .hero-overlay{
+        width: 80%;
+        
+       
+        
+      }
       .title_container{
         line-height: 50px;
       }
@@ -147,5 +148,11 @@
     
     }
     }
-
+    @media screen and (max-width: 415px){
+      .hero-overlay{
+        width: 95%;
+        left: 2.5%;
+       
+      }
+    }
     
