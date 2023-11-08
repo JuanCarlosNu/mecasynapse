@@ -15,7 +15,7 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 2.5rem;
     color: white;
     }
@@ -40,7 +40,10 @@
         font-size: 20px;
         }
     
-
+        @media screen and (max-width: 1200px){
+          .hero-overlay{
+            top: 15%;
+          }}        
 @media screen and (max-width: 920px){
     .frase{
         width: 90%;
