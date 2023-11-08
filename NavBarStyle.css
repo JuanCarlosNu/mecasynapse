@@ -50,8 +50,8 @@
         height: 100%;
         float: left;
         text-decoration: none;
-        {/*display: flex;
-        align-items: center;*/}
+        /*display: flex;
+        align-items: center;*/
       }
 
     .nav-menu ul {
@@ -204,7 +204,7 @@
             #mobile-menu{
                 position: absolute;
                 top: 9%;
-                right: 5%;
+                right: 2.5rem;
                 transform: translate(5%, 20%);
       
             }
