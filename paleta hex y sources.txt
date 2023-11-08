@@ -1,9 +1,0 @@
-0#011257  rgb 1 18 87  blue
-#003d59  rgb 0 61 69    green
-
-gallerys soruces
-
-https://freefrontend.com/bootstrap-galleries/
-
-light boxes...copadas
-https://mdbootstrap.com/docs/standard/components/lightbox/
