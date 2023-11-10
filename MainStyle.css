@@ -52,10 +52,10 @@
     }
     
          .title_container{
-          padding-bottom: 40px;
+         /* padding-bottom: 40px;*/
          }
     .hero-overlay h1{
-      display: inline;
+     /* display: inline;*/
       text-underline-offset: 10px;
       font-size: 30px;
      
@@ -132,7 +132,7 @@
       .hero-overlay{
         width: 80%;
         }
-        
+
       .title_container{
         line-height: 50px;
       }
