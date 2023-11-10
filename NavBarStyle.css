@@ -328,5 +328,13 @@
       @media screen and (max-width: 475px){
         .language{
           display: none;
+
+        }
+        .navbar{
+          margin: 0 0.5rem;
+        }
+        #logo{
+          width: 250px;
+          height: auto;
         }
       }
