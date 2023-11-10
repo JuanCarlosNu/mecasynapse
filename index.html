@@ -23,11 +23,19 @@
            <a class="left_col" onclick="changeImg()"><img class="logo_img" id="logo"
              src="data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo"></a>
            <script>
-            const but = document.getElementById('logo');
+           
+          const but = document.getElementById('logo');
+          let isImage1 = true;
+
             function changeImg(){
-             but.src='data/LogoSoloTitulo.png'
-             
-            }
+    if (isImage1) {
+      but.src = 'data/LogoSoloTitulo.png';
+    } else {
+      but.src = 'data/logoMecaSynpaseCortadoBienporelborde.png';
+    }
+
+    isImage1 = !isImage1;
+  };
            </script>
 
           <div class="right_col" style="float: right;">
