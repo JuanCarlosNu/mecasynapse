@@ -89,7 +89,6 @@
          width: 85%;
           }
     .hero-overlay h1{
-    text-decoration-thickness: 6px;
     margin-bottom: 25px;
     font-size: 30px;
 }
@@ -119,9 +118,6 @@
            
          font-size: 30px;
          width: 100%;
-        
-         
-         
         }
     }
       .hero-section img{
