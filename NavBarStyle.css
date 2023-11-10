@@ -43,6 +43,7 @@
         margin-top: -5px;
     }
      .navbar .left_col img{
+        cursor: pointer;
         height: 38px;
       }
       .navbar .right_col{

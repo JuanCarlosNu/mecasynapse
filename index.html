@@ -20,7 +20,14 @@
  <body>
     <div class="nav-container">
         <div class="navbar" style="display:block">
-           <a class="left_col"><img class="logo_img" src="data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo"></a>
+           <a class="left_col" onclick="changeImg()"><img class="logo_img" id="logo" src="data/" alt="Logo"></a>
+           <script>
+            const but = document.getElementById('logo');
+            function changeImg(){
+             but.src=''
+            }
+           </script>
+
           <div class="right_col" style="float: right;">
           <div class="nav-menu">  
             <ul >
