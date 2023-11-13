@@ -1,0 +1,27 @@
+.proyects_title_container{
+margin-top: 3rem;
+margin-bottom: 3rem;
+
+}
+.proyects_title{
+    color: var(--darkgrey);
+    margin-left: 2.5rem;
+    border-bottom: 5px solid blue;
+    
+}
+.carousel-control-prev-icon{
+    background-color: red;
+    z-index: 3;
+    height: 2.5rem;
+    position:absolute;
+    left: 55px;
+}
+.carousel-control-next-icon{
+    
+        background-color: red;
+        z-index: 3;
+        height: 2.5rem;
+        position:absolute;
+        right: 55px;
+   
+}
