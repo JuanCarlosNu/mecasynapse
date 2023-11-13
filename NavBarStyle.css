@@ -325,10 +325,18 @@
   }
 */
       
-      @media screen and (max-width: 475px){
+     /* when language colapses*/  
+
+    @media screen and (max-width: 475px){
         .language{
           display: none;
 
+        }
+        .nav-container{
+          height: calc(3rem + 8px);
+        }
+        .nav-menu.active{
+          top: calc(3rem + 8px);
         }
         .navbar{
           margin: 0 0.5rem;
@@ -338,3 +346,6 @@
           height: auto;
         }
       }
+      
+
+   

@@ -108,16 +108,7 @@
     margin-left: 3px;
     }
 
-    /* when language colapses*/
-
-    @media screen and (max-width: 473px){
-      .nav-container{
-        height: calc(3rem + 8px);
-      }
-      .nav-menu.active{
-        top: calc(3rem + 8px);
-      }
-    }
+   
     @media screen and (max-width: 500px){
       .nav-menu.active {
         width: 100%;
