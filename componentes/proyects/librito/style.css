@@ -40,10 +40,10 @@ figure:nth-child(4) {
   --imageUrl: url("");
 }
 figure:nth-child(5) {
-  --imageUrl: url("https://assets.codepen.io/652/sergey-semin-Y0WXj3xqJz0-unsplash.jpg");
+  --imageUrl: url("");
 }
 figure:nth-child(6) {
-  --imageUrl: url("https://assets.codepen.io/652/jordan-bigelow-X5VoG4MA5aI-unsplash.jpg");
+  --imageUrl: url("");
 }
 figure img {
   width: 100%;
