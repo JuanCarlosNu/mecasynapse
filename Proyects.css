@@ -27,3 +27,6 @@ margin-bottom: 3rem;
         right: 55px;
    
 }
+.carousel-inner{
+    margin: 0 2.5rem;
+}
