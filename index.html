@@ -43,7 +43,7 @@
           <div class="right_col" style="float: right;">
           <div class="nav-menu">  
             <ul >
-                <li><a href="#" class="nav-links">Inicio</a></li>
+                <li><a href="#" onclick="inicio()" class="nav-links">Inicio</a></li>
                 <li><a href="#" class="nav-links">Acerca</a></li>
                 <li><a href="#" class="nav-links">Proyectos</a></li>
                 <li><a href="#" class="nav-links">Expertise</a></li>
@@ -86,8 +86,13 @@
     id="carouselMultiItemExample"
     class="carousel slide carousel-dark text-center"
     data-mdb-ride="carousel"
-    style="border: 5px solid black;"
+    style="border: 5px solid black;display:none"
     >
+    <script>
+      function inicio(){
+        document.getElementById('carouselMultiItemExample').style.display= "block";
+      }
+    </script>
     <div class="proyects_title_container d-flex justify-content-start">
       <h1 class="proyects_title">Nuestros proyectos destacados</h1>
     </div>
@@ -114,19 +119,19 @@
     </div>Controls -->
     <!-- Inner -->
     <div class="proyects_overlay" style="background-color: black;">
-    <div class="carousel-inner py-4" 
-    style="background-color: rgba(201, 201, 242, 0.5);
-     position: relative;" >
-      <button
-        class="carousel-control-prev position-absolute"
-        style="transform: translateX(-60px);"
-        type="button"
-        data-mdb-target="#carouselMultiItemExample"
-        data-mdb-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
+      <div class="carousel-inner py-4" 
+           style="background-color: rgba(201, 201, 242, 0.5);
+                          position: relative;" >
+            <button
+              class="carousel-control-prev position-absolute"
+             style="transform: translateX(-60px);"
+             type="button"
+            data-mdb-target="#carouselMultiItemExample"
+             data-mdb-slide="prev"
+            >
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+         </button>
       <!-- Single item -->
       <div class="carousel-item active">
         
@@ -255,62 +260,63 @@
       <div class="carousel-item">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="col-lg-4 col-md-12">
               <div class="card">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
                   class="card-img-top"
-                  alt="Peaks Against the Starry Sky"
+                  alt="Fissure in Sandstone"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Proyecto</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk
-                    of the card's content.
+                    Una breve descripción del proyecto que idealmente no tenga mucho más de unas 
+                    veinte palabras aproximadamente.
                   </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
+                  <a href="#!" class="btn btn-primary">ver proyecto</a>
                 </div>
               </div>
             </div>
     
-            <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="col-lg-4 d-none d-lg-block">
               <div class="card">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp"
                   class="card-img-top"
-                  alt="Bridge Over Water"
+                  alt="Storm Clouds"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Proyecto</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk
-                    of the card's content.
+                    Una breve descripción del proyecto que idealmente no tenga mucho más de unas 
+                    veinte palabras aproximadamente.
                   </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
+                  <a href="#!" class="btn btn-primary">Ver proyecto</a>
                 </div>
               </div>
             </div>
     
-            <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="col-lg-4 d-none d-lg-block">
               <div class="card">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp"
                   class="card-img-top"
-                  alt="Purbeck Heritage Coast"
+                  alt="Hot Air Balloons"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">título del proyect</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk
-                    of the card's content.
+                    Una breve descripción del proyecto que idealmente no tenga mucho más de unas 
+                    veinte palabras aproximadamente.
                   </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
+                  <a href="#!" class="btn btn-primary">ver proyecto</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
       <button
       class="carousel-control-next position-absolute"
       style="right: -60px;"
@@ -346,3 +352,17 @@ menu.addEventListener('click', function(){
   
 </body>
 </html>
+
+  
+            
+         
+        
+
+     
+            
+           
+        
+          
+            
+          
+      
