@@ -27,3 +27,20 @@ margin-bottom: 3rem;
         right: 55px;
    
 }
+.py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.carousel-inner {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+}
+@media screen and (max-width: 475px){
+    .py-4 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+        
+    }
