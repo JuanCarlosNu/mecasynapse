@@ -1,7 +1,14 @@
+.proyects_overlay{
+    
+}
+
 .proyects_title_container{
 margin-top: 3rem;
 margin-bottom: 3rem;
 
+}
+.carousel-item{
+    border-radius: 20px;
 }
 .proyects_title{
     color: var(--darkgrey);
