@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Casa.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <link rel="stylesheet" href="../NavBarStyle.css">
  
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
    
@@ -22,21 +23,72 @@
    
   
 </head>
+<div class="nav-container">
+  <div class="navbar" style="display:block">
+     <a class="left_col" onclick="changeImg()"><img class="logo_img" id="logo"
+       src="../data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo"></a>
+     <script>
+     
+    const but = document.getElementById('logo');
+    let isImage1 = true;
+
+      function changeImg(){
+if (isImage1) {
+but.src = 'data/LogoSoloTitulo.png';
+document.getElementById('mobile-menu').style.right= ".8rem";
+} else {
+but.src = 'data/logoMecaSynpaseCortadoBienporelborde.png';
+}
+
+isImage1 = !isImage1;
+};
+     </script>
+
+    <div class="right_col" style="float: right;">
+    <div class="nav-menu">  
+      <ul >
+          <li><a href="#" onclick="inicio()" class="nav-links">Inicio</a></li>
+          <li><a href="#" class="nav-links">Acerca</a></li>
+          <li><a href="#" class="nav-links">Proyectos</a></li>
+          <li><a href="#" class="nav-links">Expertise</a></li>
+          <li><a href="#" class="nav-links">Contacto</a></li>
+      </ul>
+    </div>
+    <div class=" language">
+      <a id="ES" class="lan" style="font-weight: bolder;" href="#">ES</a>
+         <a id="EN" class="lan" href="#">EN</a>
+         <a id="FR" class="lan" href="#">FR</a> 
+   </div>
+  </div>
+    <div class="menu-toggle" id="mobile-menu">
+      <!-- This draw the lines of the icon -->
+       <span class="bar"></span>
+       <span class="bar"></span>
+       <span class="bar"></span>
+   </div>
+
+
+  </div>
+</div>
+
+
   <body data-path-to-root="./" 
         data-include-products="false" 
         class="u-body u-xl-mode" 
         data-lang="es">
     
-    <div class="u-align-center u-clearfix u-section-1" id="carousel_59b8">
+    <div class="u-align-center u-clearfix u-section-1"
+             id="carousel_59b8"
+             style="background-color: rgba(242, 242, 242, 1);;">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-border-20 u-border-palette-2-base u-expanded-width u-shape u-shape-rectangle u-shape-1"
-        style="top: 50px;">
+        style="top: 55px; border: 20px solid rgb(32, 32, 149);">
 
         </div>
         <div>
       
-        <div class="u-text u-text-grey-50 u-text-1">
-        <h3>Proyecto Uno</h3>
+        <div class="u-text u-text-black-50 u-text-1" >
+        <h3 style=" text-decoration: underline;">Proyecto Uno</h3>
           <p> 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
           </p>
@@ -92,7 +144,8 @@
         </div>
       </div>
     </div>
-    <section class="u-clearfix u-section-2" id="sec-ba87">
+    <section class="u-clearfix u-section-2" id="sec-ba87"
+    style="background-color: rgba(242, 242, 242, 1);;">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
     
