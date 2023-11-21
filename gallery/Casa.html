@@ -17,11 +17,77 @@
 <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
 <style>
   .pswp__top-bar{
-    display: none;
+    display: none; /* eliminamos el header del modal*/
   }
   .Texto{
-   top: 15px;
+   top: 35px;
   }
+  .u-border-20{
+     top: 95px;
+     border: 20px solid rgb(32, 32, 149);
+    }
+    .u-section-1 .u-shape-1 {
+    height: 375px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+.u-section-1 .u-text-1{
+  margin-top: -270px;
+}
+  @media (max-width: 1199px) {}
+  @media (max-width: 991px) {}
+
+  @media (max-width: 767px){
+  .Texto{
+    top: 0px;
+    }
+    .u-section-1 .u-shape-1 {
+    height: 398px;
+}
+.u-border-20{
+  top:0px;
+}
+.u-section-1 .u-text-1 {
+ 
+    margin-top: -335px;
+}
+.u-clearfix u-sheet u-sheet-1 {
+  margin: 0 2.5rem;
+}
+.u-sheet {
+  marging: 0 2.5rem;
+}
+}
+@media (max-width: 575px) {
+  .u-section-1 .u-shape-1 {
+    height: 550px;
+}
+  .u-section-1 .u-text-1 {
+ 
+ margin-top: -525px;
+} 
+.u-border-20{
+border: 10px solid rgb(32, 32, 149);
+width: 500px;
+
+}
+.Texto{
+  width: 100%;
+}
+.u-body {
+    /* display: flex; */
+    --theme-sheet-width-xl: 1140px;
+    --theme-sheet-width-lg: 940px;
+    --theme-sheet-width-md: 720px;
+    --theme-sheet-width-sm: 540px;
+    --theme-sheet-width-xs: 380px;
+}
+@media (max-width: 440px) {
+  .u-body {
+  --theme-sheet-width-xs: 340px;
+  }
+  }
+
 
 </style>
    
@@ -31,22 +97,7 @@
   <div class="navbar" style="display:block">
      <a class="left_col" onclick="changeImg()"><img class="logo_img" id="logo"
        src="../data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo"></a>
-     <script>
-     
-    const but = document.getElementById('logo');
-    let isImage1 = true;
-
-      function changeImg(){
-if (isImage1) {
-but.src = 'data/LogoSoloTitulo.png';
-document.getElementById('mobile-menu').style.right= ".8rem";
-} else {
-but.src = 'data/logoMecaSynpaseCortadoBienporelborde.png';
-}
-
-isImage1 = !isImage1;
-};
-     </script>
+    
 
     <div class="right_col" style="float: right;">
     <div class="nav-menu">  
@@ -85,20 +136,26 @@ isImage1 = !isImage1;
              id="carousel_59b8"
              style="background-color: rgba(242, 242, 242, 1);;">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-border-20 u-border-palette-2-base u-expanded-width u-shape u-shape-rectangle u-shape-1"
-        style="top: 55px; border: 20px solid rgb(32, 32, 149);">
+        <div class="u-border-20 u-border-palette-2-base 
+        u-expanded-width u-shape u-shape-rectangle u-shape-1"
+        style="width: 300vh;"
+       >
 
         </div>
         <div>
       
         <div class="Texto u-text u-text-black-50 u-text-1">
           
-        <h3 style=" text-decoration: underline;">Proyecto Uno</h3>
-          <p> 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          </p>
-
-        </div>
+           <h3 style=" text-decoration: underline;">ENGINE BLOCK ROTATOR</h3>
+           <p> 
+            In this project, a motor block rotator was designed for control tasks
+            between machining processes. It included dynamic calculations to 
+            select the command, calculations for sizing and selection of the
+            pneumatic system for frame movement and block clamping, and FEM 
+            theoretical verification of the parts subjected to loads in said 
+            device.
+            </p>
+         </div>
       </div>
         <div class="u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-none u-gallery-1">
           <div class="u-gallery-inner u-gallery-inner-1">
