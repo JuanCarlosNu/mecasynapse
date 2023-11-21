@@ -1214,7 +1214,7 @@
   
   .u-section-6 .u-image-1 {
     min-height: 370px;
-    background-image: url("images/container-operation-port-series1.jpg");
+    background-image: url("gallery/gallery2/images/container-operation-port-series1.jpg");
     background-position: 50% 50%;
   }
   
@@ -1241,7 +1241,7 @@
   
   .u-section-6 .u-image-2 {
     min-height: 370px;
-    background-image: url("images/medium-shot-man-holding-clipboar.jpg");
+    background-image: url("gallery/gallery2/images/medium-shot-man-holding-clipboar.jpg");
     background-position: 50% 50%;
   }
   
@@ -1268,9 +1268,8 @@
   
   .u-section-6 .u-image-3 {
     min-height: 370px;
-    background-image: url("images/interior-large-distribution-ware.jpg");
-    background-position: 50% 50%;
-  }
+    background-image: url("/gallery/gallery2/images/interior-large-distribution-ware.jpg");
+    background-position: 50% 50%;images/interior-large-distribution-ware.jpg
   
   .u-section-6 .u-container-layout-6 {
     padding: 30px;
