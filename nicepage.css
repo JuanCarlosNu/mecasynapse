@@ -42210,7 +42210,7 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
-        p:not(.u-text-variant)
+        /*p:not(.u-text-variant)
         {
         font-family: 'Open Sans',sans-serif;
         font-weight: 400;
@@ -42218,7 +42218,7 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 1rem;
         margin-top: 20px;
         margin-bottom: 20px;
-        }
+        }*/
         p.u-small-text
         {
         font-family: 'Open Sans',sans-serif;
