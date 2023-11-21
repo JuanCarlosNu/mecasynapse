@@ -44,7 +44,8 @@
     }
      .navbar .left_col img{
         cursor: pointer;
-        height: 38px;
+        height: auto;
+        width: 250px;
       }
       .navbar .right_col{
         height: 100%;
@@ -53,6 +54,7 @@
         height: 100%;
         float: left;
         text-decoration: none;
+        margin-right: 30px;
         /*display: flex;
         align-items: center;*/
       }
