@@ -25670,7 +25670,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Montserrat,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -25694,7 +25694,7 @@ h6 {
   font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Montserrat,sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -42120,7 +42120,7 @@ a.u-link.u-text-hover-grey-90:hover {
         /** common-rules **/
         h1.u-title
         {
-        font-family: Montserrat,sans-serif;
+        font-family:Arial, Helvetica, sans-serif;
         text-transform: capitalize;
         line-height: 1.1;
         font-size: 3rem;
