@@ -42130,7 +42130,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h2.u-subtitle
         {
-        font-family: Montserrat,sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 300;
         text-transform: capitalize;
         line-height: 1.2;
@@ -42140,7 +42140,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h1:not(.u-title)
         {
-        font-family: Montserrat,sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         line-height: 1.2;
         font-size: 3.75rem;
         margin-top: 20px;
@@ -42149,7 +42149,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h2:not(.u-subtitle)
         {
-        font-family: Montserrat,sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         line-height: 1.2;
         font-size: 3.4375rem;
         margin-top: 20px;
@@ -42160,7 +42160,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h3
         {
-        font-family: Montserrat,sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         line-height: 1.2;
         font-size: 1.875rem;
         margin-top: 20px;
@@ -42171,7 +42171,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h4
         {
-        font-family: Montserrat,sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 300;
         text-transform: capitalize;
         line-height: 1.2;
@@ -42181,7 +42181,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h5
         {
-        font-family: 'Open Sans',sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         text-transform: none;
         line-height: 1.2;
         font-size: 1.5rem;
@@ -42193,7 +42193,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h6
         {
-        font-family: Montserrat,sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 300;
         text-transform: capitalize;
         line-height: 1.2;
@@ -42203,7 +42203,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         p.u-large-text
         {
-        font-family: 'Open Sans',sans-serif;
+        font-family:Arial, Helvetica, sans-serif;
         font-weight: 400;
         line-height: 1.6;
         font-size: 1rem;
@@ -42221,14 +42221,14 @@ a.u-link.u-text-hover-grey-90:hover {
         }*/
         p.u-small-text
         {
-        font-family: 'Open Sans',sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
         line-height: 1.6;
         font-size: 0.875rem;
         }
         .u-btn
         {
-        font-family: 'Open Sans',sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 1px;
         font-size: 1rem;
         line-height: 1.4;
@@ -42244,7 +42244,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         blockquote
         {
-        font-family: 'Open Sans',sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-style: italic;
         line-height: 1.6;
         font-size: 1.25rem;
@@ -42255,7 +42255,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-metadata
         {
-        font-family: 'Open Sans',sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 0.75rem;
         letter-spacing: 1px;
         line-height: 1.4;
