@@ -42131,7 +42131,7 @@ a.u-link.u-text-hover-grey-90:hover {
         h2.u-subtitle
         {
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: 300;
+        font-weight: 100;
         text-transform: capitalize;
         line-height: 1.2;
         font-size: 2.25rem;
@@ -42151,12 +42151,12 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.2;
-        font-size: 3.4375rem;
+        font-size: 2rem;
         margin-top: 20px;
         margin-bottom: 20px;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
-        font-weight: 600;
+        font-weight: 800;
         }
         h3
         {
