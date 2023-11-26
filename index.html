@@ -36,7 +36,7 @@
 
 <style>
   .carousel-control-next-icon{
-    background-image: none;
+    background-image: cinone;
   }
   .carousel-control-prev-icon{
     background-image: none;
@@ -44,22 +44,15 @@
    
     .contact_container {
         margin-top: 0px;
-        background-color: rgba(242, 242, 242, 1);
+      background-color: rgba(242, 242, 242, 1);
         position: relative;
-        padding-top: 20px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+       
     }
-    .contact_container h2{
-      display: inline;
-      border-bottom: 5px solid blue;
-    }
-    .Form_data_container{
-     padding-left: 2.5rem;
-    }
-    #map{
-          margin-top: 10%;
-       padding-right: 2.5rem;
-    }
-
+    
+   
+   
        @media screen and (max-width: 575px) {
 
               #contact input,
@@ -154,7 +147,7 @@
     <div class="hero-section">
         <img src="data/grayom-cRpokieSiCI-unsplash.jpg">
         <div class="hero-overlay">
-          <div class="title_container">
+          <div class="title_container Hero">
             <h1>Excelencia en Ingeniería</h1>
           </div>
             <div class="frase">
@@ -177,8 +170,8 @@
         document.getElementById('carouselMultiItemExample').style.display= "block";
       }
     </script>
-    <div class="proyects_title_container d-flex justify-content-start">
-      <h2 class="proyects_title">Nuestros proyectos destacados</h2>
+    <div class="section_title_container d-flex justify-content-start">
+      <h2 class="section_title">Nuestros proyectos destacados</h2>
     </div>
     <!-- old carousel buttons
 
@@ -433,7 +426,7 @@ data-u-slide-to="0"></li>
 class="u-grey-30" data-u-slide-to="1"></li>
 </ol>
 <div class="compromiso_heading">
-<h2 class="compromiso_main_title">
+<h2 class="section_title">
       Nuestro compromiso 
 </h2>
 <p class="u-align-center u-custom-font
@@ -578,30 +571,43 @@ u-clearfix u-section-2-2">
 </span>
 <span class="sr-only">Siguiente</span>
 </a>
-</section>    
+</section> 
+
+<section class="section_body">
+<div class="section_title_container" >
+  <h2 class="section_title">
+
+  Contacto
+
+   </h2>
+</div> 
     
-     <!--Contact section-->
+       
      <div class="contact_container row row-cols-1 gx-0 ss-border temporal-padding" 
-     data-ss-id="iPR7pU5mGtfB9NZsHZUs2" >
+          data-ss-id="iPR7pU5mGtfB9NZsHZUs2" >
+        
          
-        <!--Form/ Data part-->
-            <div 
+           <!--Form/ Data part-->
+              <div 
             class="Form_data_container 
                     col col-lg-6 col-sm-6 ss-border temporal-padding" 
+                   
              data-ss-id="QzVYkumsPm0O4sALcvtwH">
-                <h2 class="ss-border temporal-padding" 
-                   data-ss-id="yOKIZ2NTXPDNnUj29OLCp">
-     
-             Contacto
-     
-                </h2>
+               
                 <div class="row row-cols-1 gx-0 ss-border temporal-padding" 
                 data-ss-id="JuV-TcZ66S2C55GKxy78r">
                    
                     <div class="col col-lg-12 col-sm-12 ss-border temporal-padding" 
                          data-ss-id="-MxUEJh9TRlu7qpcVcy0R" >
                         <form  action="" id="contact" class="d-flex flex-wrap ss-border temporal-padding" data-ss-id="3HfFA4SHf_ibeav4X70YY">
-                           <p class="col-12 col-lg-10 ss-border temporal-padding" data-ss-id="Jitjy3Dpwf0lVvaajCjg1"
+                           <p class="col-12 col-lg-10 ss-border temporal-padding"
+                           style=" font-family: 'Open Sans',sans-serif;
+                           font-weight: 400;
+                           line-height: 1.5rem;
+                           font-size: 1rem;
+                           margin-top: 20px;
+                           margin-bottom: 20px;"
+                           data-ss-id="Jitjy3Dpwf0lVvaajCjg1"
                            style="margin-top: 50px;">
                                Déjanos tu consulta y te responderemos cuanto antes.
                            </p> 
@@ -669,19 +675,22 @@ u-clearfix u-section-2-2">
                           class="ss-resize-handler ss-border temporal-padding"
                      data-ss-id="3YWyKKR1YERbCm7AfyFDz">
              </div>
-            </div>
-        <!--Map-->
-            <div  
+              </div>
+
+            <!--Map-->
+              <div  
                  id="map"
                  class="col col-lg-6 col-sm-6 ss-border temporal-padding" data-ss-id="-Erp_N4a6gkbCyDV-Eqmp">
              <img  style="width: 100% !important; height: auto !important;" 
              src="data/mapaFrances.png" class="mw-100 ss-border temporal-padding"
               data-ss-id="bVky5PdxF0UIAnvHlr2Wx">
-            </div>
+              </div>
+          
+
          </div>
 
 
-
+        </section>
          <!--menu javascript-->
       <script>
 const menu = document.querySelector('#mobile-menu');

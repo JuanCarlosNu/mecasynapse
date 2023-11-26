@@ -4,23 +4,31 @@
 .carousel-inner{
     border-radius: 15px;
 }
-
-.proyects_title_container{
-margin-top: 3rem;
-margin-bottom: 3rem;
-
-}
-.carousel-item{
-    border-radius: 20px;
-}
-.proyects_title{
-    color: var(--darkgrey);
+#carouselMultiItemExample{
     margin:  0 2.5rem;
+}
+.section_body{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.section_title_container{
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+.section_title{
+    text-align: start;
+    display: inline;
+    color: var(--darkgrey);
+    
     padding-bottom: 0px;
     border-bottom: 5px solid blue;
     
     
 }
+.carousel-item{
+    border-radius: 20px;
+}
+
 .carousel-control-prev-icon{
     background-color: red;
     z-index: 3;
