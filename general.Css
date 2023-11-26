@@ -1,0 +1,26 @@
+/*este pretende manejar el formateo de títulos*/
+
+.section_title_container{
+    text-align: start;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.section_title{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-align: start;
+    display: inline;
+    color: var(--darkgrey);
+    border-bottom: 5px solid blue;
+    }
+
+    .carousel-inner{
+        background-color: rgb(242, 242, 242);
+    }
+
+

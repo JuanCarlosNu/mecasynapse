@@ -1,0 +1,45 @@
+.contact_container {
+        margin-top: 0px;
+      background-color: rgba(242, 242, 242, 1);
+        position: relative;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+       
+    }
+    
+   
+   
+       @media screen and (max-width: 575px) {
+
+            #contact input,
+             #contact textarea,
+              #contact select {
+             background-color: transparent;
+              border: 1px solid black;
+                 }     
+                .contact_container{
+                  z-index: -2;
+                  background-color: rgba(242, 242, 242, 1);
+                }
+                .Form_data_container{
+                    background-color: transparent;
+                    width: 100%;
+                    padding: 0 .5rem;
+                }
+                
+                #map{
+                   padding-right: 0;
+                    width: 100%;
+                    position: absolute;
+                    top: 20%;
+                    left: 0;
+                    z-index:-1;
+                 }
+             }
+           
+                
+          /*      @media screen and (max-width: 992px) {
+                 TEngo un ghost en el espacio de arriba de la contact section
+                 cuando reduzco la pantalla en 995px, y no era este @media aparentemente. 
+                      
+                }*/

@@ -42118,7 +42118,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
 
         /** common-rules **/
-        h1.u-title
+      /*  h1.u-title
         {
         font-family:Arial, Helvetica, sans-serif;
         text-transform: capitalize;
@@ -42400,10 +42400,10 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
         .u-image:not(.u-shading) > .u-container-layout > a,
-        a
+       /* a
         {
         color: #4345e7;
-        }
+        }*/
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a:hover,
         .u-gradient > .u-container-layout > a:hover,
         .u-image:not(.u-shading) > .u-container-layout > a:hover,

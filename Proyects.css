@@ -11,20 +11,7 @@
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
-.section_title_container{
-padding-top: 3rem;
-padding-bottom: 3rem;
-}
-.section_title{
-    text-align: start;
-    display: inline;
-    color: var(--darkgrey);
-    
-    padding-bottom: 0px;
-    border-bottom: 5px solid blue;
-    
-    
-}
+
 .carousel-item{
     border-radius: 20px;
 }
