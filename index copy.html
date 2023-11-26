@@ -8,124 +8,69 @@
      rel="stylesheet"/>
 <!-- Google Fonts -->
 
-<!-- MDB -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
-  rel="stylesheet"/>
-  <link rel="stylesheet" href="NavBarStyle.css">
-  <link rel="stylesheet" href="MainStyle.css">
+<!-- MDB --> <!--Conains proyect corusel Css styling-->
+<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+  rel="stylesheet"/>-->
+  <link rel="stylesheet" href="MDBlocal.css">
+
+  
+
+
+     <link rel="stylesheet" href="NavBarStyle.css">
+
+     <link rel="stylesheet" href="MainStyle.css">
      
      <link rel="stylesheet" href="Proyects.css">
 
-     <link rel="stylesheet" href="compromiso.css">
-     <link rel="stylesheet" href="nicepage.css" media="screen">
+
+
      <script class="u-script"
      type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script"
+    
+     <script class="u-script"
      type="text/javascript" src="nicepage.js" defer=""></script>
-     
-     
-     <link rel="stylesheet" hre f="MainStyle.css">
 
-<style>
-  .carousel-control-next-icon{
-    background-image: none;
-  }
-  .carousel-control-prev-icon{
-    background-image: none;
-  }
-   
-    .contact_container {
-        margin-top: 0px;
-        background-color: rgba(242, 242, 242, 1);
-        position: relative;
-        padding-top: 20px;
-    }
-    .contact_container h2{
-      display: inline;
-      border-bottom: 5px solid blue;
-    }
-    .Form_data_container{
-     padding-left: 2.5rem;
-    }
-    #map{
-          margin-top: 10%;
-       padding-right: 2.5rem;
-    }
+     <link rel="stylesheet" href="compromiso3.css" media="screen">
 
-       @media screen and (max-width: 575px) {
+     <script type="application/ld+json">{
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "",
+      "logo": "images/default-logo.png"
+  }   </script>
 
-              #contact input,
-           #contact textarea,
-            #contact select {
-       background-color: transparent;
-              border: 1px solid black;
-                 }     
-                .contact_container{
-                  z-index: -2;
-                  background-color: rgba(242, 242, 242, 1);
-                }
-                .Form_data_container{
-                    background-color: transparent;
-                    width: 100%;
-                    padding: 0 .5rem;
-                }
-                
-                .for0m-control{
-                    background-color: transparent;
-                 }
+      <link rel="stylesheet" href="contact.css" media="screen">
 
-                 #map{
-                   padding-right: 0;
-                    width: 100%;
-                    position: absolute;
-                    top: 20%;
-                    left: 0;
-                    z-index:-1;
-                 }
-             }
-           
-                
-          /*      @media screen and (max-width: 992px) {
-                 TEngo un ghost en el espacio de arriba de la contact section
-                 cuando reduzco la pantalla en 995px, y no era este @media aparentemente. 
-                      
-                }*/
-</style>
 
-        <title>Corcho</title>
+      <link rel="stylesheet" href="nicepage.css" media="screen">
+
+      <link rel="stylesheet" href="nicepage.css" media="screen">
+
+      <link rel="stylesheet" href="general.Css" media="screen">
+
+      
+
+<title>Corcho</title>
 </head>
  <body>
+
+  <!--Navbar-->
     <div class="nav-container">
         <div class="navbar" style="display:block">
-           <a class="left_col" onclick="changeImg()"><img class="logo_img" id="logo"
-             src="data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo"></a>
-           <script>
-           
-          const but = document.getElementById('logo');
-          let isImage1 = true;
-
-            function changeImg(){
-    if (isImage1) {
-      but.src = 'data/LogoSoloTitulo.png';
-      document.getElementById('mobile-menu').style.right= ".8rem";
-    } else {
-      but.src = 'data/logoMecaSynpaseCortadoBienporelborde.png';
-    }
-
-    isImage1 = !isImage1;
-  };
-           </script>
-
-          <div class="right_col" style="float: right;">
-          <div class="nav-menu">  
-            <ul >
+           <a class="left_col">
+             <img class="logo_img" id="logo"
+             src="data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo">
+           </a>
+           <div class="right_col" >
+             <div class="nav-menu">  
+              <ul >
                 <li><a href="#" onclick="inicio()" class="nav-links">Inicio</a></li>
                 <li><a href="https://juancarlosnu.github.io/compromiso/" class="nav-links">Acerca</a></li>
                 <li><a href="#" class="nav-links">Proyectos</a></li>
                 <li><a href="#" class="nav-links">Expertise</a></li>
                 <li><a href="#" class="nav-links">Contacto</a></li>
-            </ul>
-          </div>
+              </ul>
+            </div>
           <div class=" language">
             <a id="ES" class="lan" style="font-weight: bolder;" href="#">ES</a>
                <a id="EN" class="lan" href="#">EN</a>
@@ -141,12 +86,12 @@
 
     
         </div>
-      </div>
-   
+    </div>
+  <!--Hero section-->
     <div class="hero-section">
         <img src="data/grayom-cRpokieSiCI-unsplash.jpg">
         <div class="hero-overlay">
-          <div class="title_container">
+          <div class="title_container Hero">
             <h1>Excelencia en Ingeniería</h1>
           </div>
             <div class="frase">
@@ -155,9 +100,7 @@
         </div>
         
     </div>
-
-    <!--slider Carrousel-->
-
+  <!-- proyects slider-->
     <div
     id="carouselMultiItemExample"
     class="carousel slide carousel-dark text-center"
@@ -169,37 +112,14 @@
         document.getElementById('carouselMultiItemExample').style.display= "block";
       }
     </script>
-    <div class="proyects_title_container d-flex justify-content-start">
-      <h2 class="proyects_title">Nuestros proyectos destacados</h2>
+    <div class="section_title_container">
+      <h2 class="section_title">Nuestros proyectos destacados</h2>
     </div>
-    <!-- old carousel buttons
-
-    <div class="d-flex justify-content-center mb-4" style="border: 1px solid red;">
-      <button
-        class="carousel-control-prev position-relative"
-        type="button"
-        data-mdb-target="#carouselMultiItemExample"
-        data-mdb-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next position-relative"
-        type="button"
-        data-mdb-target="#carouselMultiItemExample"
-        data-mdb-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>Controls -->
+    
     <!-- Inner -->
-    <div class="proyects_overlay">
-      <div class="carousel-inner py-4 shadow-4-strong" 
-           style="background-color: rgba(201, 201, 242, 0.5);
-                          position: relative;" >
-            <button
+    <div class="proyects_overlay" >
+      <div class="carousel-inner  py-4 shadow-4-strong">
+          <button
               class="carousel-control-prev position-absolute"
              style="transform: translateX(-60px);"
              type="button"
@@ -411,113 +331,204 @@
     </div>
     <!-- Inner -->
     </div>
+    
     <!--compromiso-->
-    <section class="u-align-center u-clearfix
-     u-container-align-center u-palette-3-base 
-     u-section-6" id="carousel_37af">
-    <!--compromiso-->
-      <div class="u-sheet-1">
-          <div class="proyects_title"
-               style="color: white;
-                   padding-top: 18px;
-                padding-bottom: 0px;
-                 border-bottom: none;">
-      
-        <h2 class="u-align-center u-text u-text-default u-text-1" 
-        style="border-bottom: 5px solid white;">
-          Notre engagement</h2>
-        <p class="u-align-center u-custom-font
-         u-font-pt-sans u-text u-text-2"
-         style="
-         margin-top:15px;
-         margin-bottom: 15px;
-         font-size: x-large;
-         padding: none;
-     ">
-         Fournir un service de BE de qualité pour les PME et les ateliers
-          mécanique autement qualifiés.</p>
-        </div>
-        <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-col">
-              <div class="u-size-30">
-                <div class="u-layout-row">
-                  <div class="u-align-center u-container-style u-layout-cell u-left-cell u-shape-rectangle u-size-20 u-white u-layout-cell-1" data-animation-name="zoomIn" data-animation-duration="2000" data-animation-direction="">
-                    <div class="u-container-layout u-valign-middle u-container-layout-1">
-                      <h5 class="u-text u-text-default 
-                      u-text-palette-3-base u-text-3">
-                      Soutien à la
-                      recherche des
-                      nouvelles
-                      solutions
-                      technologiques </h5>
-                      <!--<p class="u-text u-text-4">
-                       </p>-->
-                    </div>
-                  </div>
-                  <div class="u-container-style u-image u-layout-cell u-size-20 u-image-1" data-image-width="1380" data-image-height="920">
-                    <div class="u-container-layout u-container-layout-2">
+    <div class="u-carousel u-slid u-block-56e1-1" 
+    id="carousel_f94d" 
+data-interval="5000"
+data-u-ride="carousel"
+  style="margin: 0 2.5rem;
+background-color:rgba(242, 242, 242, 1)" >
 
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-20 u-white u-layout-cell-3" data-animation-name="zoomIn" data-animation-duration="2000" data-animation-direction="">
-                    <div class="u-container-layout u-valign-middle u-container-layout-3">
-                      <h5 class="u-text u-text-default
-                       u-text-palette-3-base u-text-5">Support dans la
-                       conception de
-                       pièces et de
-                       mécanismes.</h5>
-                     <!--<p class="u-text u-text-6"> Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et malesuada fames. Ut faucibus pulvinar elementum integer enim neque volutpat. </p>--> 
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="u-size-30">
-                <div class="u-layout-row">
-                  <div class="u-container-style u-image u-layout-cell u-left-cell u-size-20 u-image-2" data-image-width="1380" data-image-height="920">
-                    <div class="u-container-layout u-container-layout-4"></div>
-                  </div>
-                  <div class="u-align-center u-container-style u-layout-cell u-size-20 u-white u-layout-cell-5" data-animation-name="zoomIn" data-animation-duration="2000" data-animation-direction="">
-                    <div class="u-container-layout u-valign-middle u-container-layout-5">
-                      <h5 class="u-text u-text-default u-text-palette-3-base u-text-7">
-                        Apporter notreexpertise dans vos besoins industrielles.
-                      </h5>
-                      <!--<p class="u-text u-text-8"> Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et malesuada fames. Ut faucibus pulvinar elementum integer enim neque volutpat. </p>-->
-                    </div>
-                  </div>
-                  <div class="u-container-style u-image u-layout-cell u-right-cell u-size-20 u-image-3" data-image-width="1380" data-image-height="920">
-                    <div class="u-container-layout u-container-layout-6"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+<ol class="u-absolute-hcenter u-carousel-indicators u-block-56e1-2">
+<li data-u-target="#carousel_f94d" class="u-active u-grey-30"
+data-u-slide-to="0"></li>
+<li data-u-target="#carousel_f94d" 
+class="u-grey-30" data-u-slide-to="1"></li>
+</ol>
+<div class="compromiso_heading">
+<h2 class="section_title">
+      Nuestro compromiso 
+</h2>
+<p class="u-align-center u-custom-font
+u-font-pt-sans u-text u-text-2"
+style="
+margin-top:15px;
+margin-bottom: 15px;
+font-size: x-large;
+padding: none;
+text-align: start;
+">
+Fournir un service de BE de qualité pour les PME et les ateliers
+mécanique autement qualifiés.
+</p>
+</div>
+
+<div class="u-carousel-inner  shadow-4-strong" role="listbox" >
+<!--slide one container-->
+<div class="u-active u-align-center u-carousel-item
+u-clearfix u-section-2-1">
+<div class="pagina" >
+<div class="flex_container"> 
+  <div class="img_container" style="flex: 50%; background-color:rgba(0, 0, 0, 1);">
+   <img   class="image-1" src="data-comp/laptops-593296_1280.jpg" 
+            alt="" 
+           >
+  </div>
+  <div class="compromiso_content" >
+    <h2 >Consulting</h2>
+    <div class="item_container">
+     <p class="point">
+       <span class="tilde" >
+        <img style="height: 20px;"
+         src="data-comp/tilde.png" alt="">
+       </span>
+       <span class="sep"> 
+        Apoyo a la investigación de nuevas soluciones 
+        tecnológicas
+       </span>
+    </p>
+     <p class="point">
+      <span class="tilde">
+        <img style="height: 20px;" src="data-comp/tilde.png" alt="">
+      </span>
+      <span class="sep"> 
+        Apoyo en el diseño de piezas y 
+        mecanismos.
+      </span>
+    </p>
+     <p class="point">
+      <span class="tilde" >
+        <img style="height: 20px;" 
+        src="data-comp/tilde.png" alt="">
+      </span>
+      <span class="sep">
+        Apporter notreexpertise dans vos besoins
+      industrielles.
+    </span>
+  </p>
+     </div>
+     <div class="button_container"
+      style="margin-top: auto;padding: 20px">
+      <a href="" 
+      class="u-align-center u-border-2 u-border-grey-dark-1 
+      u-btn u-btn-round u-button-style u-radius-50 u-btn-1">
+      Read More</a>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+<!--slide two container-->
+<div class=" u-align-center u-carousel-item
+u-clearfix u-section-2-2">
+<div class="pagina" >
+<div class="flex_container"> 
+  <div class="img_container" style="flex: 50%; background-color:rgba(0, 0, 0, 1);">
+   <img   class="image-1" src="data-comp/mathematics-3821034_1280.jpg" 
+            alt="" 
+           >
+  </div>
+  <div class="compromiso_content" >
+    <h2 >Ingeniering</h2>
+    <div class="item_container">
+     <p class="point">
+       <span class="tilde" >
+        <img style="height: 20px;"
+         src="data-comp/tilde.png" alt="">
+       </span>
+       <span class="sep"> 
+        calculo de
+        mecanismos y
+        máquinas
+       </span>
+    </p>
+     <p class="point">
+      <span class="tilde">
+        <img style="height: 20px;" src="data-comp/tilde.png" alt="">
+      </span>
+      <span class="sep"> 
+        soluciones mecánicas a problemas de su negocio.
         
-      </div>
-    </section>
-     <!--Contact section-->
-     <div class="contact_container row row-cols-1 gx-0 ss-border temporal-padding" 
-     data-ss-id="iPR7pU5mGtfB9NZsHZUs2" >
+       </span>
+    </p>
+     <p class="point">
+      <span class="tilde" >
+        <img style="height: 20px;" 
+        src="data-comp/tilde.png" alt="">
+      </span>
+      <span class="sep">
+        Realización de
+        cuadernos de
+        cargos detallados
+
+    </span>
+  </p>
+     </div>
+        <div class="button_container" 
+        style="margin-top: auto;padding: 20px">
+         <a href="" 
+         class="u-align-center u-border-2 u-border-grey-dark-1
+          u-btn u-btn-round u-button-style u-radius-50 
+          u-btn-1">Read More</a>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+<a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-text-grey-30 u-block-56e1-3" href="#carousel_f94d" role="button" data-u-slide="prev">
+<span aria-hidden="true">
+<svg class="u-svg-link" viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+        c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+</span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-text-grey-30 u-block-56e1-4" href="#carousel_f94d" role="button" data-u-slide="next">
+<span aria-hidden="true">
+<svg class="u-svg-link" viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+        c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+</span>
+<span class="sr-only">Siguiente</span>
+</a>
+    </div> 
+    <!--contact-->
+    <div class="section_body">
+<div class="section_title_container" >
+  <h2 class="section_title">
+
+  Contacto
+
+   </h2>
+</div> 
+    
+       
+     <div class="contact_container row row-cols-1 gx-0 ss-border temporal-padding  shadow-4-strong" 
+          data-ss-id="iPR7pU5mGtfB9NZsHZUs2" >
+        
          
-        <!--Form/ Data part-->
-            <div 
+           <!--Form/ Data part-->
+              <div 
             class="Form_data_container 
                     col col-lg-6 col-sm-6 ss-border temporal-padding" 
+                   
              data-ss-id="QzVYkumsPm0O4sALcvtwH">
-                <h2 class="ss-border temporal-padding" 
-                   data-ss-id="yOKIZ2NTXPDNnUj29OLCp">
-     
-             Contacto
-     
-                </h2>
+               
                 <div class="row row-cols-1 gx-0 ss-border temporal-padding" 
                 data-ss-id="JuV-TcZ66S2C55GKxy78r">
                    
                     <div class="col col-lg-12 col-sm-12 ss-border temporal-padding" 
                          data-ss-id="-MxUEJh9TRlu7qpcVcy0R" >
                         <form  action="" id="contact" class="d-flex flex-wrap ss-border temporal-padding" data-ss-id="3HfFA4SHf_ibeav4X70YY">
-                           <p class="col-12 col-lg-10 ss-border temporal-padding" data-ss-id="Jitjy3Dpwf0lVvaajCjg1"
+                           <p class="col-12 col-lg-10 ss-border temporal-padding"
+                           style=" font-family: 'Open Sans',sans-serif;
+                           font-weight: 400;
+                           line-height: 1.5rem;
+                           font-size: 1rem;
+                           margin-top: 20px;
+                           margin-bottom: 20px;"
+                           data-ss-id="Jitjy3Dpwf0lVvaajCjg1"
                            style="margin-top: 50px;">
                                Déjanos tu consulta y te responderemos cuanto antes.
                            </p> 
@@ -585,20 +596,27 @@
                           class="ss-resize-handler ss-border temporal-padding"
                      data-ss-id="3YWyKKR1YERbCm7AfyFDz">
              </div>
-            </div>
-        <!--Map-->
-            <div  
+              </div>
+
+            <!--Map-->
+              <div  
                  id="map"
                  class="col col-lg-6 col-sm-6 ss-border temporal-padding" data-ss-id="-Erp_N4a6gkbCyDV-Eqmp">
              <img  style="width: 100% !important; height: auto !important;" 
              src="data/mapaFrances.png" class="mw-100 ss-border temporal-padding"
               data-ss-id="bVky5PdxF0UIAnvHlr2Wx">
-            </div>
+              </div>
+          
+
          </div>
 
 
+    </div>
+    <div class="spacer" style="height: 200px;"></div>
 
-         <!--menu javascript-->
+
+
+      <!--menu javascript-->
       <script>
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.nav-menu');

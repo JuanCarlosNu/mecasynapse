@@ -1,5 +1,6 @@
 /*este pretende manejar el formateo de títulos*/
 
+/*Nuestros proyectos*/
 .section_title_container{
     text-align: start;
     margin-top: 3rem;
@@ -18,10 +19,37 @@
     color: var(--darkgrey);
     border-bottom: 5px solid blue;
     }
+    /*compromiso*/
+    .compromiso_heading{
+        background-color: white;
+        margin-top: 48px;
+        padding-bottom: 48px;
+      }
+      
+      .compromiso_main_title{
+        display: inline;
+        border-bottom: 5px solid rgb(42, 42, 198);
+      }
+
+    /*esto para manejar el margin de cada section box*/
+    #carouselMultiItemExample{
+        margin:  0 2.5rem;
+    }
 
     .carousel-inner{
         background-color: rgb(242, 242, 242);
     }
+
+
+    .contact_container {
+        background-color: rgba(242, 242, 242, 1);
+          position: relative;
+          padding-left: 2.5rem;
+          padding-right: 2.5rem;
+         
+      }
+
+      /*all butons*/
 
     .btn{
         color: white;
