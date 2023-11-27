@@ -71,6 +71,9 @@
 *,:after,:before {
     box-sizing: border-box
 }
+.card img{
+    height: 300px;
+}
 
 @media(prefers-reduced-motion:no-preference) {
     :root {
