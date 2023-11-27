@@ -39,6 +39,35 @@
     width: auto;
     overflow: hidden;
 }
+
+.card{
+    height: 550px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+    @media screen and (max-width: 1200px){
+        .card{
+            height: 600px;
+        }
+
+
+    }
+    @media screen and (max-width: 990px){
+        .card{
+            height: auto;
+        }
+
+
+    }
+   
+
+
+
+
 @media screen and (max-width: 475px){
     .py-4 {
     margin-left: 0.5rem;
