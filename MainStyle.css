@@ -68,10 +68,10 @@
         
          }
      
-}
+}º  
 
-
-@media screen and (max-width: 625px){
+ 
+ @media screen and (max-width: 625px){
   .nav-menu.active {
     padding-left: 0;
     transform: translateX(100%)

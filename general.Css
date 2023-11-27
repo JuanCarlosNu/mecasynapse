@@ -38,6 +38,10 @@
 
     .carousel-inner{
         background-color: rgb(242, 242, 242);
+ }
+    .compromiso_container{
+      margin: 0 2.5rem;
+background-color:rgba(242, 242, 242, 1);
     }
 
 
@@ -49,11 +53,31 @@
          
       }
 
-      /*all butons*/
+      /*all butons*/  
 
     .btn{
         color: white;
         background-color: rgb(58, 112, 200);
+      }
+      @media screen and (max-width: 625px){
+        #carouselMultiItemExample{
+          margin:  0 0.5rem;
+      }
+      .compromiso_container{
+        margin: 0 0.5rem;
+      }
+      .contact_container {
+        background-color: rgba(242, 242, 242, 1);
+          position: relative;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+         
+      } 
+      .section_body{
+        margin-left: .5rem;
+        margin-right: .5rem;
+      }
+
       }
 
 
