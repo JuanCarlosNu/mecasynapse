@@ -1,8 +1,15 @@
 .item {
     padding-left: 20px!important;
     padding-right: 20px!important;
-    width: 800px;
+    
+   
 
+}
+.card img{
+    height: 300px;
+}
+.card-img-top{
+    height: 300px;
 }
 .slider-gallery-4{
     width: 33%;
