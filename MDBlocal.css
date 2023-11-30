@@ -3675,7 +3675,7 @@ textarea.form-control-lg {
     display: block
 }
 
-.navbar {
+/*.navbar {
     --mdb-navbar-padding-x: 0;
     --mdb-navbar-padding-y: 0.5rem;
     --mdb-navbar-color: rgba(0,0,0,0.55);
@@ -3771,7 +3771,6 @@ textarea.form-control-lg {
     border-radius: var(--mdb-navbar-toggler-border-radius);
     transition: var(--mdb-navbar-toggler-transition)
 }
-
 @media(prefers-reduced-motion:reduce) {
     .navbar-toggler {
         transition: none
@@ -4160,7 +4159,7 @@ textarea.form-control-lg {
     --mdb-navbar-toggler-border-color: hsla(0,0%,100%,0.1);
     --mdb-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
-
+*/
 .card {
     --mdb-card-spacer-y: 1.5rem;
     --mdb-card-spacer-x: 1.5rem;
