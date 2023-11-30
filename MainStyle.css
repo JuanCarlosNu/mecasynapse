@@ -9,6 +9,7 @@
     height: 80vh;
     object-fit: cover;
     object-position:center ;
+    opacity: .6;
    }
 
 .hero-overlay {

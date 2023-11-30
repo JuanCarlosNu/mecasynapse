@@ -1,6 +1,9 @@
 .proyects_overlay{
 
 }
+.section_title_container{
+    margin: 0 2.5rem;
+}
 .carousel-inner{
     border-radius: 15px;
 }
