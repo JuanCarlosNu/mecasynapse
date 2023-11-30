@@ -27,8 +27,12 @@
   
 }
      .hero-overlay h1{
+          text-align: start;
           font-size: 70px;
           padding: 20px;
+              }
+              .title_container Hero h1{
+                text-align: start;
               }
     .frase{
     position: relative;
