@@ -94,6 +94,11 @@ width: 100%;
   transform: translateY(-60%);
   top: 60% !important;
 }
+.u-btn-1 {
+  text-transform: uppercase !important;
+  border: 2.4px solid rgb(69, 69, 69)!important;
+  font-weight: 700!important;
+}
 
 /*responsive section*/
 
