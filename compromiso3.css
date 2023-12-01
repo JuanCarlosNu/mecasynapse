@@ -141,6 +141,8 @@ display:block
 @media (max-width: 720px) {
   .flex_container{
     flex-direction: column;
+    height: 100%;
+    
   }
 
   p:not(.u-text-variant) {
