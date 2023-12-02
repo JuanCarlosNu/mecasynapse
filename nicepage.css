@@ -22382,6 +22382,7 @@ a.pswp__share--download:hover {
   position: relative;
 }
 @media (max-width: 767px) {
+
   .u-carousel-indicators {
     position: absolute;
     bottom: 10px;
@@ -22390,8 +22391,7 @@ a.pswp__share--download:hover {
     justify-content: center;
     padding-left: 0;
     margin: 0;
-    
-    list-style: none;
+   list-style: none;
 }
   .u-cart-blocks-container {
     grid-template-columns: 1fr;
