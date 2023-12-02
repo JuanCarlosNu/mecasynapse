@@ -46,9 +46,11 @@
         width: 100%;
         font-size: 20px;
         }
-        .u-block-d950-2{
-          bottom: 0px;
+        .flecha_next{
+          position: absolute;
+          bottom: 0;
         }
+       
     
 @media screen and (max-width: 990px){
     .hero-overlay{
