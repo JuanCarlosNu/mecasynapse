@@ -42,6 +42,7 @@
     width: 70%;
     text-align: justify;
   }
+
        .frase p{
         width: 100%;
         font-size: 20px;
@@ -58,6 +59,9 @@
           color: white;
           position: absolute;
           right: 10px;
+        }
+        .carousel_1fad{
+          display: none;
         }
 
        
@@ -82,6 +86,10 @@
      
 }
 @media screen and (max-width: 810px){
+  .carousel_1fad{
+    display: block;
+    bottom: 10px;
+  }
    
     .hero-overlay {
         top: 15%;
