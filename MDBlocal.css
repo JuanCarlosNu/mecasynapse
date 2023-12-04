@@ -4272,7 +4272,6 @@ textarea.form-control-lg {
     }
     .slider-ss{
         height: 630px !important;
-        border: solid green;
        margin-left: .5rem;
        margin-right: .5rem;
         
@@ -4280,7 +4279,7 @@ textarea.form-control-lg {
     
     .gallery-ss{
         height: 680px !important;
-        border: solid red;
+      
     }   
     .separa{
         margin-bottom: 0px!important;
