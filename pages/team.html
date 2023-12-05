@@ -3,6 +3,9 @@
 
 
 <head>
+  <link rel="stylesheet" href="../NavBarStyle.css">
+  <link rel="stylesheet" href="../nicepage.css" media="screen">
+  <link rel="stylesheet" href="../gallery/Casa.css">
     <style>
         .team-boxed {
   color:#313437;
@@ -103,9 +106,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<div class="nav-container">
+  <div class="navbar" style="display:block">
+     <a class="left_col" onclick="changeImg()"><img class="logo_img" id="logo"
+       src="../data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo"></a>
+    
+
+    <div class="right_col" style="float: right;">
+    <div class="nav-menu">  
+      <ul >
+          <li><a href="../index.html"  class="nav-links">Inicio</a></li>
+          <li><a href="#" class="nav-links">Acerca</a></li>
+          <li><a href="#" class="nav-links">Proyectos</a></li>
+          <li><a href="#" class="nav-links">Expertise</a></li>
+          <li><a href="#" class="nav-links">Contacto</a></li>
+      </ul>
+    </div>
+    <div class=" language">
+      <a id="ES" class="lan" style="font-weight: bolder;" href="#">ES</a>
+         <a id="EN" class="lan" href="#">EN</a>
+         <a id="FR" class="lan" href="#">FR</a> 
+   </div>
+  </div>
+    <div class="menu-toggle" id="mobile-menu">
+      <!-- This draw the lines of the icon -->
+       <span class="bar"></span>
+       <span class="bar"></span>
+       <span class="bar"></span>
+   </div>
+
+
+  </div>
+</div>
 
 <body>
-    <div class="team-boxed">
+  
+    <div class="team-boxed" style="padding-top: 50px;">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Qui sommes-nous ? </h2>
@@ -113,7 +149,7 @@
             </div>
             <div class="row people">
                 <div class="col-md-6 col-lg-4 item">
-                    <div class="box"><img class="rounded-circle" src="../../fotoTeam/Alvaro.png">
+                    <div class="box"><img class="rounded-circle" src="../data/fotoTeam/Alvaro.png">
                         <h3 class="name">Alvaro Diaz</h3>
                         <p class="title">Ingenieur en dessin mecánique senior</p>
                         <p class="description">Mi pasion por la ingeniería comenzó en mis tempranos 15 años cuando en el instituto politécnico general San Martín llevamos adelante un proyecto para hacer un taburete premiun </p>
@@ -121,7 +157,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 item">
-                    <div class="box"><img class="rounded-circle" src="../../fotoTeam/Roman.png">
+                    <div class="box"><img class="rounded-circle" src="../data/fotoTeam/Roman.png">
                         <h3 class="name">Román</h3>
                         <p class="title">Ingénieur mécanique senior & project manager – Basé en FR</p>
                         <p class="description">Mi pasion por la ingeniería comenzó en mis tempranos 15 años cuando en el instituto politécnico general San Martín llevamos adelante un proyecto para hacer un taburete premiun</p>
@@ -129,7 +165,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 item">
-                    <div class="box"><img class="rounded-circle" src="../../fotoTeam/Santiago.png">
+                    <div class="box"><img class="rounded-circle" src="../data/fotoTeam/Santiago.png">
                         <h3 class="name">Santiago</h3>
                         <p class="title">Ingénieur en dessin
                             mécanique senior</p>
@@ -140,6 +176,10 @@
             </div>
         </div>
     </div>
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-fc51"><div class="u-clearfix u-sheet u-sheet-1">
+      <p class="u-small-text u-text u-text-variant u-text-1"> Mecasynapse</p>
+    </div>
+  </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
