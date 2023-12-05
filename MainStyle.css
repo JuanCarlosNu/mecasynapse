@@ -95,8 +95,10 @@
         top: 15%;
         
          }
-     
-}º  
+    .flecha_next{
+      display: none;
+    }     
+}
 
  
  @media screen and (max-width: 625px){
