@@ -1,7 +1,7 @@
 const translations = {
     es: {
-        slogan1: 'INGENIERÍA',
-        slogan2: 'DE EXCELENCIA',
+        main_tilte: 'Excelencia en Servicios de Ingeniería',
+        main_subtitle: 'Trabajando con equipos de profesionales altamente calificados desde nuestra sede en Toulouse, con una vasta experiencia en diferentes rubros de la industria y utilizando las mejores herramientas del mercado, acercamos soluciones eficaces a la más variada gama de necesidades.',
         frase: "Trabajando con equipos de profesionales altamente calificados desde nuestra sede en Toulouse, con una vasta experiencia en diferentes rubros de la industria y utilizando las mejores herramientas del mercado, acercamos soluciones eficaces a la más variada gama de necesidades.",
         destacados:"Nuestros proyectos destacados",
         slider1tit:"Rotador de block de motores",
