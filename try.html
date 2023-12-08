@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Event</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="message">Resize the screen to see the magic!</h1>
+
+  <script>
+    // Function to be executed when the screen reaches a specific width
+    function onScreenResize() {
+      var screenWidth = window.innerWidth;
+
+      // Check if the screen width is greater than or equal to the specific width
+      if (screenWidth >= 600) {
+        document.getElementById('message').innerHTML = 'Screen width is greater than or equal to 600 pixels!';
+        // Call your specific function or code here
+        // For example: yourFunction();
+      } else {
+        document.getElementById('message').innerHTML = 'Resize the screen to see the magic!';
+      }
+    }
+
+    // Add an event listener for the 'resize' event
+    window.addEventListener('resize', onScreenResize);
+
+    // Call the function initially to handle the current screen width
+    onScreenResize();
+  </script>
+
+</body>
+</html>

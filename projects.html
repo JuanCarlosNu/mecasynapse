@@ -171,7 +171,7 @@ a, a:hover {
     }
 
     .postcard__img {
-      max-width: 300px;
+   max-width: 300px;
       max-height: 100%;
       transition: transform 0.3s ease;
     }
@@ -381,10 +381,11 @@ a, a:hover {
     
             <article class="postcard dark blue">
                 <a class="postcard__img_link" href="#">
-                    <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+                    <img class="postcard__img" id="dev" src="" alt="Image Title" />
                 </a>
+
                 <div class="postcard__text">
-                    <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+                    <h1 class="postcard__title blue"><a href="#">Devanador</a></h1>
                     <div class="postcard__subtitle small">
                         <time datetime="2020-05-25 12:00:00">
                             <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
@@ -403,8 +404,32 @@ a, a:hover {
             </article>
             <article class="postcard dark red">
                 <a class="postcard__img_link" href="#">
-                    <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+                    <img class="postcard__img" id="lg" src="" alt="Image Title" />	
                 </a>
+                <script>
+                    // Function to be executed when the screen reaches a specific width
+                    function onScreenResize() {
+                      var screenWidth = window.innerWidth;
+                
+                      // Check if the screen width is greater than or equal to the specific width
+                      if (screenWidth >= 770) {
+                        document.getElementById('lg').src = 'data/fotosProyectos/Equipo LG WEB/alejade.png';
+                        // Call your specific function or code here
+                        // For example: yourFunction();
+                        document.getElementById('dev').src= "data/fotosProyectos/devnador WEB/alejade.png"
+                      } else {
+                        document.getElementById('lg').src = 'data/fotosProyectos/devnador WEB/alejade.png';
+                        document.getElementById('dev').src= "data/fotosProyectos/devnador WEB/500400.png"
+                      }
+                    }
+                
+                    // Add an event listener for the 'resize' event
+                    window.addEventListener('resize', onScreenResize);
+                
+                    // Call the function initially to handle the current screen width
+                    onScreenResize();
+                  </script>
+                
                 <div class="postcard__text">
                     <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
                     <div class="postcard__subtitle small">
@@ -413,7 +438,12 @@ a, a:hover {
                         </time>
                     </div>
                     <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <div class="postcard__preview-txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat 
+                        asperiores 
+                        inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus 
+
+                        </div>
                     <ul class="postcard__tagbox">
                         <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
                         <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
