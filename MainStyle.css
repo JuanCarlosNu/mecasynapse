@@ -63,7 +63,9 @@
           display: none, !important;
           color: white!important;
         }
-
+        .section_title_container{
+          margin: 0 2.5rem;
+        }
        
     
 @media screen and (max-width: 990px){

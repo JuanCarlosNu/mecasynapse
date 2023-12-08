@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery 2</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+ <style>
+  
+.title{
+    background-color: white;
+    object-fit: contain;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+
+
+
+        .thumb{
+            margin-bottom: 30px;
+        }
+        
+        .page-top{
+            margin-top:85px;
+        }
+
+   
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+    .fancybox img{
+        object-fit: contain;
+        padding: 4px;
+    }
+
+    
+    
+
+    {/*.row div{
+       padding:8px;background-color: rgb(149, 193, 167); 
+       border-radius: 10px;
+       box-shadow:1px 2px #989898;
+
+    }*/}
+    
+ </style>
+
+
+</head>
+<head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!------ Include the above in your HEAD tag ---------->
+    <script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/vincebrown/pen/bNNpmY?depth=everything&limit=all&order=popularity&page=11&q=portfolio&show_forks=false" />
+<link href='https://fonts.googleapis.com/css?family=Oswald:700,300' rel='stylesheet' type='text/css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'><script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
+<style
+class="cp-pen-styles">* {
+  box-sizing: border-box;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  max-height: 80vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+body {
+  background-image: url("https://subtlepatterns.com/patterns/sativa.png");
+}
+
+.title {
+  text-align: center;
+  /*font-family: 'Oswald';*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 3.75rem;
+  letter-spacing: 5px;
+  background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+}
+.case-study__img{
+    width: 100%;
+}
+@media screen and (min-width: 37.5em) {
+  .title {
+    font-size: 4.75rem;
+  }
+}
+
+p {
+  margin: 0 auto 2rem;
+  text-align: center;
+  font-family: 'oswald';
+  font-size: 1.25rem;
+  color: #444;
+  font-weight: 100;
+  width: 90%;
+}
+@media screen and (min-width: 37.5em) {
+  p {
+    height: 70%;
+  }
+}
+
+.case-study-gallery {
+  margin-top: 50px;
+  width: 100%;
+  /*margin: 50px auto;*/
+  /*max-width: 1100px;*/
+}
+
+.case-study {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto 2rem;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: all .4s ease;
+}
+
+@media screen and (min-width: 600px) {
+  .case-study {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 45em) {
+  .case-study {
+    display: inline-block;
+    width: 45%;
+    margin-left: 25px;
+  }
+}
+
+.case-study__img {
+    margin: 0 auto;
+    height: 100%;
+    display: block;
+   
+    
+
+}
+
+.case-study__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+.case-study__overlay:after {
+  content: '';
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  background-color: #202020;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  left: 0;
+  transition: all .3s ease;
+}
+
+.case-study__title {
+  position: relative;
+  top: -200px;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  font-size: 2.25rem;
+  font-family: 'Oswald';
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+}
+
+.case-study__link {
+  position: relative;
+  display: block;
+  width: 60%;
+  top: 200px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Oswald';
+  color: white;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 1.25em;
+  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+}
+.flex-cont{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+/*
+.case-study__link:hover {
+  background-color: white;
+  color: #202020;
+}
+
+.case-study:hover .case-study__title {
+  top: 0;
+}
+.case-study:hover .case-study__link {
+  top: 0;
+}
+.case-study:hover .case-study__overlay:after {
+  opacity: .75;
+}
+*/
+/*.study1 {
+  background-image: url("../../data/fotosProyectos/devnador WEB/01.png");
+  object-fit: scale-down;
+}
+
+.study2 {
+  background-image: url("../../data/fotosProyectos/devnador WEB/02.png");
+}
+
+.study3 {
+  background-image: url("../../data/fotosProyectos/devnador WEB/03ppp.png");
+
+
+}   
+
+.study4 {
+  background-image: url("https://41.media.tumblr.com/8d41610b4f5e7d5b68e4430b736fbeb3/tumblr_n4vbj2Vv8h1st5lhmo1_1280.jpg");
+}
+
+.study5 {
+  background-image: url("http://publicdomainarchive.com/wp-content/uploads/2014/06/public-domain-images-free-stock-photos-high-quality-resolution-downloads-unsplash0067-1000x666.jpg");
+}
+
+.study6 {
+  background-image: url("http://www.bedlammag.com/wp-content/uploads/2014/04/unsplash-love-yourself-article-e1397699812178.jpg");
+}*/
+</style>
+</head>
+
+<body style="background-color: white;">
+   
+    
+    <!-- Page Content -->
+   <div class="case-study-gallery "
+    style="background-color: white;margin-left: 0;margin-right: 0;">
+    <h1 class="title">Rotor de blocks de motores</h1>
+    <p>This is an example of a portfolio gallery. It has some simple hover transitions and is pretty rad.</p>
+
+    
+<div class="flex-cont">
+    <div class="case-study " class="fancybox" rel="ligthbox">
+
+        <a href="data/fotosProyectos/devnador WEB/01.png" class="fancybox" rel="ligthbox">
+
+            <img src="/data/fotosProyectos/devnador WEB/01.png"  
+            class="case-study__img" 
+            class="zoom img-fluid "  alt="">
+           
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="case-study" >
+        <a href="data/fotosProyectos/devnador WEB/02.png"  class="fancybox" rel="ligthbox">
+            <img  src="data/fotosProyectos/devnador WEB/02.png" 
+            class="case-study__img" style="object-fit: contain;" class="zoom img-fluid"  alt="">
+        </a>
+    </div>
+    
+    <div class="case-study">
+        <a href="data/fotosProyectos/devnador WEB/03.jpg" class="fancybox" rel="ligthbox">
+            <img  src="data/fotosProyectos/devnador WEB/03.jpg" class="case-study__img" class="zoom img-fluid "  alt="">
+        </a>
+    </div>
+    
+</div>
+     
+
+
+           
+           
+            
+            
+           
+           
+       
+
+     
+      
+
+    </div>
+    <script>
+        $(document).ready(function(){
+  $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+    
+    $(".zoom").hover(function(){
+		
+		$(this).addClass('transition');
+	}, function(){
+        
+		$(this).removeClass('transition');
+	});
+});
+    
+    </script>
+</body>
+</html>

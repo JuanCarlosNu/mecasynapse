@@ -13,11 +13,11 @@
     font-size: 2rem;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-weight: 800;
+    font-weight: 100;
     text-align: start;
     display: inline;
     color: var(--darkgrey);
-    border-bottom: 5px solid blue;
+    border-bottom: 3px solid blue;
     }
     /*compromiso*/
     .compromiso_heading{

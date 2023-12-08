@@ -21561,6 +21561,8 @@ a.pswp__share--download:hover {
     opacity: var(--animation-custom_in-opacity);
   }
 }
+
+
 .customAnimationIn {
   animation-name: customAnimationIn;
 }
@@ -21613,12 +21615,39 @@ a.pswp__share--download:hover {
     opacity: 1;
   }
 }
-.u-gallery-item .u-back-slide {
-  width: 100%;
+.case-study {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto 2rem;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: all .4s ease;
+}
+.u-gallery-item{
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.05);
   height: 100%;
+}
+
+.u-gallery-item .u-back-slide {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 250px;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  margin: 0 auto 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+  transition: all .4s ease;
+  
+ 
+
 }
 .u-back-image {
   height: 100%;

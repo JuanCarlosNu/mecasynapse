@@ -13,38 +13,6 @@
 class="cp-pen-styles">* {
   box-sizing: border-box;
 }
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 800px;
-  max-height: 80vh;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.close {
-  color: #fff;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  font-size: 30px;
-  cursor: pointer;
-}
-
 body {
   background-image: url("https://subtlepatterns.com/patterns/sativa.png");
 }
@@ -221,69 +189,224 @@ p {
   background-image: url("http://www.bedlammag.com/wp-content/uploads/2014/04/unsplash-love-yourself-article-e1397699812178.jpg");
 }*/
 </style>
+<style>
+
+  body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+  }
+  
+  .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+  .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      overflow: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+  }
+  .lightbox-content:hover {
+    opacity: 0.8;
+}
+  
+  .lightbox-content {
+      display: block;
+      margin: 50px auto;
+      max-width: 80%;
+      max-height: 80%;
+      transition: opacity 0.3s;
+  }
+  
+  .lightbox-close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      font-size: 30px;
+      color: #fff;
+      cursor: pointer;
+  }
+  .lightbox-prev,
+  .lightbox-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+  }
+  
+  .lightbox-prev {
+      left: 10px;
+  }
+  
+  .lightbox-next {
+      right: 10px;
+  }
+  @media screen and (max-width: 770px) {
+    .lightbox-content {
+      display: block;
+      margin: 50px auto;
+      max-width: 80%;
+      max-height: 40%;
+      transform: translateY(55%);
+      transition: opacity 0.3s;
+  }
+    
+  }
+</style>
 </head>
+
 <body>
 <div class="case-study-gallery">
-  <h1 class="title">Rotor de blocks de motores</h1>
-  <p>This is an example of a portfolio gallery. It has some simple hover transitions and is pretty rad.</p>
+  <h1 class="title" style="font-family: Arial, Helvetica, sans-serif;">
+    ROTADOR DE BLOCKS DE MOTORES
 
-  
-  
+  </h1>
+  <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;padding-top: 20px;padding-bottom: 20px;">
+    En este proyecto se diseñó un rotador de blocks de motor para tareas de control 
+    entre procesos de mecanizado. Incluyó cálculos dinámicos para seleccionar mando, 
+    cálculos para dimensionado y selección de sistema neumático para movimiento de 
+    marco y clampeo y verificación teórica FEM de las piezas sometidas a cargas en dicho
+     dispositivo.
+  </p>
 
-
-
-<div class="case-study study1">
-    <img class="case-study__img" 
-        src="../../data/fotosProyectos/devnador WEB/01.png" alt="" />
-	
-  
-</div>
-  
-<div class="case-study study2">
+  <div class="centro"
+      style="display: flex;justify-content: center;flex-wrap: wrap;">
+    <div class="case-study" >
+      <img class="case-study__img" 
+          src="../../data/fotosProyectos/devnador WEB/01.png" alt="" />
+     </div>
     
-		<img class="case-study__img" 
-        src="../../data/fotosProyectos/devnador WEB/02.png" alt="" />
-  
-	
-  
-</div>
-  
-<div class="case-study study3">
-	
-		<img class="case-study__img" 
-        src="../../data/fotosProyectos/devnador WEB/03.jpg" alt="" />
-  
-</div>
-  
-<div class="case-study study4">
-	<figure>
-		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
-	</figure>
-  <div class="case-study__overlay">
-  	<h2 class="case-study__title">Developing Hexxis</h2>
-    <a class="case-study__link" href="#">View Case Study</a>
+     <div class="case-study ">
+      
+      <img class="case-study__img" 
+          src="../../data/fotosProyectos/devnador WEB/02.png" alt="" />
+    
+    
+    
+     </div>
+    
+     <div class="case-study ">
+    
+      <img class="case-study__img" 
+          src="../../data/fotosProyectos/devnador WEB/03.jpg" alt="" />
+    
+     </div>
+    
+     <div class="case-study ">
+    <figure>
+      <img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+    </figure>
+    <div class="case-study__overlay">
+      <h2 class="case-study__title">Developing Hexxis</h2>
+      <a class="case-study__link" href="#">View Case Study</a>
+    </div>
+     </div>
+    
+     <div class="case-study ">
+    <figure>
+      <img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+    </figure>
+    <div class="case-study__overlay">
+      <h2 class="case-study__title">Developing Hexxis</h2>
+      <a class="case-study__link" href="#">View Case Study</a>
+    </div>
+     </div>
+    
+     <div class="case-study ">
+    <figure>
+      <img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
+    </figure>
+    <div class="case-study__overlay">
+      <h2 class="case-study__title">Developing Hexxis</h2>
+      <a class="case-study__link" href="#">View Case Study</a>
+    </div>
+     </div>
   </div>
+
+  <div class="lightbox">
+    <img src="" alt="Lightbox Image" class="lightbox-content">
+    <span class="lightbox-close">&times;</span>
+    <button class="lightbox-prev">&lt;</button>
+<button class="lightbox-next">&gt;</button>
 </div>
-  
-<div class="case-study study5">
-	<figure>
-		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
-	</figure>
-  <div class="case-study__overlay">
-  	<h2 class="case-study__title">Developing Hexxis</h2>
-    <a class="case-study__link" href="#">View Case Study</a>
-  </div>
-</div>
-  
-<div class="case-study study6">
-	<figure>
-		<img class="case-study__img" src="https://static.squarespace.com/static/51b79838e4b0b8b55c75cf91/t/51c4b688e4b03003ea9f1a63/1371846281755/Hexxis+Logo+White.png" alt="" />
-	</figure>
-  <div class="case-study__overlay">
-  	<h2 class="case-study__title">Developing Hexxis</h2>
-    <a class="case-study__link" href="#">View Case Study</a>
-  </div>
-</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+const lightbox = document.querySelector(".lightbox");
+const lightboxContent = document.querySelector(".lightbox-content");
+const lightboxTriggers = document.querySelectorAll(".case-study__img");
+const lightboxClose = document.querySelector(".lightbox-close");
+
+let currentIndex = 0;
+
+lightboxTriggers.forEach((trigger, index) => {
+    trigger.addEventListener("click", function () {
+        currentIndex = index;
+        updateLightboxContent();
+        lightbox.style.display = "flex";
+    });
+});
+
+lightboxClose.addEventListener("click", function () {
+    lightbox.style.display = "none";
+});
+
+lightbox.addEventListener("click", function (event) {
+    if (event.target === lightbox) {
+        lightbox.style.display = "none";
+    }
+});
+
+function updateLightboxContent() {
+    const imageUrl = lightboxTriggers[currentIndex].src;
+    lightboxContent.src = imageUrl;
+}
+
+function navigateCarousel(direction) {
+    currentIndex += direction;
+
+    if (currentIndex < 0) {
+        currentIndex = lightboxTriggers.length - 1;
+    } else if (currentIndex >= lightboxTriggers.length) {
+        currentIndex = 0;
+    }
+
+    updateLightboxContent();
+}
+
+document.addEventListener("keydown", function (event) {
+    if (lightbox.style.display === "flex") {
+        if (event.key === "ArrowLeft") {
+            navigateCarousel(-1);
+        } else if (event.key === "ArrowRight") {
+            navigateCarousel(1);
+        }
+    }
+});
+
+// Optional: Add left and right arrows for navigation
+document.querySelector(".lightbox-prev").addEventListener("click", function () {
+    navigateCarousel(-1);
+});
+
+document.querySelector(".lightbox-next").addEventListener("click", function () {
+    navigateCarousel(1);
+});
+});
+</script>
+
 </div>
 <script>
     // Function to open the modal
@@ -343,4 +466,5 @@ p {
 </script>
 
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-</body></html>
+</body>
+</html>
