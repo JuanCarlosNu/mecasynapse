@@ -1,7 +1,7 @@
 const translations = {
     es: {
-        main_tilte: 'Excelencia en Servicios de Ingeniería',
-        main_subtitle: 'Trabajando con equipos de profesionales altamente calificados desde nuestra sede en Toulouse, con una vasta experiencia en diferentes rubros de la industria y utilizando las mejores herramientas del mercado, acercamos soluciones eficaces a la más variada gama de necesidades.',
+        main_title: "Excelencia en Servicios de Ingeniería",
+        main_subtitle:"Trabajando con equipos de profesionales altamente calificados desde nuestra sede en Toulouse, con una vasta experiencia en diferentes rubros de la industria y utilizando las mejores herramientas del mercado, acercamos soluciones eficaces a la más variada gama de necesidades",
         main_sider_title:"Para la Industria Siderúrgica",
 
         main_sider_sub1:"Laminación en caliente ",
@@ -64,7 +64,7 @@ fr: {
     slider6tit:"Gfransois le pifie",
 },
 en: {
-    main_tilte: 'Excellence in Engineering Services',
+    main_title: 'Excellence in Engineering Services',
     main_subtitle: 'Working with teams of highly qualified professionals from our headquarters in Toulouse, with vast experience in different areas of the industry and using the best tools on the market, we bring effective solutions to the most varied range of needs.',
     main_sider_title: "For Steelmaking",
     main_sider_sub1:"Hot Rolling",
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (selectedLanguage) {
         // Set the initial language
-        changeLanguage(selectedLanguage);
+        changeLanguage('es');
     }
 });
 

@@ -83,9 +83,9 @@
           </ul>
         </div>
       <div class=" language">
-        <a id="ES" class="lan" onclick="changeLanguage(es)" style="font-weight: bolder;" href="#">ES</a>
-           <a id="EN" class="lan" onclick="changeLanguage(en)" href="#">EN</a>
-           <a id="FR" class="lan" onclick="changeLanguage(fr)" href="#">FR</a> 
+           <a id="ES" class="lan" onclick="changeLanguage('es')"  style="font-weight: bolder;" href="#">ES</a>
+           <a id="EN" class="lan" onclick="changeLanguage('en')" href="#">EN</a>
+           <a id="FR" class="lan" onclick="changeLanguage('fr')" href="#">FR</a> 
      </div>
     </div>
       <div class="menu-toggle" id="mobile-menu">
@@ -117,7 +117,7 @@
               <img src="data/pexels-pixabay-236722.jpg">
               <div class="hero-overlay">
                 <div class="title_container Hero">
-                  <h1 data-translation-id="main_title">Excelencia en Servicios de Ingeniería
+                  <h1 data-translation-id="main_title">
                   </h1>
                   </div>
                   <div class="frase">
@@ -135,16 +135,16 @@
               <img src="data/expertise/siderurgicaAlejade.png">
               <div class="hero-overlay">
                 <div class="title_container Hero">
-                  <h1>Para la Industria Siderúrgica</h1>
+                  <h1 data-translation-id="main_sider_title">Para la Industria Siderúrgica</h1>
                 </div>
                   <div class="frase">
                  <ul>
-                    <li>Laminación en caliente </li>
-                    <li>Laminación en frío</li>
-                    <li>Líneas de galvanizado</li>
-                    <li>Reducción Directa</li>
-                    <li>Colada contínua</li>
-                    <li>Parques de tratamiento de chatarra</li>
+                    <li data-translaton-id="main_sider_sub1">Laminación en caliente </li>
+                    <li data-translation-id="main_sider_sub2">Laminación en frío</li>
+                    <li data-translation-id="main_sider_sub3">Líneas de galvanizado</li>
+                    <li data-translation-id="main_sider_sub4">Reducción Directa</li>
+                    <li data-translation-id="main_sider_sub5">Colada contínua</li>
+                    <li data-translation-id="main_sider_sub6">Parques de tratamiento de chatarra</li>
                   </ul>
                    </div>
               </div>
@@ -158,10 +158,10 @@
               <img src="data/expertise/alimenticia.jpg">
                 <div class="hero-overlay">
                  <div class="title_container Hero">
-                    <h1>Para la Industria Alimenticia</h1>
+                    <h1 data-translation-id="main_alim_title">Para la Industria Alimenticia</h1>
                  </div>
                <div class="frase">
-              <p>Equipamiento y estructuras para plantas de procesados de especias, chocolate, té, etc.</p>
+              <p data-translation-id="main_alim_subtitle">Equipamiento y estructuras para plantas de procesados de especias, chocolate, té, etc.</p>
                 </div>
            </div>
            
@@ -174,10 +174,10 @@
               <img src="data/expertise/manutencion2.jpg">
                 <div class="hero-overlay">
                  <div class="title_container Hero">
-                    <h1>En diseño de Elementos de Manipulación</h1>
+                    <h1 data-translation-id="main_manip_title">En diseño de Elementos de Manipulación</h1>
                  </div>
                <div class="frase">
-                 <p>Diseño y cálculo de elementos de izaje y manipulación para todo tipo de industrias y necesidades</p>
+                 <p data-translation-id="main_manip_subtitle">Diseño y cálculo de elementos de izaje y manipulación para todo tipo de industrias y necesidades</p>
                 </div>
            </div>
            
@@ -191,10 +191,10 @@
               <img src="data/expertise/calculos.jpg">
                 <div class="hero-overlay">
                  <div class="title_container Hero">
-                    <h1>En Memorias de Cálculo</h1>
+                    <h1 data-translation-id="main_calc_title">En Memorias de Cálculo</h1>
                  </div>
                <div class="frase">
-                 <p>Confección de memorias de cálculo para modelos físicos de situaciones reales</p>
+                 <p data-translation-id="main_calc_subtitle">Confección de memorias de cálculo para modelos físicos de situaciones reales</p>
                 </div>
            </div>
            
@@ -208,10 +208,10 @@
               <img src="data/expertise/simumasale.jpg">
                 <div class="hero-overlay">
                  <div class="title_container Hero">
-                    <h1>En Simulaciones Computacionales</h1>
+                    <h1 data-translation-id="main_simu_title">En Simulaciones Computacionales</h1>
                  </div>
                 <div class="frase">
-                 <p>Simulaciones computacionales de modelos físicos de estática, dinámica, transferencia de calor, vibraciones, mecánica de fluidos y fatiga.
+                 <p data-translation-id="main_simu_subtitle">Simulaciones computacionales de modelos físicos de estática, dinámica, transferencia de calor, vibraciones, mecánica de fluidos y fatiga.
                 </p>
                 </div>
            </div>
@@ -503,7 +503,7 @@
   </div>
     
     <!--compromiso-->
-    <div class="compromiso_container u-carousel u-slid u-block-56e1-1" 
+    <div class="compromiso_container u-carousel data-u-slide u-block-56e1-1" 
     id="carousel_f94d" 
 data-interval="5000"
 data-u-ride="carousel">
@@ -544,8 +544,8 @@ mécanique autement qualifiés.
 <div class="u-active u-align-center u-carousel-item
 u-clearfix ">
 <div class="pagina" >
-<div class="flex_container"> 
-  <div class="img_container" style="flex: 50%; background-color:rgba(0, 0, 0, 1);">
+   <div class="flex_container"> 
+   <div class="img_container" style="flex: 50%; background-color:rgba(0, 0, 0, 1);">
    <img   class="image-1" src="data-comp/laptops-593296_1280.jpg" 
             alt="" 
            >
@@ -594,7 +594,7 @@ u-clearfix ">
           u-btn-1">Read More</a>
      </div>
   </div>
-</div>
+   </div>
 </div>
 </div>
 <!--slide two container-->
@@ -604,8 +604,7 @@ u-clearfix u-section-2-2">
 <div class="flex_container"> 
   <div class="img_container" style="flex: 50%; background-color:rgba(0, 0, 0, 1);">
    <img   class="image-1" src="data-comp/mathematics-3821034_1280.jpg" 
-            alt="" 
-           >
+            alt="" >
   </div>
   <div class="compromiso_content" >
     <h2 >Servicios de consultoría 
@@ -617,19 +616,10 @@ u-clearfix u-section-2-2">
          src="data-comp/tilde.png" alt="">
        </span>
        <span class="sep"> 
-        Apoyo en la búsqueda de soluciones para problemáticas en los rubros siderúrgico, 
-       </span>
+        Apoyo en la búsqueda de soluciones para problemáticas en los rubros siderúrgico, automotriz, máquinas agrícolas y alimentos.
+        </span>
     </p>
-     <p class="point">
-      <span class="tilde">
-        <img style="height: 20px;" src="data-comp/tilde.png" alt="">
-      </span>
-      <span class="sep"> 
-        automotriz, máquinas agrícolas y alimentos.
-
-        
-       </span>
-    </p>
+     
      <p class="point">
       <span class="tilde" >
         <img style="height: 20px;" 
@@ -676,7 +666,7 @@ u-clearfix u-section-2-2">
            >
   </div>
   <div class="compromiso_content" >
-    <h2 data-translation-id="">Servicios de ingeniería</h2>
+    <h2>Servicios de ingeniería</h2>
     <div class="item_container">
      <p class="point">
        <span class="tilde" >
