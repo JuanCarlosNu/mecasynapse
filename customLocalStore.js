@@ -38,14 +38,28 @@ const translations = {
         proy_saca_title: "HERRAMENTAL ACCIONAMIENTO SACABOCADOS" ,
         proy_saca_subtitle:"Diseño y fabricación de herramental para accionamiento sacabocados en derivaciones T para líneas de gas. Cuenta con sistema de liberación rápida para intercambio de herramental.",
 
-        destacados:"Nuestros proyectos destacados",
-        slider1tit:"Rotador de block de motores",
-        slider2tit:"Verificación teórica escudo muelle",
-        slider3tit:"Equipo auxiliar de izaje",
-        slider4tit:"Girador múltiples de escape",
-        slider5tit:"evanador alambre cobre y extrusora de plástico",
-        slider6tit:"Girador múltiples de escape",
-},
+        compromiso_title:"",
+
+        compro_slide1_title:"",
+        compro_slide1_subtitle:"",
+        compro_slide1_1:"",
+        compro_slide1_2:"",
+        compro_slide1_3:"",
+        compro_slide1_4:"",
+        compro_slide2_title:"",
+        compro_slide2_subtitle:"",
+        compro_slide2_1:"",
+        compro_slide2_2:"",
+        compro_slide2_3:"",
+        compro_slide2_4:"",
+        compro_slide3_title:"",
+        compro_slide3_subtitle:"",
+        compro_slide_1:"",
+        
+
+
+
+
 fr: {
     main_title: 'L’Excellence des Services  D’Ingeniénierie',
      main_subtitle: 'En travaillant avec des équipes de professionnels hautement qualifiés de notre siège à Toulouse, avec une vaste expérience dans différents domaines de l’industrie et en utilisant les meilleurs outils du marché, nous apportons des solutions efficaces aux besoins les plus variés.',
@@ -80,6 +94,9 @@ fr: {
 
     proy_lg_title:"",
     proy_lg_subtitle:"",
+
+    proy_saca_title:"",
+    proy_saca_subtitle:"",
 
 
     
