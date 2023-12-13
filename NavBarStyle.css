@@ -340,11 +340,22 @@
 */
       
      /* when language colapses*/  
-     @media screen and (max-width: 536px){
+     @media screen and (max-width: 555px){
       .language{
-        display: none;
+        font-size: 12px;
+        top: 15px;
+        margin-left: 5px;
 
-      }}
+      }
+     /* .language {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .language a{
+        height: 12px;
+      }*/
+    }
 
 
     @media screen and (max-width: 475px){

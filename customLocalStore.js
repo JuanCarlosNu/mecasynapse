@@ -3,13 +3,14 @@ const translations = {
         main_title: "Excelencia en Servicios de Ingeniería",
         main_subtitle:"Trabajando con equipos de profesionales altamente calificados desde nuestra sede en Toulouse, con una vasta experiencia en diferentes rubros de la industria y utilizando las mejores herramientas del mercado, acercamos soluciones eficaces a la más variada gama de necesidades",
         main_sider_title:"Para la Industria Siderúrgica",
+        main_sider_subtitle:"Laminación en caliente; Laminación en frío; Líneas de galvanizado; Reducción Directa; Reducción Directa; Colada contínua; Parques de tratamiento de chatarra",
 
-        main_sider_sub1:"Laminación en caliente ",
+        /*main_sider_sub1:"Laminación en caliente ",
         main_sider_sub2:"Laminación en frío",
         main_sider_sub3:"Líneas de galvanizado",
         main_sider_sub4:"Reducción Directa",
         main_sider_sub5:"Colada contínua",
-        main_sider_sub6:"Parques de tratamiento de chatarra",
+        main_sider_sub6:"Parques de tratamiento de chatarra",*/
 
         main_alim_title:"Para la Industria Alimenticia",
         main_alim_subtitle:"Equipamiento y estructuras para plantas de procesado de especias, chocolate, té, etc",
@@ -39,18 +40,22 @@ const translations = {
         proy_dev_breve:"Máquina devanadora de alambres y una extrusora de plástico para una línea contínua de fabricación de cables",
         proy_dev_subtitle:"Ingeniería de detalle de una máquina devanadora de alambres y una extrusora de plástico a partir de un diseño conceptual propuesto por el cliente para una línea contínua de fabricación de cables. El proyecto incluyó el modelado 3D completo de ambas máquinas y la confección de los pliegos constructivos.",
 
-        
+        proy_mue_title:"VERIFICACION TEORICA ESCUDO MUELLE",
+        proy_mue_breve:"Se verificó resistencia rigidez y estabilidad de una pieza fabricada de chapa IRAM IAS 215-6 F36 que tiene como fin absober el impacto de embarcaciones durante la maniobra de atraque",
+        proy_mue_subtitle:"En este proyecto se verificó resistencia rigidez y estabilidad de una pieza fabricada de chapa IRAM IAS 215-6 F36 que tiene como fin absober el impacto de embarcaciones durante la maniobra de atraque. Se incluyó la verificación de cada cordón de soldadura. A tal fin se utilizaron herramientas de mecánica computacional basadas en la Teoría de la Elasticidad Lineal resuelta por el método de los elementos finitos.",
+
 },
 fr: {
     main_title: 'L’Excellence des Services  D’Ingeniénierie',
      main_subtitle: 'En travaillant avec des équipes de professionnels hautement qualifiés de notre siège à Toulouse, avec une vaste expérience dans différents domaines de l’industrie et en utilisant les meilleurs outils du marché, nous apportons des solutions efficaces aux besoins les plus variés.',
      main_sider_title: "Sidérurgie",
-     main_sider_sub1:"Lignes de LAC",
+     main_sider_subtitle:"Lignes de LAC; Lignes de LAF; Lignes de galvanisation; Reduction directe; Coulée continue; Coulée continue; Traitement de la ferraille",
+     /*main_sider_sub1:"Lignes de LAC",
      main_sider_sub2:"Lignes de LAF",
      main_sider_sub3:"Lignes de galvanisation",
      main_sider_sub4:"Reduction directe",
      main_sider_sub5:"Coulée continue",
-     main_sider_sub6:"Traitement de la ferraille",
+     main_sider_sub6:"Traitement de la ferraille",*/
 
      main_alim_title:"Alimentarire",
      main_alim_subtitle:"Équipements et structures pour les industries des épices, du chocolat, du thé, etc",
@@ -60,7 +65,7 @@ fr: {
 
     main_calc_title:"Notes de Calcul",
     main_calc_subtitle:"Réalisation de mémoires de calcul pour des modèles physiques de situations réelles réelles",
-    main_simu_title:"simulations",
+    main_simu_title:"Simulations",
     main_simu_subtitle:"Simulations numériques de modèles physiques de statique, de dynamique, de transfert de chaleur, des vibrations, de la mécanique des fluides ainsi que de fatigue",
    
     proyectos_title:"Nos Projets Phares",
@@ -81,11 +86,17 @@ fr: {
     proy_dev_breve:"Bobineuse de fil et extrudeuse de plastique pour une ligne de fabrication de câbles en continu",
     proy_dev_subtitle:"Ingénierie de détail d'une machine de bobinage de fil et d'une extrudeuse de plastique basée sur une conception proposée par le client pour une ligne de fabrication de câbles continus. Le projet comprenait la modélisation 3D complète des deux machines et la préparation des documents de construction.",
 
+    proy_mue_title:"BOUCLIER DE RESSORT DE VÉRIFICATION THÉORIQUE",
+    proy_mue_breve:"On a vérifié la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 dont le but est d'absorber l'impact des navires lors de la manœuvre d'accostage.",
+    proy_mue_subtitle:"Dans ce projet, la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 ont été vérifiées, dont le but est d'absorber l'impact des bateaux lors de la manœuvre d'accostage. La vérification de chaque cordon de soudure a été incluse. À cette fin, des outils de mécanique computationnelle basés sur la théorie de l'élasticité linéaire résolue par la méthode des éléments finis ont été utilisés.",
+
     },
 en: {
     main_title: 'Excellence in Engineering Services',
     main_subtitle: 'Working with teams of highly qualified professionals from our headquarters in Toulouse, with vast experience in different areas of the industry and using the best tools on the market, we bring effective solutions to the most varied range of needs.',
     main_sider_title: "For Steelmaking",
+    main_sider_subtitle:"Hot Rolling; Cold Rolling; Galvanizing lines; Direct Reduction; Continuous casting; Scrap Metal Parks",
+
     main_sider_sub1:"Hot Rolling",
     main_sider_sub2:"Cold Rolling",
     main_sider_sub3:"Galvanizing lines",
@@ -108,7 +119,8 @@ en: {
 
     proy_rotweb_title:"ENGINE BLOCK ROTATOR",
     proy_rotweb_breve:"A motor block rotator for control tasks between machining processes",
-   
+    proy_rotweb_subtitle:"In this project, a motor block rotator was designed for control tasks between machining processes. It included dynamic calculations to select the command, calculations for sizing and selection of the pneumatic system for frame movement and block clamping, and FEM theoretical verification of the parts subjected to loads in said device.",
+    
     proy_lg_title:"AUXILIARY LIFTING DEVICE",
     proy_lg_breve:"Design and manufacturing of auxiliary lifting device for gas meter mounting and dismounting.",
     proy_lg_subtitle:"Design and manufacturing of auxiliary lifting device for gas meter mounting and dismounting.",
@@ -120,6 +132,10 @@ en: {
     proy_dev_title:"COPPER WIRE WINDER AND PLASTIC EXTRUDER",
     proy_dev_breve:"Wire winding machine and a plastic extruder for a continuous cable manufacturing line",
     proy_dev_subtitle:"Detail engineering of a wire winding machine and a plastic extruder based on a conceptual design proposed by the client for a continuous cable manufacturing line. The project included the complete 3D modeling of both machines and the preparation of the construction documents.",
+
+    proy_mue_title:"THEORETICAL VERIFICATION for PORT SHIELD",
+    proy_mue_breve:"The resistance, rigidity and stability of a piece made of IRAM IAS 215-6 F36 sheet metal was verified, the purpose of which is to absorb the impact of vessels during the docking maneuver.",
+    proy_mue_subtitle:"In this project, resistance, rigidity and stability of a piece made of IRAM IAS 215-6 F36 sheet was verified, which is intended to absorb the impact of vessels during the docking maneuver. Verification of each weld bead was included. For this, computational mechanics tools based on the Linear Elasticity Theory solved by the finite element method were used.",
 
 
 

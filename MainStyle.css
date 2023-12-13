@@ -50,7 +50,7 @@
         .flecha_next{
          position: absolute;
          right: 20px;
-         top:500px;
+         top:90%;
 
         }
         .flecha_next:hover{
@@ -64,7 +64,7 @@
           color: white!important;
         }
         .section_title_container{
-          margin: 0 2.5rem;
+          /*margin: 0 2.5rem;*/
         }
        
     
