@@ -1,0 +1,20 @@
+.footer_container{
+    background-color: grey;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.foot_left{
+    padding-left: 2.5rem;
+    
+
+}
+.foot_right{
+    padding-right: 2.5rem;
+
+}
+

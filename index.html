@@ -58,6 +58,7 @@
       <script src="https://kit.fontawesome.com/aacf728f4f.js" crossorigin="anonymous"></script>
 
       <link rel="stylesheet" href="MDBlocal.css">
+      <link rel="stylesheet" href="footer.css">
 
       
 
@@ -79,7 +80,7 @@
             <li><a href="pages/team.html" class="nav-links">Acerca</a></li>
             <li><a href="#" class="nav-links">Proyectos</a></li>
             <li><a href="#" class="nav-links">Expertise</a></li>
-            <li><a href="#" class="nav-links">Contacto</a></li>
+            <li><a href="#contacto" class="nav-links">Contacto</a></li>
           </ul>
         </div>
       <div class=" language">
@@ -322,8 +323,8 @@
     
   <!-- proyects slider-->
   <div>
-    <div class="section_title_container1">
-      <h2 class="section_title"
+    <div class="section_title_container1" id="proyectos">
+      <h2 class="section_title1"
       data-translation-id="proyectos_title">
         Nuestros proyectos destacados
       </h2>
@@ -450,7 +451,7 @@
                         </div>
                       </div>
                     
-                 </div>
+                 </div> 
               </div>
 
              <!--
@@ -572,10 +573,10 @@ class="u-grey-30" data-u-slide-to="2">
 </li>
 </ol>
 
-<div class="compromiso_heading">
-<h2 class="section_title">
+<div class="compromiso_heading" >
+  <h2 class="section_title" >
       Nuestro compromiso 
-</h2>
+  </h2>
 <!---
 <p class="u-align-center u-custom-font
 u-font-pt-sans u-text u-text-2"
@@ -794,7 +795,7 @@ u-clearfix u-section-2-2">
 
 
     <!--contact-->
-    <div class="section_body">
+    <div class="section_body" id="contacto">
       <div class="section_title_container" style="margin-left: none;">
         <h2 class="section_title" >
 
@@ -886,8 +887,14 @@ u-clearfix u-section-2-2">
                         </div>
                         <div  class="col-10 mb-4 ss-border temporal-padding"
                          data-ss-id="lBvo10hvwHt4g2r0LJvmG"> 
-                              <button type="button" class="btn btn-primary ss-border temporal-padding" data-ss-id="_TaosnPSzLmMDrfaD4Hz_">Enviar consulta
+                         <div class="correct">
+                              <button type="button"
+                              id="mapbut" 
+                              class="btn btn-primary ss-border temporal-padding"
+                               data-ss-id="_TaosnPSzLmMDrfaD4Hz_">
+                               Enviar consulta
                               </button> 
+                            </div>
                         </div>
                     </form>
                  </div>
@@ -933,8 +940,23 @@ menu.addEventListener('click', function(){
       type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js">
   
       </script>
-      <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-fc51"><div class="u-clearfix u-sheet u-sheet-1">
+     <!--<footer 
+      class="u-align-center u-clearfix u-footer u-grey-80 u-footer"
+       id="sec-fc51"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1"> Mecasynapse</p>
+      </div>
+    </footer>-->
+    <footer>
+      <div class="footer_container">
+        <div class="foot_left">
+          <p>Mecasynapse</p>
+          <p>sello social</p>
+          <p>Domicilio</p>
+        </div>
+        <div class="foot_right">
+          <p>info@mecasynapse.com</p>
+          <p></p>
+        </div>
       </div>
     </footer>
 

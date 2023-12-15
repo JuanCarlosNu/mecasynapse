@@ -10,6 +10,16 @@
    
    
        @media screen and (max-width: 575px) {
+        .correct{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+        }
+        .section_title_container1{
+          display: inline;
+          justify-content: center;
+        }
 
             #contact input,
              #contact textarea,
