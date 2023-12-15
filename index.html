@@ -11,6 +11,8 @@
  <!--Conains proyect corusel Css styling-->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
   rel="stylesheet"/>
+
+  <link rel="stylesheet" href="reparation.css">
  
 
   
@@ -69,18 +71,18 @@
   <!--Navbar-->
   <div class="nav-container" id="nav">
     <div class="navbar" style="display:block; box-shadow: none;">
-       <a class="left_col">
+       <a  href="#here" class="left_col">
          <img class="logo_img" id="logo"
          src="data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo">
        </a>
        <div class="right_col" >
          <div class="nav-menu">  
           <ul>
-            <li><a href="#nav" class="nav-links">Inicio</a></li>
-            <li><a href="pages/team.html" class="nav-links">Acerca</a></li>
-            <li><a href="#" class="nav-links">Proyectos</a></li>
-            <li><a href="#" class="nav-links">Expertise</a></li>
-            <li><a href="#contacto" class="nav-links">Contacto</a></li>
+            <li><a href="#here" data-translation-id="menu_inicio"  class="nav-links">Inicio</a></li>
+            <li><a href="pages/team.html" data-translation-id="menu_acerca" class="nav-links">Acerca</a></li>
+            <li><a href="#proy" data-translation-id="menu_proyectos" class="nav-links">Proyectos</a></li>
+          <!-- <li><a href="#" class="nav-links">Expertise</a></li>-->
+            <li><a href="#contacto" data-translation-id="menu_contacto" class="nav-links">Contacto</a></li>
           </ul>
         </div>
       <div class=" language">
@@ -111,7 +113,7 @@
         <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="6"></li>
         
       </ol>
-      <div class="u-carousel-inner" role="listbox">
+      <div id="here" class="u-carousel-inner" role="listbox">
         <div class="u-active u-align-center u-carousel-item u-clearfix u-container-align-center u-section-2-1">
           <div class="u-clearfix u-sheet u-sheet-1">
             <div class="hero-section">
@@ -321,14 +323,10 @@
 
    
     
+    </style>
   <!-- proyects slider-->
-  <div>
-    <div class="section_title_container1" id="proyectos">
-      <h2 class="section_title1"
-      data-translation-id="proyectos_title">
-        Nuestros proyectos destacados
-      </h2>
-     </div>
+  <div class="one">
+    
   
   <!-- Inner -->
   <div class="gallery-ss" data-design="gallery-4" 
@@ -338,6 +336,13 @@
   <!--Slider container-->
 
       <div class="slider-ss" >
+        <div class="section_title_container" id="proyectos">
+          <h2 class="section_title"
+          id="proy"
+          data-translation-id="proyectos_title">
+            Nuestros proyectos destacados
+          </h2>
+         </div>
 
            <!--controls-->
          <ul  class="control"
@@ -380,7 +385,9 @@
                     </div>
                     
                     <div class="button_cont">
-                      <a href="/gallery/rotador.html" 
+                      <a
+                      data-translation-id="ver"
+                       href="/gallery/rotador.html" 
                     class="btn btn-primary">Ver proyecto
                     </a>
                     </div>
@@ -413,7 +420,9 @@
                          </div>
                           
                          <div class="button_cont">
-                          <a href="gallery/lg.html" 
+                          <a
+                          data-translation-id="ver" 
+                          href="gallery/lg.html" 
                           class="btn btn-primary">
                           Ver proyecto</a>
                          </div>
@@ -445,7 +454,7 @@
                           </div>
                           
                           <div class="button_cont">
-                            <a href="gallery/girador.html" class="btn btn-primary">
+                            <a data-translation-id="ver" href="gallery/girador.html" class="btn btn-primary">
                               Ver proyecto</a>
                           </div>
                         </div>
@@ -506,7 +515,9 @@
                                     </p>
                    </div>
                     <div class="button_cont">
-                      <a href="gallery/devanador.html"
+                      <a 
+                      data-translation-id="ver"
+                      href="gallery/devanador.html"
                       class="btn btn-primary">Ver proyecto
                     </a>
                     </div>
@@ -536,7 +547,9 @@
                        </p>
                        </div>
                         <div class="button_cont">
-                          <a href="gallery/muelle.html"
+                          <a
+                          data-translation-id="ver"
+                          href="gallery/muelle.html"
                           class="btn btn-primary">Ver proyecto
                         </a>
                         </div>
@@ -553,12 +566,22 @@
 
  
   </div>
+  <div class="spacer" style="height: 60px;"></div>
     
     <!--compromiso-->
+    
     <div class="compromiso_container u-carousel data-u-slide u-block-56e1-1" 
     id="carousel_f94d" 
 data-interval="5000"
 data-u-ride="carousel">
+<div class="compromiso_heading" >
+  <h2
+  data-translation-id="comp_title"
+  class="section_title" style="margin-top: 48px;margin-bottom: 48px;">
+      Nuestro compromiso 
+  </h2>
+
+</div>
 
 <ol class="u-absolute-hcenter  d-none u-carousel-indicators u-block-56e1-2">
 <li data-u-target="#carousel_f94d" class="u-active u-grey-30"
@@ -573,24 +596,7 @@ class="u-grey-30" data-u-slide-to="2">
 </li>
 </ol>
 
-<div class="compromiso_heading" >
-  <h2 class="section_title" >
-      Nuestro compromiso 
-  </h2>
-<!---
-<p class="u-align-center u-custom-font
-u-font-pt-sans u-text u-text-2"
-style="
-margin-top:15px;
-margin-bottom: 15px;
-font-size: x-large;
-padding: none;
-text-align: start;
-">
-Fournir un service de BE de qualité pour les PME et les ateliers
-mécanique autement qualifiés.
-</p>-->
-</div>
+
 
 <div class="u-carousel-inner  shadow-4-strong" role="listbox" >
 <!--slide one container-->
@@ -604,8 +610,10 @@ u-clearfix ">
            >
   </div>
   <div class="compromiso_content" >
-    <h2 id="con_sub" >¿Qué servicios ofrecemos?</h2>
+    <h2 
+    data-translation-id="comp_title1" id="con_sub" >¿Qué servicios ofrecemos?</h2>
     <h4 
+    data-translation-id="comp_subtitle"
     style="font-family: Arial, Helvetica,
     sans-serif; font-weight: 100;text-align: start;text-decoration: none;font-style: normal;">
      Nuestro compromiso es ofrecer un servicio de calidad para pymes y talleres mecánicos altamente calificados
@@ -617,7 +625,10 @@ u-clearfix ">
         <img style="height: 20px;"
          src="data-comp/tilde.png" alt="">
        </span>
-       <span class="sep"> 
+       <span 
+       data-translation-id="comp_1_1"
+       
+       class="sep"> 
         Diseño y análisis de máquinas y dispositivos con herramientas computacionales 3D.
        </span>
     </p>
@@ -626,7 +637,9 @@ u-clearfix ">
       <span class="tilde">
         <img style="height: 20px;" src="data-comp/tilde.png" alt="">
       </span>
-      <span class="sep" > 
+      <span 
+      data-translation-id="comp_1_2"
+      class="sep" > 
         Confección de planos mecánicos de fabricación. 
 
       </span>
@@ -636,7 +649,9 @@ u-clearfix ">
         <img style="height: 20px;" 
         src="data-comp/tilde.png" alt="">
       </span>
-      <span class="sep">
+      <span 
+      data-translation-id="comp_1_3"
+      class="sep">
         Cálculos y confección de memorias de cálculo de fenómenos de Estática,
          Dinámica, Calor, Vibraciones, Fatiga y Pandeo.
 
@@ -645,6 +660,7 @@ u-clearfix ">
      </div>
      <div class="button_container" 
         style="margin-top: auto;padding: 20px">
+        
          <a href="" 
          class="u-align-center u-border-2 u-border-grey-dark-1
           u-btn u-btn-round u-button-style u-radius-50 
@@ -784,9 +800,13 @@ u-clearfix u-section-2-2">
 </span>
 <span class="sr-only">Previous</span>
 </a>
-<a class="grey-30 " href="#carousel_f94d" role="button" data-u-slide="next">
+<a class="grey-30 " 
+href="#carousel_f94d" 
+role="button" 
+data-u-slide="next">
 <span aria-hidden="true">
-<svg class="derecha" viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+<svg class="derecha" viewBox="0 0 477.175 477.175">
+  <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
         c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
 </span>
 <span class="sr-only">Siguiente</span>
@@ -888,15 +908,48 @@ u-clearfix u-section-2-2">
                         <div  class="col-10 mb-4 ss-border temporal-padding"
                          data-ss-id="lBvo10hvwHt4g2r0LJvmG"> 
                          <div class="correct">
-                              <button type="button"
+                            <button type="button"
+                            onclick="toggleDisplay()"
+                              
                               id="mapbut" 
                               class="btn btn-primary ss-border temporal-padding"
                                data-ss-id="_TaosnPSzLmMDrfaD4Hz_">
                                Enviar consulta
                               </button> 
+                            
                             </div>
                         </div>
                     </form>
+                    <div class="reparation" id="reparation">
+                      <div class="rep_content">
+                       <p> Esta sección se encuentra en construcción</p>
+                       <p>para contactarnos, envíanos un mail haciendo click aquí abajo</p>
+                        <a href="mailto:info@mecasynapse.com">info@mecasynapse.com</a>
+                         <p>...o ...</p>
+                       <button onclick="toggleDisplay()">cierra esta ventana</button>
+                            <p>y continúa navegando</p>
+                         </div>
+                          <!--menu javascript-->
+
+    <script>
+
+    function toggleDisplay() {
+        var element = document.getElementById('reparation');
+
+        // Check the current display property and toggle it
+        if (element.style.display === 'none') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+    
+    
+</script>
+
+                    </div>
+                    
                  </div>
              </div>
              <div data-ss-empty="false" 
@@ -981,6 +1034,7 @@ menu.addEventListener('click', function(){
       <script 
       type="text/javascript"
        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js">
+
       <!--font awsome-->
   <script src="https://kit.fontawesome.com/aacf728f4f.js"
    crossorigin="anonymous"></script>       

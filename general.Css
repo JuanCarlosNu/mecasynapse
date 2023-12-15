@@ -1,6 +1,9 @@
 /*este pretende manejar el formateo de títulos*/
 
 /*Nuestros proyectos*/
+*{
+  box-sizing: border-box;
+}
 .section_title_container{
     text-align: start;
     margin-top: 3rem;
@@ -42,7 +45,7 @@
     /*compromiso*/
     .compromiso_heading{
         background-color: white;
-        margin-top: 48px;
+        padding-top: 48px;
         padding-bottom: 48px;
       }
       
