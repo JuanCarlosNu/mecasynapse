@@ -10,7 +10,7 @@
   <link href='https://fonts.googleapis.com/css?family=Oswald:700,300' rel='stylesheet' type='text/css'>
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'><script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
-  <link rel="stylesheet" href="../NavBarStyle.css">
+  <link rel="stylesheet" href="/NavBarStyle.css">
 
 <!--Gallery styling-->
 <style
@@ -290,18 +290,18 @@ p {
 <body>
   <div class="nav-container" id="nav" >
     <div class="navbar" style="height: 3.5rem;" style="display:block; box-shadow: none;">
-       <a class="left_col">
+       <a href="/index.html" class="left_col">
          <img class="logo_img" id="logo"
-         src="../data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo">
+         src="/data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo">
        </a>
        <div class="right_col" >
          <div class="nav-menu">  
           <ul >
-            <li><a href="#nav" class="nav-links">Inicio</a></li>
-            <li><a href="pages/team.html" class="nav-links">Acerca</a></li>
-            <li><a href="#" class="nav-links">Proyectos</a></li>
-            <li><a href="#" class="nav-links">Expertise</a></li>
-            <li><a href="#" class="nav-links">Contacto</a></li>
+            <li><a href="../index.html" class="nav-links">Inicio</a></li>
+            <li><a href="../pages/team.html" class="nav-links">Acerca</a></li>
+            <li><a href="../index.html#proy" class="nav-links">Proyectos</a></li>
+            <!--<li><a href="#" class="nav-links">Expertise</a></li>-->
+            <li><a href="/index.html#contacto" class="nav-links">Contacto</a></li>
           </ul>
         </div>
       <div class=" language">
@@ -320,7 +320,9 @@ p {
 
     </div>
   </div>
-<div class="case-study-gallery">
+
+  
+<div class="case-study-gallery" id="Proye">
   <h1 class="title" style="font-family: Arial, Helvetica, sans-serif;"
   data-translation-id="proy_dev_title">
   DEVANADOR ALAMBRE COBRE Y EXTRUSORA DE PLÁSTICO
@@ -434,10 +436,7 @@ p {
     <button class="lightbox-prev">&lt;</button>
 <button class="lightbox-next">&gt;</button>
 </div>
-<footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-fc51"><div class="u-clearfix u-sheet u-sheet-1">
-  <p class="u-small-text u-text u-text-variant u-text-1"> Mecasynapse</p>
-</div>
-</footer>
+
 </div>
 <!--lightbox code-->
 <script>

@@ -70,7 +70,7 @@
    text-decoration: underline;
    text-underline-offset: 7px;
 }
-.bar{
+.bar2{
     display: none;
 }
 @media screen and (max-width: 800px){
@@ -99,7 +99,7 @@
             order: 3;
             padding-right: 0px;
         }
-        .bar{
+        .bar2{
             display: block;
             order: 2;
             width: 30%;

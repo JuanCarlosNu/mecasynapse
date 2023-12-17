@@ -107,26 +107,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<div class="nav-container">
-  <div class="navbar" style="display:block">
-     <a class="left_col" onclick="changeImg()"><img class="logo_img" id="logo"
-       src="../data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo"></a>
-    
 
-    <div class="right_col" style="float: right;">
-    <div class="nav-menu">  
-      <ul >
-          <li><a href="../index.html"  class="nav-links">Inicio</a></li>
-          <li><a href="#" class="nav-links">Acerca</a></li>
-          <li><a href="#" class="nav-links">Proyectos</a></li>
-          <li><a href="#" class="nav-links">Expertise</a></li>
-          <li><a href="#" class="nav-links">Contacto</a></li>
-      </ul>
-    </div>
+<div class="nav-container" id="nav" >
+  <div class="navbar" style="height: 3.5rem;" style="display:block; box-shadow: none;">
+     <a href="/index.html" class="left_col">
+       <img class="logo_img" id="logo"
+       src="/data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo">
+     </a>
+     <div class="right_col" >
+       <div class="nav-menu">  
+        <ul >
+          <li><a href="../index.html" class="nav-links">Inicio</a></li>
+          <li><a href="../pages/team.html" class="nav-links">Acerca</a></li>
+          <li><a href="../index.html#proy" class="nav-links">Proyectos</a></li>
+          <!--<li><a href="#" class="nav-links">Expertise</a></li>-->
+          <li><a href="/index.html#contacto" class="nav-links">Contacto</a></li>
+        </ul>
+      </div>
     <div class=" language">
-      <a id="ES" class="lan" style="font-weight: bolder;" href="#">ES</a>
-         <a id="EN" class="lan" href="#">EN</a>
-         <a id="FR" class="lan" href="#">FR</a> 
+         <a id="ES" class="lan" onclick="changeLanguage('es')"  style="font-weight: bolder;" href="#">ES</a>
+         <a id="EN" class="lan" onclick="changeLanguage('en')" href="#">EN</a>
+         <a id="FR" class="lan" onclick="changeLanguage('fr')" href="#">FR</a> 
    </div>
   </div>
     <div class="menu-toggle" id="mobile-menu">
@@ -153,7 +154,10 @@
                     <div class="box"><img class="rounded-circle" src="../data/fotoTeam/Alvaro.png">
                         <h3 class="name">Alvaro Diaz</h3>
                         <p class="title">Ingenieur en dessin mecánique senior</p>
-                        <p class="description">Mi pasion por la ingeniería comenzó en mis tempranos 15 años cuando en el instituto politécnico general San Martín llevamos adelante un proyecto para hacer un taburete premiun </p>
+<!--                        <p class="description">Mi pasion por la ingeniería comenzó 
+                          en mis tempranos 15 años cuando en el instituto politécnico 
+                          general San Martín llevamos adelante un proyecto para hacer un
+                           taburete premiun </p>-->
                         <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                     </div>
                 </div>
@@ -161,7 +165,12 @@
                     <div class="box"><img class="rounded-circle" src="../data/fotoTeam/Roman.png">
                         <h3 class="name">Román</h3>
                         <p class="title">Ingénieur mécanique senior & project manager – Basé en FR</p>
-                        <p class="description">Mi pasion por la ingeniería comenzó en mis tempranos 15 años cuando en el instituto politécnico general San Martín llevamos adelante un proyecto para hacer un taburete premiun</p>
+                       
+                        <!--<p class="description">Mi pasion por la ingeniería comenzó en mis
+                           tempranos 15 años cuando en el instituto politécnico general 
+                           San Martín llevamos adelante un proyecto para hacer un taburete
+                            premiun</p>-->
+
                         <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                     </div>
                 </div>
@@ -170,7 +179,12 @@
                         <h3 class="name">Santiago</h3>
                         <p class="title">Ingénieur en dessin
                             mécanique senior</p>
-                        <p class="description">Mi pasion por la ingeniería comenzó en mis tempranos 15 años cuando en el instituto politécnico general San Martín llevamos adelante un proyecto para hacer un taburete premiun</p>
+
+                        <!--<p class="description">Mi pasion por la ingeniería comenzó en mis 
+                          tempranos 15 años cuando en el instituto politécnico general San
+                           Martín llevamos adelante un proyecto para hacer un taburete 
+                           premiun</p>-->
+
                         <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                     </div>
                 </div>

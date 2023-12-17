@@ -124,13 +124,20 @@
         vertical-align: center;
         font-size: 100%;
     }
+    .languange a.active{
+      font-weight: 700;
+    }
     .lan{
       height: 100%;
       vertical-align: center;
       font-size: 100%;
       display: inline-block;
-    
+     
     }
+    .lan:active{
+      font-weight: 600;
+    }
+
     .menu-toggle .bar {
         width: 25px;
         height: 3px;
