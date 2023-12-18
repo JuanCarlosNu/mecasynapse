@@ -52,12 +52,19 @@ const translations = {
         proy_mue_subtitle:"En este proyecto se verificó resistencia rigidez y estabilidad de una pieza fabricada de chapa IRAM IAS 215-6 F36 que tiene como fin absober el impacto de embarcaciones durante la maniobra de atraque. Se incluyó la verificación de cada cordón de soldadura. A tal fin se utilizaron herramientas de mecánica computacional basadas en la Teoría de la Elasticidad Lineal resuelta por el método de los elementos finitos.",
 
         comp_title: "Nuestro compromiso",
-        comp_title1:"¿Qué servicios ofrecemos?",
-      comp_subtitle:"Nuestro compromiso es ofrecer un servicio de calidad para pymes y talleres mecánicos altamente calificados",
-           comp_1_1:"Diseño y análisis de máquinas y dispositivos con herramientas computacionales 3D.",
-           comp_1_2:"Confección de ingeniería de detalle para manufactura.",
-           comp_1_3:"Confección de planos mecánicos de fabricación.",
-           comp_1_4:"Cálculos y confección de memorias de cálculo de fenómenos de Estática, Dinámica, Calor, Vibraciones, Fatiga y Pandeo.",    
+        comp_title1:"Qué servicios ofrecemos...",
+      comp_subtitle1:"Nuestro compromiso es ofrecer un servicio de calidad para pymes y talleres mecánicos altamente calificados",
+           comp_1_1:"- Diseño y análisis de máquinas y dispositivos con herramientas computacionales 3D.",
+           comp_1_2:"- Confección de ingeniería de detalle para manufactura.",
+           comp_1_3:"- Confección de planos mecánicos de fabricación.",
+           comp_1_4:"- Cálculos y confección de memorias de cálculo de fenómenos de Estática, Dinámica, Calor, Vibraciones, Fatiga y Pandeo.",    
+
+           comp_title2:"Servicios de consultoría",
+           comp_2_1:"- Apoyo en la búsqueda de soluciones para problemáticas en los rubros siderúrgico,automotriz, máquinas agrícolas y alimentos.",
+           comp_2_2:"- Partnership con Pymes para asesoramiento en diseño de piezas y mecanismos.",
+           comp_2_3:"- Aportar con la expertise de nuestros conocimientos a soluciones industriales.",
+           
+           
 },
 fr: {   
         menu_inicio:"Début",
@@ -112,17 +119,21 @@ fr: {
     proy_mue_breve:"On a vérifié la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 dont le but est d'absorber l'impact des navires lors de la manœuvre d'accostage.",
     proy_mue_subtitle:"Dans ce projet, la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 ont été vérifiées, dont le but est d'absorber l'impact des bateaux lors de la manœuvre d'accostage. La vérification de chaque cordon de soudure a été incluse. À cette fin, des outils de mécanique computationnelle basés sur la théorie de l'élasticité linéaire résolue par la méthode des éléments finis ont été utilisés.",
 
-       comp_title: "Nos Prestations",  
+    comp_title: "Nos Prestations",  
         comp_title1:" quels services nous proposons",
-        comp_subtitle:"Notre engagement et fournir un service de BE de qualité pour les PME et les ateliers mécaniqueshautement qualifiés",
+        comp_subtitle1:"Notre engagement et fournir un service de BE de qualité pour les PME et les ateliers mécaniqueshautement qualifiés",
            comp_1_1:"Conception et analyse de machines",
            comp_1_2:"Réalisation de l’ingénierie détaillée pour la fabrication.",
            comp_1_3:"Réalisation des plans de fabrication.",
            comp_1_4:"Réalisation de notes de calcul.",
 
-
-
+           comp_title2:"Consulting",
+        
+           comp_2_1:"Soutien à la recherche des nouvelles solutions technologiques.",
+           comp_2_2:"Support dans la conception de pièces et de mécanismes.",
+           comp_2_3:"Apporter notre expertise dans vos besoins industrielles.",
     },
+
 en: {
     menu_inicio:"Home",
     menu_acerca:"About",
@@ -177,15 +188,19 @@ en: {
     proy_mue_breve:"The resistance, rigidity and stability of a piece made of IRAM IAS 215-6 F36 sheet metal was verified, the purpose of which is to absorb the impact of vessels during the docking maneuver.",
     proy_mue_subtitle:"In this project, resistance, rigidity and stability of a piece made of IRAM IAS 215-6 F36 sheet was verified, which is intended to absorb the impact of vessels during the docking maneuver. Verification of each weld bead was included. For this, computational mechanics tools based on the Linear Elasticity Theory solved by the finite element method were used.",
 
-    comp_title: "NOS PRESTATIONS",  
-        comp_title1:"Notre engagement et fournir un service de BE de qualité pour les PME et les ateliers mécaniqueshautement qualifiés",
-      comp_subtitle:"Nuestro compromiso es ofrecer un servicio de calidad para pymes y talleres mecánicos altamente calificados",
-           comp_1_1:"Conception et analyse de machines",
-           comp_1_2:"Réalisation de l’ingénierie détaillée pour la fabrication.",
-           comp_1_3:"Réalisation des plans de fabrication.",
-           comp_1_4:"Réalisation de notes de calcul.",
-           
+    comp_title: " Commitment",  
 
+        comp_title1:"What services do we offer?",
+      comp_subtitle1:"Our commitment is to offer a quality service for SMEs and highly qualified mechanical workshops.",
+           comp_1_1:"Design and analysis of machines and devices with 3D computational tools.",
+           comp_1_2:"Detailed engineering for manufacturing.",
+           comp_1_3:"Mechanical manufacturing drawings.",
+           comp_1_4:"Calculations and calculation reports of Static, Dynamic, Heat, Vibrations, Fatigue and Buckling phenomena.",
+           
+           comp_title2:"Consulting Services",
+           comp_2_1:"Support in reaching solutions to problems in the steel, automotive, agricultural machinery and food industries.",
+           comp_2_2:"Partnership with SMEs for advice on designing parts and mechanisms.",
+           comp_2_3:"Contributing with our expertise to industrial solutions.",
 
 },
 

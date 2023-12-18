@@ -77,14 +77,16 @@ display:block
   flex:50%;
   display: flex;
   flex-direction: column; 
- align-items: center;
+ align-items: start;
+ justify-content: center;
+ margin: 0px 20px;
 
  }
 
  .compromiso_content h2{
-  padding-top: 20px;
+  padding-top: 0;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 15px;
   padding-right: 20px;
   margin-bottom: 20px;
  }
@@ -94,7 +96,7 @@ display:block
  .compromiso_content h4{
   padding-bottom: 20px;
   padding-left: 15px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
  }
 
 .item_container{
@@ -144,15 +146,24 @@ display:block
 @media (max-width: 720px) {
   .flex_container{
     flex-direction: column;
-    height: 100%;
-    
-  }
+    justify-content:start;
+    height: 720px;
+    }
+    .compromiso_content{
+      justify-content: start;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 3px;
+    }
+
+  
 
   p:not(.u-text-variant) {
     font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -169,9 +180,17 @@ display:block
   object-fit:fill;
 }
 
-.compromiso_content h2{
-  padding-top: 0;
+.compromiso_content h2{ 
+  padding-top: 10px;
   padding-bottom: 0;
+ 
+}
+.compromiso_content h4{
+  padding-bottom: 0px;
+}
+
+#con_sub{
+  padding-top: 10px;
 }
  
 

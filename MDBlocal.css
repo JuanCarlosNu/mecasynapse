@@ -84,7 +84,7 @@
 body {
     margin: 0;
     font-family: var(--mdb-body-font-family);
-    font-size: var(--mdb-body-font-size);
+    font-size: 18px;
     font-weight: var(--mdb-body-font-weight);
     line-height: var(--mdb-body-line-height);
     color: var(--mdb-body-color);
@@ -168,7 +168,7 @@ hr {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 6px;
 }
 
 abbr[title] {

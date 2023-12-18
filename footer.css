@@ -1,6 +1,6 @@
 .footer_container{
     background-color: #1e1e1f;
-    height: 7rem;
+    height: 5rem;
     
     width: 100%;
     display: flex;
@@ -21,7 +21,7 @@
 .center{
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
 }
 .center p{
    margin: 0 0 0;
@@ -34,10 +34,21 @@
     padding-right: 2.5rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
+}
+.footer-icons{
+    text-align: end;
+}
+.incon_map{
+    cursor: pointer;
+    color: white;
 }
 .address{
+    color: white;
     padding-top: 10px;
+}
+.address:hover{
+    color:#3b71ca;
 }
 .foot_right p{
     margin-top: 0px;
@@ -67,8 +78,8 @@
 
 }
 .sello{
-   text-decoration: underline;
-   text-underline-offset: 7px;
+   /*text-decoration: underline;
+   text-underline-offset: 7px;*/
 }
 .bar2{
     display: none;
@@ -104,6 +115,9 @@
             order: 2;
             width: 30%;
             border-bottom: 2px solid white;
+        }
+        .footer-icons{
+            text-align: center;
         }
         
 
