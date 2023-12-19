@@ -29,7 +29,7 @@ const translations = {
         main_calc_subtitle:"Confección de memorias de cálculo para modelos físicos de situaciones reales",
         main_simu_title:"Simulaciones",
         main_simu_subtitle:"Simulaciones computacionales de modelos físicos de estática, dinámica, transferencia de calor, vibraciones, mecánica de fluidos y fatiga.",
-        proyectos_title:"Nuestros proyectos destacados",
+        proyectos_title:"Alguno de nuestros proyectos",
 
         proy_rotweb_title:"ROTADOR DE BLOCKS DE MOTORES",
         proy_rotweb_breve:"Un rotador de blocks de motor para tareas de control entre procesos de mecanizado",
@@ -97,7 +97,7 @@ fr: {
     main_simu_title:"Simulations",
     main_simu_subtitle:"Simulations numériques de modèles physiques de statique, de dynamique, de transfert de chaleur, des vibrations, de la mécanique des fluides ainsi que de fatigue",
    
-    proyectos_title:"Nos Projets Phares",
+    proyectos_title:"Certains de nos projets",
     
     proy_rotweb_title:"ROTATEUR DE BLOC MOTEUR",
     proy_rotweb_breve:"Un rotateur de bloc moteur pour les tâches de contrôle entre les processus d'usinage",
@@ -166,7 +166,7 @@ en: {
     main_simu_title:"Simulations",
     main_simu_subtitle:"Computational simulations of physical models of statics, dynamics, heat transfer, vibration, fluid mechanics, and fatigue",
     
-    proyectos_title:"Our Featured Projects",
+    proyectos_title:"Some of our projects",
 
     proy_rotweb_title:"ENGINE BLOCK ROTATOR",
     proy_rotweb_breve:"A motor block rotator for control tasks between machining processes",

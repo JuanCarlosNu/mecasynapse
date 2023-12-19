@@ -27,9 +27,9 @@
              background-color: transparent;
               border: 1px solid black;
                  }     
-                .contact_container{
-                  z-index: -2;
-                  background-color: rgba(242, 242, 242, 1);
+                .contact_container{ 
+                  z-index: 3;
+                  background-color: rgba(242, 242, 242, .1);
                 }
                 .Form_data_container{
                     background-color: transparent;

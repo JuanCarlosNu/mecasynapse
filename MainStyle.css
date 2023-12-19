@@ -56,6 +56,16 @@
         .flecha_next:hover{
           transform: translateX(10px);
         }
+        .flecha_prev{
+          position: absolute;
+         left: 20px;
+         top:90%;
+         
+
+        }
+        .flecha_prev:hover{
+          transform: translateX(10px);
+        }
 
        
         
@@ -97,9 +107,10 @@
         top: 15%;
         
          }
-    .flecha_next{
+    .flecha_next, .flecha_prev{
       display: none;
-    }     
+    }    
+     
 }
 
  

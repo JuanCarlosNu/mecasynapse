@@ -47,8 +47,14 @@
 .card{
     height: 550px;
 }
+.card a{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
 .card img{
     height: 300px;
+    cursor: pointer;
 }
 .card-body{
     display: flex;
