@@ -180,6 +180,9 @@ display:block
   height: 300px;
   object-fit:fill;
 }
+.img_container {
+  flex: none;
+}
 
 .compromiso_content h2{ 
   padding-top: 10px;
