@@ -18,7 +18,8 @@ display:block
 } 
 
 .img_container{
- ;
+ flex: 50%;
+ background-color: black;
 }
 
 .point {
