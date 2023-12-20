@@ -74,6 +74,8 @@ const translations = {
            comp_2_3:"- Aportar con la expertise de nuestros conocimientos a soluciones industriales.",
            
            
+           
+           
 },
     fr: {   
            menu_inicio:"Début",
