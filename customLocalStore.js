@@ -73,6 +73,11 @@ const translations = {
            comp_2_2:"- Partnership con Pymes para asesoramiento en diseño de piezas y mecanismos.",
            comp_2_3:"- Aportar con la expertise de nuestros conocimientos a soluciones industriales.",
            
+           comp_title3:"Servicios de ingeniería",
+           comp_3_1:"- Diseño y cálculo de mecanismos y máquinas persiguiendo un efecto útil de la forma más eficiente y económica posible.",
+           comp_3_2:"- Soluciones mecánicas a problemáticas de su empresa en áreas como producción, mantenimiento, manufactura, producto.",
+           comp_3_3:"- Pliegos de ingeniería de detalle adaptados ya sea a fabricación en serie como a prototipados.",
+
            
            
            
@@ -150,6 +155,11 @@ const translations = {
            comp_2_1:"Soutien à la recherche des nouvelles solutions technologiques.",
            comp_2_2:"Support dans la conception de pièces et de mécanismes.",
            comp_2_3:"Apporter notre expertise dans vos besoins industrielles.",
+
+           comp_title3:"Engineering",
+           comp_3_1:"- Conception et calcul de mécanismes et de machines.",
+           comp_3_2:"- Solutions mécaniques aux problématiques de votre entreprise.",
+           comp_3_3:"- Réalisation de cahiers des charges détaillés.",
     },
 
 en: {
@@ -227,6 +237,11 @@ en: {
            comp_2_1:"Support in reaching solutions to problems in the steel, automotive, agricultural machinery and food industries.",
            comp_2_2:"Partnership with SMEs for advice on designing parts and mechanisms.",
            comp_2_3:"Contributing with our expertise to industrial solutions.",
+
+           comp_title3:"Engineering",
+           comp_3_1:"- Design and calculation of mechanisms and machines pursuing a useful effect in the most efficient and economical way possible.",
+           comp_3_2:"- Mechanical solutions to problems of your company in areas such as production, maintenance, manufacturing, product.",
+           comp_3_3:"- Detailed engineering specifications adapted to either mass production or prototyping.",
 
 },
 
