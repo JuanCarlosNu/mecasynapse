@@ -120,12 +120,12 @@ fr: {
     proy_mue_subtitle:"Dans ce projet, la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 ont été vérifiées, dont le but est d'absorber l'impact des bateaux lors de la manœuvre d'accostage. La vérification de chaque cordon de soudure a été incluse. À cette fin, des outils de mécanique computationnelle basés sur la théorie de l'élasticité linéaire résolue par la méthode des éléments finis ont été utilisés.",
 
     comp_title: "Nos Prestations",  
-        comp_title1:" quels services nous proposons",
+        comp_title1:" Quels services nous proposons...",
         comp_subtitle1:"Notre engagement et fournir un service de BE de qualité pour les PME et les ateliers mécaniqueshautement qualifiés",
-           comp_1_1:"Conception et analyse de machines",
-           comp_1_2:"Réalisation de l’ingénierie détaillée pour la fabrication.",
-           comp_1_3:"Réalisation des plans de fabrication.",
-           comp_1_4:"Réalisation de notes de calcul.",
+           comp_1_1:"- Conception et analyse de machines",
+           comp_1_2:"- Réalisation de l’ingénierie détaillée pour la fabrication.",
+           comp_1_3:"- Réalisation des plans de fabrication.",
+           comp_1_4:"- Réalisation de notes de calcul.",
 
            comp_title2:"Consulting",
         

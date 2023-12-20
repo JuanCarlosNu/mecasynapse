@@ -79,7 +79,11 @@
         line-height: 30px;
 
       }
-      .nav-menu a{
+      .lan{
+        cursor: pointer;
+      }
+      .nav-menu {
+        
 
         margin-right: 15px;
         display: inline-block;
