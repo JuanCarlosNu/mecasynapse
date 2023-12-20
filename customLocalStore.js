@@ -51,6 +51,15 @@ const translations = {
         proy_mue_breve:"Se verificó resistencia rigidez y estabilidad de una pieza fabricada de chapa IRAM IAS 215-6 F36 que tiene como fin absober el impacto de embarcaciones durante la maniobra de atraque",
         proy_mue_subtitle:"En este proyecto se verificó resistencia rigidez y estabilidad de una pieza fabricada de chapa IRAM IAS 215-6 F36 que tiene como fin absober el impacto de embarcaciones durante la maniobra de atraque. Se incluyó la verificación de cada cordón de soldadura. A tal fin se utilizaron herramientas de mecánica computacional basadas en la Teoría de la Elasticidad Lineal resuelta por el método de los elementos finitos.",
 
+        proy_saca_title:"HERRAMENTAL ACCIONAMIENTO SACABOCADOS",
+        proy_saca_breve:"Diseño y fabricación de herramental para accionamiento sacabocados en derivaciones T para líneas de gas. Cuenta con sistema de liberación rápida para intercambio de herramental.",
+        proy_saca_subtitle:"Diseño y fabricación de herramental para accionamiento sacabocados en derivaciones T para líneas de gas. Cuenta con sistema de liberación rápida para intercambio de herramental.",
+
+        proy_rea_title:"DISEÑO Y VERIFICACIÓN DE REACTOR QUÍMICO",
+        proy_rea_breve:"Diseño, verificación teórica y planimetría de detalle del mando de un agitador para un reactor químico de grandes dimensiones.",
+        proy_rea_subtitle:"Diseño, verificación teórica y planimetría de detalle del mando de un agitador para un reactor químico de grandes dimensiones. Incluyó cálculos dinámicos para verificación de mando, cálculos FEM para dimensionado y verificación de piezas de la transmisión y confección de documentación con ingeniería de detalle.",
+
+
         comp_title: "Nuestro compromiso",
         comp_title1:"Qué servicios ofrecemos...",
       comp_subtitle1:"Nuestro compromiso es ofrecer un servicio de calidad para pymes y talleres mecánicos altamente calificados",
@@ -66,19 +75,19 @@ const translations = {
            
            
 },
-fr: {   
-        menu_inicio:"Début",
-        menu_acerca:"à propos",
-        menu_proyectos:"Projets",
-        menu_contacto:"Contact",
+    fr: {   
+           menu_inicio:"Début",
+           menu_acerca:"à propos",
+           menu_proyectos:"Projets",
+           menu_contacto:"Contact",
 
-        ver: "VOIR LE PROJET",
+           ver: "VOIR LE PROJET",
 
 
-    main_title: 'L’Excellence des Services  D’Ingeniénierie',
-     main_subtitle: 'En travaillant avec des équipes de professionnels hautement qualifiés de notre siège à Toulouse, avec une vaste expérience dans différents domaines de l’industrie et en utilisant les meilleurs outils du marché, nous apportons des solutions efficaces aux besoins les plus variés.',
-     main_sider_title: "Sidérurgie",
-     main_sider_subtitle:"Lignes de LAC; Lignes de LAF; Lignes de galvanisation; Reduction directe; Coulée continue; Coulée continue; Traitement de la ferraille",
+         main_title: 'L’Excellence des Services  D’Ingeniénierie',
+         main_subtitle: 'En travaillant avec des équipes de professionnels hautement qualifiés de notre siège à Toulouse, avec une vaste expérience dans différents domaines de l’industrie et en utilisant les meilleurs outils du marché, nous apportons des solutions efficaces aux besoins les plus variés.',
+         main_sider_title: "Sidérurgie",
+         main_sider_subtitle:"Lignes de LAC; Lignes de LAF; Lignes de galvanisation; Reduction directe; Coulée continue; Coulée continue; Traitement de la ferraille",
      /*main_sider_sub1:"Lignes de LAC",
      main_sider_sub2:"Lignes de LAF",
      main_sider_sub3:"Lignes de galvanisation",
@@ -86,40 +95,47 @@ fr: {
      main_sider_sub5:"Coulée continue",
      main_sider_sub6:"Traitement de la ferraille",*/
 
-     main_alim_title:"Alimentarire",
-     main_alim_subtitle:"Équipements et structures pour les industries des épices, du chocolat, du thé, etc",
+         main_alim_title:"Alimentarire",
+         main_alim_subtitle:"Équipements et structures pour les industries des épices, du chocolat, du thé, etc",
+         main_manip_title:"Manutention",
+         main_manip_subtitle:"Conception et calcul d’éléments de levage et manutention pour tous les types d’industries et de besoins.",
 
-     main_manip_title:"Manutention",
-     main_manip_subtitle:"Conception et calcul d’éléments de levage et manutention pour tous les types d’industries et de besoins.",
-
-    main_calc_title:"Notes de Calcul",
-    main_calc_subtitle:"Réalisation de mémoires de calcul pour des modèles physiques de situations réelles réelles",
-    main_simu_title:"Simulations",
-    main_simu_subtitle:"Simulations numériques de modèles physiques de statique, de dynamique, de transfert de chaleur, des vibrations, de la mécanique des fluides ainsi que de fatigue",
+         main_calc_title:"Notes de Calcul",
+         main_calc_subtitle:"Réalisation de mémoires de calcul pour des modèles physiques de situations réelles réelles",
+         main_simu_title:"Simulations",
+         main_simu_subtitle:"Simulations numériques de modèles physiques de statique, de dynamique, de transfert de chaleur, des vibrations, de la mécanique des fluides ainsi que de fatigue",
    
-    proyectos_title:"Certains de nos projets",
+         proyectos_title:"Certains de nos projets",
     
-    proy_rotweb_title:"ROTATEUR DE BLOC MOTEUR",
-    proy_rotweb_breve:"Un rotateur de bloc moteur pour les tâches de contrôle entre les processus d'usinage",
-    proy_rotweb_subtitle:"Dans ce projet, un rotateur de bloc moteur a été conçu pour les tâches de contrôle entre les processus d'usinage. Il comprenait des calculs dynamiques pour sélectionner la commande, des calculs pour le dimensionnement et la sélection du système pneumatique pour le mouvement et le serrage du châssis, et la vérification théorique FEM des pièces soumises à des charges dans ledit dispositif.",
+         proy_rotweb_title:"ROTATEUR DE BLOC MOTEUR",
+         proy_rotweb_breve:"Un rotateur de bloc moteur pour les tâches de contrôle entre les processus d'usinage",
+         proy_rotweb_subtitle:"Dans ce projet, un rotateur de bloc moteur a été conçu pour les tâches de contrôle entre les processus d'usinage. Il comprenait des calculs dynamiques pour sélectionner la commande, des calculs pour le dimensionnement et la sélection du système pneumatique pour le mouvement et le serrage du châssis, et la vérification théorique FEM des pièces soumises à des charges dans ledit dispositif.",
 
-    proy_lg_title:"DISPOSITIF DE LEVAGE AUXILIAIRE",
-    proy_lg_breve:"Conception et fabrication d'équipements auxiliaires de levage pour le montage et le démontage de compteurs de gaz.",
-    proy_lg_subtitle:"Conception et fabrication d'équipements auxiliaires de levage pour le montage et le démontage de compteurs de gaz.",
+        proy_lg_title:"DISPOSITIF DE LEVAGE AUXILIAIRE",
+        proy_lg_breve:"Conception et fabrication d'équipements auxiliaires de levage pour le montage et le démontage de compteurs de gaz.",
+        proy_lg_subtitle:"Conception et fabrication d'équipements auxiliaires de levage pour le montage et le démontage de compteurs de gaz.",
     
-    proy_gira_title:"ESSORAGE D’ÉCHAPPEMENT MULTIPLE",
-    proy_gira_breve:"Ingénierie détaillée d’une fixation et d’un centrifugeur d’échappement de moteur diesel pour une station de mesure et un ensemble d’accessoires dans une usine de moteurs.",
-    proy_gira_subtitle:"Ingénierie détaillée d’une fixation et d’un centrifugeur d’échappement de moteur diesel pour une station de mesure et un ensemble d’accessoires dans une usine de moteurs. Le projet comprenait la modélisation 3D complète, la préparation des documents de construction et l’assistance au montage.",
+        proy_gira_title:"ESSORAGE D’ÉCHAPPEMENT MULTIPLE",
+        proy_gira_breve:"Ingénierie détaillée d’une fixation et d’un centrifugeur d’échappement de moteur diesel pour une station de mesure et un ensemble d’accessoires dans une usine de moteurs.",
+        proy_gira_subtitle:"Ingénierie détaillée d’une fixation et d’un centrifugeur d’échappement de moteur diesel pour une station de mesure et un ensemble d’accessoires dans une usine de moteurs. Le projet comprenait la modélisation 3D complète, la préparation des documents de construction et l’assistance au montage.",
 
-    proy_dev_title:"ENROULEUR DE FIL DE CUIVRE ET EXTRUDEUR DE PLASTIQUE",
-    proy_dev_breve:"Bobineuse de fil et extrudeuse de plastique pour une ligne de fabrication de câbles en continu",
-    proy_dev_subtitle:"Ingénierie de détail d'une machine de bobinage de fil et d'une extrudeuse de plastique basée sur une conception proposée par le client pour une ligne de fabrication de câbles continus. Le projet comprenait la modélisation 3D complète des deux machines et la préparation des documents de construction.",
+        proy_dev_title:"ENROULEUR DE FIL DE CUIVRE ET EXTRUDEUR DE PLASTIQUE",
+        proy_dev_breve:"Bobineuse de fil et extrudeuse de plastique pour une ligne de fabrication de câbles en continu",
+        proy_dev_subtitle:"Ingénierie de détail d'une machine de bobinage de fil et d'une extrudeuse de plastique basée sur une conception proposée par le client pour une ligne de fabrication de câbles continus. Le projet comprenait la modélisation 3D complète des deux machines et la préparation des documents de construction.",
 
-    proy_mue_title:"BOUCLIER DE RESSORT DE VÉRIFICATION THÉORIQUE",
-    proy_mue_breve:"On a vérifié la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 dont le but est d'absorber l'impact des navires lors de la manœuvre d'accostage.",
-    proy_mue_subtitle:"Dans ce projet, la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 ont été vérifiées, dont le but est d'absorber l'impact des bateaux lors de la manœuvre d'accostage. La vérification de chaque cordon de soudure a été incluse. À cette fin, des outils de mécanique computationnelle basés sur la théorie de l'élasticité linéaire résolue par la méthode des éléments finis ont été utilisés.",
+        proy_mue_title:"BOUCLIER DE RESSORT DE VÉRIFICATION THÉORIQUE",
+        proy_mue_breve:"On a vérifié la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 dont le but est d'absorber l'impact des navires lors de la manœuvre d'accostage.",
+        proy_mue_subtitle:"Dans ce projet, la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 ont été vérifiées, dont le but est d'absorber l'impact des bateaux lors de la manœuvre d'accostage. La vérification de chaque cordon de soudure a été incluse. À cette fin, des outils de mécanique computationnelle basés sur la théorie de l'élasticité linéaire résolue par la méthode des éléments finis ont été utilisés.",
 
-    comp_title: "Nos Prestations",  
+        proy_saca_title:"Outillage d'entraînement du poinçon",
+        proy_saca_breve:"Conception et fabrication d'outillages pour enfoncer des poinçons dans les branches en T des conduites de gaz.",
+        proy_saca_subtitle:"Conception et fabrication d'outillages pour enfoncer des poinçons dans les branches en T des conduites de gaz. Il dispose d'un système de libération rapide pour l'échange d'outils.",
+
+        proy_rea_title:"CONCEPTION ET VÉRIFICATION DU RÉACTEUR CHIMIQUE",
+        proy_rea_breve:"Conception, vérification théorique et planimétrie détaillée de la commande d'un agitateur pour un grand réacteur chimique.",
+        proy_rea_subtitle:"Conception, vérification théorique et planimétrie détaillée de la commande d'un agitateur pour un grand réacteur chimique. Il comprenait des calculs dynamiques pour la vérification des commandes, des calculs FEM pour le dimensionnement et la vérification des pièces de transmission et la préparation d'une documentation technique détaillée.",
+
+        comp_title: "Nos Prestations",  
         comp_title1:" Quels services nous proposons...",
         comp_subtitle1:"Notre engagement et fournir un service de BE de qualité pour les PME et les ateliers mécaniqueshautement qualifiés",
            comp_1_1:"- Conception et analyse de machines",
@@ -187,15 +203,23 @@ en: {
     proy_mue_title:"THEORETICAL VERIFICATION for PORT SHIELD",
     proy_mue_breve:"The resistance, rigidity and stability of a piece made of IRAM IAS 215-6 F36 sheet metal was verified, the purpose of which is to absorb the impact of vessels during the docking maneuver.",
     proy_mue_subtitle:"In this project, resistance, rigidity and stability of a piece made of IRAM IAS 215-6 F36 sheet was verified, which is intended to absorb the impact of vessels during the docking maneuver. Verification of each weld bead was included. For this, computational mechanics tools based on the Linear Elasticity Theory solved by the finite element method were used.",
+    
+    proy_saca_title:"CUSTOM TOOL FOR T'S SOCKET PUNCH",
+    proy_saca_breve:"Design and manufacturing of custom tool for manual driving of T´s socket punches in gas lines",
+    proy_saca_subtitle:"Design and manufacturing of custom tool for manual driving of T´s socket punches in gas lines. the tool has a quick release system.",
+
+    proy_rea_title:"DESIGN AND VERIFICATION OF CHEMICAL REACTOR",
+    proy_rea_breve:"Design, theoretical verification and detailed planimetry of the command of a stirrer for a large chemical reactor.",
+    proy_rea_subtitle:"Design, theoretical verification and detailed planimetry of the command of a stirrer for a large chemical reactor. It included dynamic calculations for command verification, FEM calculations for sizing and verification of transmission parts, and preparation of detailed engineering documentation.",
 
     comp_title: " Commitment",  
 
         comp_title1:"What services do we offer?",
       comp_subtitle1:"Our commitment is to offer a quality service for SMEs and highly qualified mechanical workshops.",
-           comp_1_1:"Design and analysis of machines and devices with 3D computational tools.",
-           comp_1_2:"Detailed engineering for manufacturing.",
-           comp_1_3:"Mechanical manufacturing drawings.",
-           comp_1_4:"Calculations and calculation reports of Static, Dynamic, Heat, Vibrations, Fatigue and Buckling phenomena.",
+           comp_1_1:"- Design and analysis of machines and devices with 3D computational tools.",
+           comp_1_2:"- Detailed engineering for manufacturing.",
+           comp_1_3:"- Mechanical manufacturing drawings.",
+           comp_1_4:"- Calculations and calculation reports of Static, Dynamic, Heat, Vibrations, Fatigue and Buckling phenomena.",
            
            comp_title2:"Consulting Services",
            comp_2_1:"Support in reaching solutions to problems in the steel, automotive, agricultural machinery and food industries.",
