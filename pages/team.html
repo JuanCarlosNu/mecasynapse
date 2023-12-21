@@ -110,7 +110,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="/NavBarStyle.css">
+
 </head>
+<style>
+  @media screen and (max-width:700px) {
+    .nav-menu active{
+      width:100%;
+    }
+    
+  }
+</style>
 
 <div class="nav-container" id="nav" >
   <div class="navbar"  style="display:block; box-shadow: none;">
@@ -150,10 +159,10 @@
         <div class="container">
             <div class="intro">
                 <h2 class="text-center" data-translation-id="abo_title" >¿ Quiénes somos ? </h2>
-                <div style="text-align: justify;" data-translation-id="abo_text">
+                <div style="text-align: justify; " data-translation-id="abo_text">
                   Somos diseñadores de máquinas y mecanismos. Desde nuestras oficinas en Toulouse coordinamos un equipo de diseñadores mecánicos de élite radicados en Argentina brindando soluciones efectivas a problemáticas diversas para una amplia gama de industrias.
                 </div>
-                <h2 class="text-center" data-translation-id="abo_team">Equipo de ingenieros mecánicos especializados:</h2>
+                <h2 class="text-center" data-translation-id="abo_team" style="padding-top: 50px; padding-bottom: 0px;margin-bottom: 0px;">Equipo de ingenieros mecánicos especializados:</h2>
             </div>
             <div></div>
             <div class="row people">
@@ -230,6 +239,20 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+     <!--menu javascript-->
+<script>
+  const menu = document.querySelector('#mobile-menu');
+  const menuLinks = document.querySelector('.nav-menu');
+  
+  menu.addEventListener('click', function(){
+      menu.classList.toggle('is-active');
+      menuLinks.classList.toggle('active');
+  } )
+  
+  
+</script>
+
+<script src="../customLocalStore.js"></script>
 
 </body>
   
