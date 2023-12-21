@@ -77,7 +77,13 @@ const translations = {
            comp_3_1:"- Diseño y cálculo de mecanismos y máquinas persiguiendo un efecto útil de la forma más eficiente y económica posible.",
            comp_3_2:"- Soluciones mecánicas a problemáticas de su empresa en áreas como producción, mantenimiento, manufactura, producto.",
            comp_3_3:"- Pliegos de ingeniería de detalle adaptados ya sea a fabricación en serie como a prototipados.",
-
+           
+           abo_title:"¡Quiénes somos ?",
+           abo_text:"Somos diseñadores de máquinas y mecanismos. Desde nuestras oficinas en Toulouse coordinamos un equipo de diseñadores mecánicos de élite radicados en Argentina brindando soluciones efectivas a problemáticas diversas para una amplia gama de industrias.",
+           abo_team:"Equipo de ingenieros mecánicos especializados:",
+           abo_esp_alvaro:"Sénior mechanical drawing engineer",
+           abo_esp_roman:"Ingeniero mecánico sénior y director de proyectos – Con sede en Francia",
+           abo_esp_santiago:"Sénior mechanical drawing engineer",
            
            
            
@@ -160,6 +166,14 @@ const translations = {
            comp_3_1:"- Conception et calcul de mécanismes et de machines.",
            comp_3_2:"- Solutions mécaniques aux problématiques de votre entreprise.",
            comp_3_3:"- Réalisation de cahiers des charges détaillés.",
+
+           abo_title:"¡Qui sommes-nous ? ?",
+           abo_text:"Nous sommes concepteurs de machines et de mécanismes. Depuis nos bureaux de Toulouse, nous coordonnons une équipe de concepteurs mécaniques d'élite basés en Argentine, fournissant des solutions efficaces à divers problèmes pour un large éventail d'industries.",
+           abo_team:"Èqiupe d'ingénieurs mécaniques spécialisés:",
+           abo_esp_alvaro:"Ingenieur en dessin mecánique senior",   
+           abo_esp_roman:"Ingénieur mécanique senior & project manager – Basé en FR",
+           abo_esp_santiago:"Ingénieur en dessin mécanique senior",
+
     },
 
 en: {
@@ -242,7 +256,14 @@ en: {
            comp_3_1:"- Design and calculation of mechanisms and machines pursuing a useful effect in the most efficient and economical way possible.",
            comp_3_2:"- Mechanical solutions to problems of your company in areas such as production, maintenance, manufacturing, product.",
            comp_3_3:"- Detailed engineering specifications adapted to either mass production or prototyping.",
-
+           
+           
+           abo_title:"Who we are ?",
+           abo_text:"We are designers of machines and mechanisms. From our offices in Toulouse we coordinate a team of elite mechanical designers based in Argentina, providing effective solutions to diverse problems for a wide range of industries.",
+           abo_team:"Team of specialized mechanical engineers:",
+           abo_esp_alvaro:"Ingeniero senior en dibujo mecanico",
+           abo_esp_roman:"Senior mechanical engineer & project manager – Based in FR",
+           abo_esp_santiago:"Ingeniero senior en dibujo mecanico",
 },
 
 };
