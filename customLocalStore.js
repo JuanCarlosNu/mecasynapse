@@ -84,6 +84,21 @@ const translations = {
            abo_esp_alvaro:"Ingeniero senior en dibujo mecanico",
            abo_esp_roman:"Ingeniero mecánico sénior y director de proyectos – Con sede en Francia",
            abo_esp_santiago:"Ingeniero senior en dibujo mecanico",
+
+
+           cont_title: "Contacto",
+           cont_frase:"Déjanos tu consulta y te responderemos cuanto antes",
+           cont_name:"Nombre",
+           cont_company:"Empresa",
+           cont_code:"Código de país",
+           cont_phone:"Teléfono",
+           cont_email:"Email",
+           cont_from:"Contactame desde las..",
+           cont_to: "hasta las..",
+           cont_acept:"Acepto que mis datos serán utilizados con el objetivo de brindarme servicios, productos y asistencia, conformes a la política de privacidad. Política de privacidad",
+           cont_button:"ENVIAR CONSULTA",
+
+           foot_ss: "Sello Social:",
            
            
            
@@ -173,6 +188,19 @@ const translations = {
            abo_esp_alvaro:"Ingenieur en dessin mecánique senior",   
            abo_esp_roman:"Ingénieur mécanique senior & project manager – Basé en FR",
            abo_esp_santiago:"Ingénieur en dessin mécanique senior",
+
+           cont_title:"Contact",
+           cont_frase:"Laissez-nous votre question et nous vous répondrons dans les plus brefs délais.",
+           cont_name:"Name",
+           cont_company:"Company",
+           cont_code:"Country code",
+           cont_phone:"Phone number",
+           cont_from:"contact me from..",
+           cont_to:"To",
+           cont_acept:"I accept that my data will be used for the purpose of providing me with services, products and assistance, in accordance with the privacy policy. Privacy Policy",
+           cont_button:"SEND",
+
+           foot_ss:"firm address",
 
     },
 
@@ -264,6 +292,19 @@ en: {
            abo_esp_alvaro:"Sénior mechanical drawing engineer",
            abo_esp_roman:"Senior mechanical engineer & project manager – Based in FR",
            abo_esp_santiago:"Sénior mechanical drawing engineer",
+
+           cont_title:"Contact",
+           cont_frase:"Leave as a messasge and we will get back to you a soon as possible",
+           cont_name:"nom",
+           cont_company:"",
+           cont_code:"",
+           cont_phone:"",
+           cont_email:"",
+           cont_from:"",
+           cont_to: "hasta las..",
+           cont_acept:"",
+           cont_button:"",
+           foot_ss:"",
 },
 
 };
