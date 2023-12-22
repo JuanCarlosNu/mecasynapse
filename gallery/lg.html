@@ -251,28 +251,30 @@ p {
 </head>
 
 <body>
-  <div class="nav-container" id="nav" >
-    <div class="navbar" style="height: 3.5rem;" style="display:block; box-shadow: none;">
-       <a href="/index.html" class="left_col">
+
+  <div class="nav-container" id="nav">
+    <div class="navbar" style="display:block; box-shadow: none;">
+       <a  href="#here" class="left_col">
          <img class="logo_img" id="logo"
          src="/data/logoMecaSynpaseCortadoBienporelborde.png" alt="Logo">
        </a>
        <div class="right_col" >
          <div class="nav-menu">  
-          <ul >
-            <li><a href="../index.html" class="nav-links">Inicio</a></li>
-            <li><a href="../pages/team.html" class="nav-links">Acerca</a></li>
-            <li><a href="../index.html#proy" class="nav-links">Proyectos</a></li>
-            <!--<li><a href="#" class="nav-links">Expertise</a></li>-->
-            <li><a href="/index.html#contacto" class="nav-links">Contacto</a></li>
+          <ul>
+            <li><a href="#here" data-translation-id="menu_inicio"  class="nav-links">Inicio</a></li>
+            <li><a href="pages/team.html" data-translation-id="menu_acerca" class="nav-links">Acerca</a></li>
+            <li><a href="#proy" data-translation-id="menu_proyectos" class="nav-links">Proyectos</a></li>
+          <!-- <li><a href="#" class="nav-links">Expertise</a></li>-->
+            <li><a href="#contacto" data-translation-id="menu_contacto" class="nav-links">Contacto</a></li>
           </ul>
         </div>
       <div class=" language">
-           <a id="ES" class="lan" onclick="changeLanguage('es')"  style="font-weight: bolder;" href="#">ES</a>
-           <a id="EN" class="lan" onclick="changeLanguage('en')" href="#">EN</a>
-           <a id="FR" class="lan" onclick="changeLanguage('fr')" href="#">FR</a> 
+           <a id="ES" class="lan" onclick="changeLanguage('es')"  style="font-weight: bolder;"  >ES</a>
+           <a id="EN" class="lan" onclick="changeLanguage('en')" >EN</a>
+           <a id="FR" class="lan" onclick="changeLanguage('fr')" >FR</a> 
      </div>
     </div>
+   
       <div class="menu-toggle" id="mobile-menu">
         <!-- This draw the lines of the icon -->
          <span class="bar"></span>
@@ -283,6 +285,8 @@ p {
 
     </div>
   </div>
+
+
     <div class="case-study-gallery">
   <h1 class="title" style="font-family: Arial, Helvetica, sans-serif;"
   data-translation-id="proy_lg_title">

@@ -81,24 +81,29 @@ const translations = {
            abo_title:"¿ Quiénes somos ?",
            abo_text:"Somos diseñadores de máquinas y mecanismos. Desde nuestras oficinas en Toulouse coordinamos un equipo de diseñadores mecánicos de élite radicados en Argentina brindando soluciones efectivas a problemáticas diversas para una amplia gama de industrias.",
            abo_team:"Equipo de ingenieros mecánicos especializados:",
-           abo_esp_alvaro:"Ingeniero senior en dibujo mecanico",
+           abo_esp_alvaro:"Ingeniero senior en diseño mecánico",
            abo_esp_roman:"Ingeniero mecánico sénior y director de proyectos – Con sede en Francia",
-           abo_esp_santiago:"Ingeniero senior en dibujo mecanico",
+           abo_esp_santiago:"Ingeniero senior en diseño mecánico",
 
 
            cont_title: "Contacto",
            cont_frase:"Déjanos tu consulta y te responderemos cuanto antes",
-           cont_name:"Nombre",
-           cont_company:"Empresa",
            cont_code:"Código de país",
-           cont_phone:"Teléfono",
-           cont_email:"Email",
            cont_from:"Contactame desde las..",
            cont_to: "hasta las..",
            cont_acept:"Acepto que mis datos serán utilizados con el objetivo de brindarme servicios, productos y asistencia, conformes a la política de privacidad. Política de privacidad",
            cont_button:"ENVIAR CONSULTA",
 
            foot_ss: "Sello Social:",
+
+           placeholderTranslations: {
+            name: 'Nombre',
+         company: 'Compañía',
+     phoneNumber: 'Número de teléfono',
+     email:'Correo Electrónico',
+},
+
+           
            
            
            
@@ -173,9 +178,9 @@ const translations = {
 
            comp_title2:"Consulting",
         
-           comp_2_1:"Soutien à la recherche des nouvelles solutions technologiques.",
-           comp_2_2:"Support dans la conception de pièces et de mécanismes.",
-           comp_2_3:"Apporter notre expertise dans vos besoins industrielles.",
+           comp_2_1:"- Soutien à la recherche des nouvelles solutions technologiques.",
+           comp_2_2:"- Support dans la conception de pièces et de mécanismes.",
+           comp_2_3:"- Apporter notre expertise dans vos besoins industrielles.",
 
            comp_title3:"Engineering",
            comp_3_1:"- Conception et calcul de mécanismes et de machines.",
@@ -191,16 +196,21 @@ const translations = {
 
            cont_title:"Contact",
            cont_frase:"Laissez-nous votre question et nous vous répondrons dans les plus brefs délais.",
-           cont_name:"Name",
-           cont_company:"Company",
-           cont_code:"Country code",
-           cont_phone:"Phone number",
-           cont_from:"contact me from..",
-           cont_to:"To",
-           cont_acept:"I accept that my data will be used for the purpose of providing me with services, products and assistance, in accordance with the privacy policy. Privacy Policy",
-           cont_button:"SEND",
+           cont_code:"Préfix du Pays",
+           cont_from:"contactez-moi de ..  ",
+           cont_to:"Au",
+           cont_acept:"J'accepte que mes données soient utilisées dans le but de me fournir des services, produits et assistance, conformément à la politique de confidentialité. politique de confidentialité",
+           cont_button:"envoyer le message",
 
            foot_ss:"firm address",
+
+               
+        placeholderTranslations: {
+            name: 'Nom',
+         company: 'Enterprise',
+     phoneNumber: 'numéro de téléphone',
+     
+},
 
     },
 
@@ -276,9 +286,9 @@ en: {
            comp_1_4:"- Calculations and calculation reports of Static, Dynamic, Heat, Vibrations, Fatigue and Buckling phenomena.",
            
            comp_title2:"Consulting Services",
-           comp_2_1:"Support in reaching solutions to problems in the steel, automotive, agricultural machinery and food industries.",
-           comp_2_2:"Partnership with SMEs for advice on designing parts and mechanisms.",
-           comp_2_3:"Contributing with our expertise to industrial solutions.",
+           comp_2_1:"- Support in reaching solutions to problems in the steel, automotive, agricultural machinery and food industries.",
+           comp_2_2:"- Partnership with SMEs for advice on designing parts and mechanisms.",
+           comp_2_3:"- Contributing with our expertise to industrial solutions.",
 
            comp_title3:"Engineering",
            comp_3_1:"- Design and calculation of mechanisms and machines pursuing a useful effect in the most efficient and economical way possible.",
@@ -295,23 +305,109 @@ en: {
 
            cont_title:"Contact",
            cont_frase:"Leave as a messasge and we will get back to you a soon as possible",
-           cont_name:"nom",
-           cont_company:"",
-           cont_code:"",
-           cont_phone:"",
-           cont_email:"",
-           cont_from:"",
-           cont_to: "hasta las..",
-           cont_acept:"",
-           cont_button:"",
-           foot_ss:"",
+           cont_code:"Country Code",
+           cont_from:"Contact me from..",
+           cont_to: "To..",
+           cont_acept:"I accept that my data will be used for the purpose of providing me with services, products and assistance, in accordance with the privacy policy. Privacy Policy",
+           cont_button:"Send Message",
+           foot_ss:"sello social",
+
+           placeholderTranslations: {
+            name: 'Name',
+         company: 'Company',
+     phoneNumber: 'Phone Number',
+},
 },
 
 };
 
-
-
 function changeLanguage(language) {
+    // Use the main translations
+    const mainTranslations = translations[language];
+
+    if (mainTranslations) {
+        // Update existing elements with data-translation-id attribute
+        const elements = document.querySelectorAll('[data-translation-id]');
+
+        elements.forEach(element => {
+            const translationId = element.getAttribute('data-translation-id');
+            element.textContent = mainTranslations[translationId];
+        });
+
+        // Update form input placeholders
+        const inputElements = document.querySelectorAll('input[placeholder-key], textarea[placeholder-key], select[placeholder-key]');
+
+        inputElements.forEach(element => {
+            const placeholderKey = element.getAttribute('placeholder-key');
+            if (mainTranslations.placeholderTranslations && mainTranslations.placeholderTranslations[placeholderKey]) {
+                element.placeholder = mainTranslations.placeholderTranslations[placeholderKey];
+            }
+        });
+
+        // Store the selected language in localStorage
+        localStorage.setItem('selectedLanguage', language);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Retrieve selected language from localStorage on page load
+    const selectedLanguage = localStorage.getItem('selectedLanguage');
+
+    // Set the initial language (use the selectedLanguage if available, otherwise default to English)
+    changeLanguage(selectedLanguage || 'en');
+});
+
+// Add this part to handle initial language setting
+// Call the changeLanguage function when a language button is clicked
+document.addEventListener('DOMContentLoaded', function () {
+    const languageButtons = document.querySelectorAll('.lan');
+
+    languageButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const languageCode = this.getAttribute('id');
+            changeLanguage(languageCode);
+        });
+    });
+});
+
+
+/*function changeLanguage(language) {
+    console.log(language);
+    const elements = document.querySelectorAll('[data-translation-id]');
+    console.log(elements);
+
+    elements.forEach(element => {
+        const translationId = element.getAttribute('data-translation-id');
+        element.textContent = translations[language][translationId];
+    });
+
+    // Store the selected language in localStorage
+    localStorage.setItem('selectedLanguage', language);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Retrieve selected language from localStorage on page load
+    const selectedLanguage = localStorage.getItem('selectedLanguage');
+
+    // Set the initial language (use the selectedLanguage if available, otherwise default to English)
+    changeLanguage(selectedLanguage || 'fr');
+});
+
+// Add this part to handle initial language setting
+// Call the changeLanguage function when a language button is clicked
+document.addEventListener('DOMContentLoaded', function () {
+    const languageButtons = document.querySelectorAll('.lan');
+
+    languageButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const languageCode = this.getAttribute('id');
+            changeLanguage(languageCode);
+        });
+    });
+}); */
+
+
+/*function changeLanguage(language) {
     console.log(language);
     const elements = document.querySelectorAll('[data-translation-id]');
     console.log(elements);
@@ -331,7 +427,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (selectedLanguage) {
         // Set the initial language
-        changeLanguage('es');
+        changeLanguage(selectedLanguage || 'en');
     }
 });
 
@@ -344,3 +440,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+*/
