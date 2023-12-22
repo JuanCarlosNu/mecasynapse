@@ -149,6 +149,7 @@ display:block
     flex-direction: column;
     justify-content:start;
     height: 720px;
+   
     }
     .compromiso_content{
       justify-content: start;
@@ -187,7 +188,7 @@ display:block
 .compromiso_content h2{ 
   padding-top: 10px;
   padding-bottom: 0;
- 
+  padding-right:0px; 
 }
 .compromiso_content h4{
   padding-bottom: 0px;

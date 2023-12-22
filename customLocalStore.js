@@ -199,7 +199,7 @@ const translations = {
            cont_code:"Préfix du Pays",
            cont_from:"contactez-moi de ..  ",
            cont_to:"Au",
-           cont_acept:"J'accepte que mes données soient utilisées dans le but de me fournir des services, produits et assistance, conformément à la politique de confidentialité. politique de confidentialité",
+           cont_acept:"J'accepte que mes données soient utilisées dans le but de me fournir des services, produits et assistance, conformément à la politique de confidentialité. Politique de confidentialité",
            cont_button:"envoyer le message",
 
            foot_ss:"firm address",
