@@ -322,10 +322,12 @@ en: {
 };
 
 function changeLanguage(language) {
+      
     // Use the main translations
     const mainTranslations = translations[language];
 
     if (mainTranslations) {
+
         // Update existing elements with data-translation-id attribute
         const elements = document.querySelectorAll('[data-translation-id]');
 
@@ -345,8 +347,9 @@ function changeLanguage(language) {
         });
 
         // Store the selected language in localStorage
+        
         localStorage.setItem('selectedLanguage', language);
-    }
+}
 }
 
 document.addEventListener('DOMContentLoaded', function () {
