@@ -328,6 +328,11 @@ function changeLanguage(language) {
 
     if (mainTranslations) {
 
+        //console log current language
+
+        console.log(`Current language: ${language}`);
+
+
         // Update existing elements with data-translation-id attribute
         const elements = document.querySelectorAll('[data-translation-id]');
 
@@ -353,11 +358,14 @@ function changeLanguage(language) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+
     // Retrieve selected language from localStorage on page load
+
     const selectedLanguage = localStorage.getItem('selectedLanguage');
 
     // Set the initial language (use the selectedLanguage if available, otherwise default to English)
     changeLanguage(selectedLanguage || 'en');
+
 });
 
 // Add this part to handle initial language setting
