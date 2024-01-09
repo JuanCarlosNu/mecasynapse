@@ -322,16 +322,29 @@ en: {
 };
 
 function changeLanguage(language) {
-      
     // Use the main translations
     const mainTranslations = translations[language];
 
     if (mainTranslations) {
-
-        //console log current language
-
+        // Log the current language
         console.log(`Current language: ${language}`);
 
+     // Remove the 'selected' class from all language buttons
+        const languageButtons = document.querySelectorAll('.lan');
+        languageButtons.forEach(button => {
+            button.classList.remove('selected');
+        });
+       
+
+        // Add the 'selected' class to the current language button
+
+        const currentLanguageButton = document.getElementById(language);
+         
+        console.log(`Current activebut: ${currentLanguageButton}`);
+
+        if (currentLanguageButton) {
+            currentLanguageButton.classList.add('selected');
+        }
 
         // Update existing elements with data-translation-id attribute
         const elements = document.querySelectorAll('[data-translation-id]');
@@ -352,23 +365,19 @@ function changeLanguage(language) {
         });
 
         // Store the selected language in localStorage
-        
         localStorage.setItem('selectedLanguage', language);
-}
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-
     // Retrieve selected language from localStorage on page load
-
     const selectedLanguage = localStorage.getItem('selectedLanguage');
 
-    // Set the initial language (use the selectedLanguage if available, otherwise default to English)
-    changeLanguage(selectedLanguage || 'en');
-
+    // Call the changeLanguage function with the retrieved language
+    
+    changeLanguage(selectedLanguage || 'fr');
 });
 
-// Add this part to handle initial language setting
 // Call the changeLanguage function when a language button is clicked
 document.addEventListener('DOMContentLoaded', function () {
     const languageButtons = document.querySelectorAll('.lan');

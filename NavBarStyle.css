@@ -82,6 +82,13 @@
       .lan{
         cursor: pointer;
       }
+
+     .lan.selected {
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+
       .nav-menu {
         
 
