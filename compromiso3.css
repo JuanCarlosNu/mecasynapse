@@ -165,9 +165,12 @@ display:block
     font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
-    font-size: 18px;
+   /* font-size: 18px; this is in conflict with footer styling*/
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.card-text{
+  font-size: 18px;
 }
 
 .u-absolute-vcenter {

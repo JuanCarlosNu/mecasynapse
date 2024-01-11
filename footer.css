@@ -1,6 +1,11 @@
+*{
+    font-size:medium;
+}
+
+
 .footer_container{
     background-color: #1e1e1f;
-    height: 5rem;
+    height: 11rem;
     
     width: 100%;
     display: flex;
@@ -34,11 +39,21 @@
     padding-right: 2.5rem;
     display: flex;
     flex-direction: column;
-    align-items: right;
 }
 .footer-icons{
     text-align: end;
+    transform: translateY(8px);
 }
+.sello, .addressR {
+    text-align: end;
+    padding-top: 10px;
+
+}
+
+.info{
+    text-align: end,!important;
+}
+
 .incon_map{
     cursor: pointer;
     color: white;
@@ -86,11 +101,12 @@
 }
 @media screen and (max-width: 800px){
     .footer_container{
+        font-size: small;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        height: 240px;
+        height: 400px;
         text-align: center;
         }   
         .center{
@@ -123,6 +139,25 @@
             margin-bottom: 5px;
             font-weight: 400;
         }
+        .sello, .central, .estudio{
+            text-align: center;
+         
+          
+        }
+        .estudio{
+            margin-top: 20px;
+        }
+       
+        .address, .addressR{
+            transform: translateY(0px)!important;
+            text-align: center;
+           
+        }
+        .spacer{
+            height: 9px;
+        }
+
+        
         
 
 
