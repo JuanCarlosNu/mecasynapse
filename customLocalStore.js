@@ -94,14 +94,19 @@ const translations = {
            cont_acept:"Acepto que mis datos serán utilizados con el objetivo de brindarme servicios, productos y asistencia, conformes a la política de privacidad. Política de privacidad",
            cont_button:"ENVIAR CONSULTA",
 
-           foot_ss: "Sello Social:",
+           
 
            placeholderTranslations: {
-            name: 'Nombre',
-         company: 'Compañía',
-     phoneNumber: 'Número de teléfono',
-     email:'Correo Electrónico',
-},
+                      name: 'Nombre',
+                   company: 'Compañía',
+               phoneNumber: 'Número de teléfono',
+                     email: 'Correo Electrónico',
+                      },
+            
+           foot_ss: "Sello Social:",
+           foot_oc: "Oficina Central",
+           foot_ei: "Esudio de Ingeniería",
+            
 
            
            
@@ -202,15 +207,16 @@ const translations = {
            cont_acept:"J'accepte que mes données soient utilisées dans le but de me fournir des services, produits et assistance, conformément à la politique de confidentialité. Politique de confidentialité",
            cont_button:"envoyer le message",
 
-           foot_ss:"firm address",
-
                
         placeholderTranslations: {
             name: 'Nom',
          company: 'Enterprise',
      phoneNumber: 'numéro de téléphone',
      
-},
+        },
+        foot_ss: "Sceau Social",
+        foot_oc: "Bureau Central",
+        foot_ei: "Etude d'ingénierie", 
 
     },
 
@@ -316,7 +322,10 @@ en: {
             name: 'Name',
          company: 'Company',
      phoneNumber: 'Phone Number',
-},
+            },
+            foot_ss: "Social Seal",
+            foot_oc:"Central Oficce",
+            foot_ei:"Engineering Study",
 },
 
 };
