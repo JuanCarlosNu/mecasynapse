@@ -10,7 +10,7 @@ const translations = {
         main_title: "Excelencia en Servicios de Ingeniería",
         main_subtitle:"Trabajando con equipos de profesionales altamente calificados desde nuestra sede en Toulouse, con una vasta experiencia en diferentes rubros de la industria y utilizando las mejores herramientas del mercado, acercamos soluciones eficaces a la más variada gama de necesidades",
         main_sider_title:"Para la Industria Siderúrgica",
-        main_sider_subtitle:"Laminación en caliente; Laminación en frío; Líneas de galvanizado; Reducción Directa; Reducción Directa; Colada contínua; Parques de tratamiento de chatarra",
+        main_sider_subtitle:"Laminación en caliente; Laminación en frío; Líneas de galvanizado; Reducción Directa; Colada contínua; Parques de tratamiento de chatarra",
 
         /*main_sider_sub1:"Laminación en caliente ",
         main_sider_sub2:"Laminación en frío",
@@ -60,7 +60,7 @@ const translations = {
         proy_rea_subtitle:"Diseño, verificación teórica y planimetría de detalle del mando de un agitador para un reactor químico de grandes dimensiones. Incluyó cálculos dinámicos para verificación de mando, cálculos FEM para dimensionado y verificación de piezas de la transmisión y confección de documentación con ingeniería de detalle.",
 
 
-        comp_title: "Nuestro compromiso",
+        comp_title: "Nuestros Servicios",
         comp_title1:"Qué servicios ofrecemos...",
       comp_subtitle1:"Nuestro compromiso es ofrecer un servicio de calidad para pymes y talleres mecánicos altamente calificados",
            comp_1_1:"- Diseño y análisis de máquinas y dispositivos con herramientas computacionales 3D.",
@@ -79,7 +79,7 @@ const translations = {
            comp_3_3:"- Pliegos de ingeniería de detalle adaptados ya sea a fabricación en serie como a prototipados.",
            
            abo_title:"¿ Quiénes somos ?",
-           abo_text:"Somos diseñadores de máquinas y mecanismos. Desde nuestras oficinas en Toulouse coordinamos un equipo de diseñadores mecánicos de élite radicados en Argentina brindando soluciones efectivas a problemáticas diversas para una amplia gama de industrias.",
+           abo_text:"Somos diseñadores de máquinas y mecanismos. Desde nuestra oficina en Toulouse coordinamos un equipo de diseñadores mecánicos de élite radicados en Argentina brindando soluciones efectivas a problemáticas diversas para una amplia gama de industrias.",
            abo_team:"Equipo de ingenieros mecánicos especializados:",
            abo_esp_alvaro:"Ingeniero senior en diseño mecánico",
            abo_esp_roman:"Ingeniero mecánico sénior y director de proyectos – Con sede en Francia",
@@ -173,7 +173,7 @@ const translations = {
         proy_rea_breve:"Conception, vérification théorique et planimétrie détaillée de la commande d'un agitateur pour un grand réacteur chimique.",
         proy_rea_subtitle:"Conception, vérification théorique et planimétrie détaillée de la commande d'un agitateur pour un grand réacteur chimique. Il comprenait des calculs dynamiques pour la vérification des commandes, des calculs FEM pour le dimensionnement et la vérification des pièces de transmission et la préparation d'une documentation technique détaillée.",
 
-        comp_title: "Nos Prestations",  
+        comp_title: "Nos services",  
         comp_title1:" Quels services nous proposons...",
         comp_subtitle1:"Notre engagement et fournir un service de BE de qualité pour les PME et les ateliers mécaniqueshautement qualifiés",
            comp_1_1:"- Conception et analyse de machines",
@@ -193,7 +193,7 @@ const translations = {
            comp_3_3:"- Réalisation de cahiers des charges détaillés.",
 
            abo_title:"Qui sommes-nous ?",
-           abo_text:"Nous sommes concepteurs de machines et de mécanismes. Depuis nos bureaux de Toulouse, nous coordonnons une équipe de concepteurs mécaniques d'élite basés en Argentine, fournissant des solutions efficaces à divers problèmes pour un large éventail d'industries.",
+           abo_text:"Nous sommes concepteurs de machines et de mécanismes. Depuis notre bureau de Toulouse, nous coordonnons une équipe de concepteurs mécaniques d'élite basés en Argentine, fournissant des solutions efficaces à divers problèmes pour un large éventail d'industries.",
            abo_team:"Èqiupe d'ingénieurs mécaniques spécialisés:",
            abo_esp_alvaro:"Ingenieur en dessin mecánique senior",   
            abo_esp_roman:"Ingénieur mécanique senior & project manager – Basé en FR",
@@ -282,7 +282,7 @@ en: {
     proy_rea_breve:"Design, theoretical verification and detailed planimetry of the command of a stirrer for a large chemical reactor.",
     proy_rea_subtitle:"Design, theoretical verification and detailed planimetry of the command of a stirrer for a large chemical reactor. It included dynamic calculations for command verification, FEM calculations for sizing and verification of transmission parts, and preparation of detailed engineering documentation.",
 
-    comp_title: " Commitment",  
+    comp_title: "Our services",  
 
         comp_title1:"What services do we offer?",
       comp_subtitle1:"Our commitment is to offer a quality service for SMEs and highly qualified mechanical workshops.",
@@ -303,7 +303,7 @@ en: {
            
            
            abo_title:"Who we are ?",
-           abo_text:"We are designers of machines and mechanisms. From our offices in Toulouse we coordinate a team of elite mechanical designers based in Argentina, providing effective solutions to diverse problems for a wide range of industries.",
+           abo_text:"We are designers of machines and mechanisms. From our office in Toulouse we coordinate a team of elite mechanical designers based in Argentina, providing effective solutions to diverse problems for a wide range of industries.",
            abo_team:"Team of specialized mechanical engineers:",
            abo_esp_alvaro:"Sénior mechanical drawing engineer",
            abo_esp_roman:"Senior mechanical engineer & project manager – Based in FR",

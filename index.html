@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
      rel="stylesheet"/>
-     <link rel="icon" href="data/logoSoloElLogo.png" type="image/png">
+     <link rel="icon" href="data/logoSoloElLogo.png" type="image/png">  
      <link rel="shortcut icon" href="data/logoSoloElLogo.png" type="image/png">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- Google Fonts -->
 
@@ -868,7 +869,10 @@ data-u-slide="next">
                          data-ss-id="-MxUEJh9TRlu7qpcVcy0R" >
 
 
-                      <form  action="" id="contact" 
+                      <form 
+                      action="contacto.php"
+                      method="post"
+                       id="contact" 
                       class="d-flex flex-wrap ss-border temporal-padding"
                        data-ss-id="3HfFA4SHf_ibeav4X70YY">
                            <p class="col-12 col-lg-10 ss-border temporal-padding"
@@ -886,34 +890,40 @@ data-u-slide="next">
                                         <!--Nombre-->
                            <div  class="col-6 col-lg-5 mb-4 ss-border temporal-padding"
                             data-ss-id="_QqShraZ_34vdgQU8Uszm"> 
-                              <input  type="text"
+
+                              <fieldset>
+                                <input  type="text"
                                 name="name"
                                  id="name" 
                               placeholder="name"
                                placeholder-key="name"
                                class="form-control  ss-border temporal-padding" 
                                      style="width: 95%;"
-                                data-ss-id="CyRpY1_AAzHhBsaHk69cF">   
-                           </div> 
-                                        <!--telefono -->
+                                data-ss-id="CyRpY1_AAzHhBsaHk69cF"> 
+                              </fieldset>  
+                              </div> 
+                                        <!--company -->
                                           <div class="col-6 col-lg-5 mb-4 ss-border temporal-padding"
                            data-ss-id="7tHq_OcZ087MHuasy9KuS"> 
                              
+                               <fieldset>
                                 <input 
-                                   type="text" 
-                                   name="name_1"
-                                     id="name"
-                                     placeholder-key="company"        
-                            placeholder="Company" 
-                                  class="form-control w-100 ss-border temporal-padding"
-                             data-ss-id="m6N_ChLJem7X08IqABTkm"> 
+                                type="text" 
+                                name="company"
+                                  id="name"
+                                  placeholder-key="company"        
+                         placeholder="Company" 
+                               class="form-control w-100 ss-border temporal-padding"
+                          data-ss-id="m6N_ChLJem7X08IqABTkm"> 
+                               </fieldset>
                         </div>
 
                         <div class="col-6 col-lg-5 mb-4 ss-border temporal-padding" 
                         data-ss-id="CountryCode">
                           <!--<label for="countryCode" class="form-label">Country Code:</label>-->
 
-                          <select class="form-control  ss-border temporal-padding"
+                          <fieldset>
+                            <select class="form-control  ss-border temporal-padding"
                            style="width:95%;" name="countryCode" id="countryCode" 
                            data-ss-id="countryCode">
                               <!-- Add options for country codes -->
@@ -1119,6 +1129,7 @@ data-u-slide="next">
 <option value="+263">+263 (Zimbabwe)</option>
                               <!-- Add more options for other countries as needed -->
                           </select>
+                          </fieldset>
                       </div>
                       
                       <!-- Phone Number -->
@@ -1136,12 +1147,15 @@ data-u-slide="next">
                            
                                          <!-- Email -->
                         <div class="col-12 col-lg-10 mb-4 ss-border temporal-padding" data-ss-id="TTDS-c1I957dZBjcwYJuV"> 
-                            <input type="email" 
-                            name="ss_field_mail"
+                            <fieldset>
+                              <input type="email" 
+                            name="email"
                              id="ss_field_mail" 
-                            
-                           
-                            placeholder="Email" class="form-control w-100 ss-border temporal-padding" required="required" data-ss-id="K0g2-HkIenDUtXaYKEOHt">
+                            placeholder="Email"
+                             class="form-control w-100 ss-border temporal-padding"
+                              required="required"
+                              data-ss-id="K0g2-HkIenDUtXaYKEOHt">
+                            </fieldset>
                         </div> 
                    
                        
@@ -1171,7 +1185,13 @@ data-u-slide="next">
                         </div> -->
                         <div class="col-6 col-lg-5 mb-4 ss-border temporal-padding"  data-ss-id="fromTime">
                          <!-- <label for="fromTime" class="form-label">Contact me from:</label>-->
-                          <select class="form-control  ss-border temporal-padding" style="width: 95%;" name="fromTime" id="fromTime" data-ss-id="fromTime">
+
+                          <fieldset>
+                            <select class="form-control  ss-border temporal-padding" 
+                            style="width: 95%;"
+                             name="fromTime" 
+                             id="fromTime" 
+                             data-ss-id="fromTime">
                               <!-- Add options for the "from" time -->
                               <option value="contact" 
                               data-translation-id="cont_from" >Contact me from</option>
@@ -1187,12 +1207,19 @@ data-u-slide="next">
                               <option value="1.00pm">5.00pm</option>
                               <option value="1.00pm">6.00pm</option>
                           </select>
+                          </fieldset>
                       </div>
                       
                       <!-- To Time -->
-                      <div class="col-6 col-lg-5 mb-4 ss-border temporal-padding" data-ss-id="toTime">
+                      <div class="col-6 col-lg-5 mb-4 ss-border temporal-padding"
+                       data-ss-id="toTime">
                           <!--<label for="toTime" class="form-label">to:</label>-->
-                          <select class="form-control w-100 ss-border temporal-padding" name="toTime" id="toTime" data-ss-id="toTime">
+                          <fieldset>
+                            <select 
+                          class="form-control w-100 ss-border temporal-padding"
+                           name="toTime" 
+                           id="toTime"
+                            data-ss-id="toTime">
                               <!-- Add options for the "to" time -->
                               <option value="1"
                               data-translation-id="cont_to">To</option>
@@ -1209,15 +1236,20 @@ data-u-slide="next">
                               <option value="6.00pm">6.00pm</option>
 
                           </select>
+                          </fieldset>
                       </div>
                                      <!--Message-->
                         <div class="col-12 col-lg-10 mb-2 ss-border temporal-padding mb-4" 
                         data-ss-id="P-jgFy9bpUux_c_6hxCUM"> 
-                             <textarea id="mensaje" name="mensaje" cols="35" rows="5"
-                             placehlder-key="message"
-                             placeholder="Message" class="form-control w-100 ss-border temporal-padding" data-ss-id="RNYkQ9WX6a-O76i1NQ1C_">
-     
-                             </textarea> 
+                           <fieldset>
+                            <textarea id="mensaje" name="mensaje" cols="35" rows="5"
+                            placehlder-key="message"
+                            placeholder="Message"
+                             class="form-control w-100 ss-border temporal-padding" 
+                             data-ss-id="RNYkQ9WX6a-O76i1NQ1C_">
+    
+                            </textarea> 
+                           </fieldset>
                         </div> 
                                      <!--política de privacidad
      
@@ -1240,21 +1272,23 @@ data-u-slide="next">
 
 
                         <div  class="col-12 mb-4 ss-border temporal-padding"
-                         data-ss-id="lBvo10hvwHt4g2r0LJvmG"> 
+                         data-ss-id="lBvo10hvwHt4g2r0LJvmG">
+                         
+                         
                          <div class="correct">
-                         <a href="mailto:info@mecasynapse.com">
-                          <button type="button"
-                          
-                            
-                            id="mapbut" 
+                         
+                         <fieldset>
+                          <button 
+                          name="submit"
+                          type="submit"
+                            id="contact-submit" 
                             class="btn btn-primary ss-border temporal-padding"
                              data-ss-id="_TaosnPSzLmMDrfaD4Hz_"
-                             data-translation-id="cont_button">
+                             data-translation-id="cont_button"
+                             data-submit="...Enviar">
                              Send
                             </button> 
-
-
-                         </a>
+                         </fieldset>
                             
                             </div>
                         </div>
@@ -1372,17 +1406,20 @@ menu.addEventListener('click', function(){
          <p class="central"
             style="transform: translateY(6px);font-size: 18px;"
            data-translation-id="foot_oc" >Oficina Central: </p>
-         <p class="address"><img style="height: 20px;width: 20px; padding-bottom: 3px; transform: translateX(-4px);" src="data/inconMaps.png"> Toulouse, Francia</p>
+         <p class="address"><img style="height: 20px;width: 20px;
+          padding-bottom: 3px; transform: translateX(-4px);"
+           src="/data/inconMaps.png"> Toulouse, Francia</p>
          <div class="spacer"></div>   
          <p class="estudio" style="transform: translateY(6px);font-size: 18px;"
-         data-translation-id="foot_ei">Estudio de Ingeniería: </p>
+         data-translation-id="foot_ei">Estudio de Ingeniería: <i class="glyphicon glyphicon-cloud"></i></span></p>
             <!-- <a class="icon_map"
               href="https://www.google.com/maps/place/Rue+des+Colonnes,+75002+Paris,+France/@48.8695423,2.3369034,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e3b85b96639:0x132d4d89c023736c!8m2!3d48.8695388!4d2.3394783!16s%2Fg%2F1222zhdc?entry=ttu">
             </a>-->
               <p class="address"
              >
-                <img style="height: 20px;width: 20px; padding-bottom: 3px; transform: translateX(-4px);" src="data/inconMaps.png"> 
+                <img style="height: 20px;width: 20px; padding-bottom: 3px; transform: translateX(-4px);" src="/data/inconMaps.png"> 
                 Rosario, Argentina</p>
+                
         </div>
        
         <div class="center">
@@ -1403,7 +1440,7 @@ menu.addEventListener('click', function(){
           <p class="sello" 
              style="transform: translateY(6px);font-size: 18px;"
              data-translation-id="foot_ss">Sello Social: </p>
-         <p class="addressR"><img style="height: 20px;width: 20px; padding-bottom: 3px; transform: translateX(-4px);" src="data/inconMaps.png"> 9 Rue des Colonnes 75002 Paris</p>
+         <p class="addressR"><img style="height: 20px;width: 20px; padding-bottom: 3px; transform: translateX(-4px);" src="/data/inconMaps.png"> 9 Rue des Colonnes 75002 Paris</p>
           
          
         </div>
