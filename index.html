@@ -185,6 +185,7 @@
                  </div>
                <div class="frase">
               <p data-translation-id="main_alim_subtitle">Equipamiento y estructuras para plantas de procesados de especias, chocolate, té, etc.</p>
+              <p data-translation-id="main_alim_subtitle_2"></p>
                 </div>
            </div>
            
@@ -684,6 +685,7 @@ class="u-grey-30" data-u-slide-to="2">
 
 <div class="u-carousel-inner  shadow-4-strong" role="listbox" >
 <!--slide one container-->
+
 <div class="u-active u-align-center u-carousel-item
 u-clearfix ">
 <div class="pagina" >
@@ -696,12 +698,12 @@ u-clearfix ">
   <div class="compromiso_content" >
     <h2 data-translation-id="comp_title1" id="con_sub" >Qué servicios ofrecemos...</h2>
     
-    <h4 
-    data-translation-id="comp_subtitle1"
-    style="font-family: Arial, Helvetica,
+    <h4 style="font-family: Arial, Helvetica,
     sans-serif; font-weight: 100;text-align: start;text-decoration: none;font-style: normal;">
-     Nuestro compromiso es ofrecer un servicio de calidad para pymes y talleres mecánicos altamente calificados
+    <p data-translation-id="comp_subtitle1"></p><p data-translation-id="comp_subtitle1_2"></p>
     </h4>
+    
+   
     <div class="item_container" style="text-align: start;">
       <p class="point">
       <span 
@@ -710,7 +712,9 @@ u-clearfix ">
        class=""> 
         - Diseño y análisis de máquinas y dispositivos con herramientas computacionales 3D.
        </span>
+       <p data-translation-id="comp_1_1_1"></p>
     </p>
+   
      <p class="point">
       <span 
       data-translation-id="comp_1_2"
@@ -718,17 +722,67 @@ u-clearfix ">
         - Confección de planos mecánicos de fabricación. 
 
       </span>
+      <p data-translation-id="comp_1_2_2"></p>
     </p>
-     <p class="point">
-   
-      <span 
-      data-translation-id="comp_1_3"
-      class="">
-        - Cálculos y confección de memorias de cálculo de fenómenos de Estática,
-         Dinámica, Calor, Vibraciones, Fatiga y Pandeo.
+    
+     </div>
+    
+  </div>
+   </div>
+</div>
+</div>
 
-    </span>
-  </p>
+<div class=" u-align-center u-carousel-item
+u-clearfix ">
+<div class="pagina" >
+   <div class="flex_container"> 
+   <div class="img_container" >
+   <img   class="image-1" src="data-comp/laptops-593296_1280.jpg" 
+            alt="" 
+           >
+  </div>
+  <div class="compromiso_content" >
+    <div class="item_container" style="text-align: start;">
+      <p class="point">
+   
+        <span 
+        data-translation-id="comp_1_3"
+        class="">
+          - Cálculos y confección de memorias de cálculo de fenómenos de Estática,
+           Dinámica, Calor, Vibraciones, Fatiga y Pandeo.
+  
+      </span>
+      <p data-translation-id="comp_1_3_3"></p>
+    </p>
+   
+    <p class="point">
+      <span 
+      data-translation-id="comp_1_4"
+      class="" > 
+        - Confección de planos mecánicos de fabricación. 
+
+      </span>
+      <p data-translation-id="comp_1_4_4"></p>
+    </p>
+    <p class="point">
+      <span 
+      data-translation-id="comp_1_5"
+      class="" > 
+        - Confección de planos mecánicos de fabricación. 
+
+      </span>
+      <p data-translation-id="comp_1_5_5"></p>
+    </p>
+    <p class="point"> 
+      <span 
+      data-translation-id="comp_1_6"
+      class="" > 
+        - Confección de planos mecánicos de fabricación. 
+
+      </span>
+      <p data-translation-id="comp_1_6_6"></p>
+    </p>
+     
      </div>
     
   </div>
@@ -1293,6 +1347,59 @@ data-u-slide="next">
                             </div>
                         </div>
                     </form>
+                    <script>
+                      document.addEventListener("DOMContentLoaded", function () {
+          
+                          // Get the form element
+          
+                          var contactForm = document.getElementById("contact");
+                          var responseMessage = document.getElementById("response-message");
+                  
+                          // Add an event listener for the form submission
+          
+                          contactForm.addEventListener("submit", function (event) {
+                              // Prevent the default form submission
+                              event.preventDefault();
+                              responseMessage.innerHTML = "Processing..."; // Show processing message
+                  
+                              // Perform the AJAX submission
+                              submitForm();
+                          });
+                  
+                          // Function to handle AJAX form submission
+          
+                          function submitForm() {
+                              // Get the form data
+                              var formData = new FormData(contactForm);
+          
+                               // Add the selected language to the form data
+          
+                              formData.append('language', getSelectedLanguage());  // Assuming you have a function to get the selected language
+          
+                  
+                              // Create an XMLHttpRequest object
+                              var xhr = new XMLHttpRequest();
+                  
+                              // Configure it to send a POST request to contact.php
+                              xhr.open("POST", "contacto.php", true);
+                  
+                              // Set up the onload function to handle the response
+                              xhr.onload = function () {
+                                  // Display the response message in the response-message div
+                                  document.getElementById("response-message").innerHTML = xhr.responseText;
+                  
+                                  // Reset the form fields
+                                  contactForm.reset();
+                              };
+                              function getSelectedLanguage() {
+              return localStorage.getItem('selectedLanguage') || 'en'; // Default to English if no language is selected
+          };
+                  
+                              // Send the form data
+                              xhr.send(formData);
+                          }
+                      });
+                    </script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 <script>

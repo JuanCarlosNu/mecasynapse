@@ -106,6 +106,11 @@ const translations = {
            foot_ss: "Sello Social:",
            foot_oc: "Oficina Central",
            foot_ei: "Esudio de Ingeniería",
+
+           processingMessage: 'Procesando...',
+           successMessage: '¡Tu mensaje se envió correctamente!',
+
+
             
 
            
@@ -115,39 +120,44 @@ const translations = {
 },
     fr: {   
            menu_inicio:"Début",
-           menu_acerca:"à propos",
+           menu_acerca:"À propos de nous",
            menu_proyectos:"Projets",
            menu_contacto:"Contact",
 
            ver: "VOIR LE PROJET",
 
 
-         main_title: 'L’Excellence des Services  D’Ingeniénierie',
-         main_subtitle: 'En travaillant avec des équipes de professionnels hautement qualifiés de notre siège à Toulouse, avec une vaste expérience dans différents domaines de l’industrie et en utilisant les meilleurs outils du marché, nous apportons des solutions efficaces aux besoins les plus variés.',
-         main_sider_title: "Sidérurgie",
-         main_sider_subtitle:"Lignes de LAC; Lignes de LAF; Lignes de galvanisation; Reduction directe; Coulée continue; Coulée continue; Traitement de la ferraille",
-     /*main_sider_sub1:"Lignes de LAC",
+         main_title: 'L’excellence dans les services d’ingénierie ',
+         main_subtitle: "Collaborant avec une équipe durable d'ingénieurs dessinateurs, forts d'une vaste expérience dans divers secteurs de l'industrie, en tant que bureau d’étude mécanique établie à Toulouse, nous sommes en mesure de répondre de manière efficiente et qualitative à une vaste gamme de domaines industriels sur le marché européen.",
+
+         main_sider_title: "Pour la sidérurgie",
+         main_sider_subtitle:"Nous bénéficions d'une expérience professionnelle étendue au sein de l'industrie sidérurgique, tant sur le terrain que dans la conception d'équipements, acquise dans divers pays. Parmi les secteurs de la sidérurgie où nous avons exercé nos compétences, on compte notamment : ",
+   /*main_sider_subtitle:"Lignes de LAC; Lignes de LAF; Lignes de galvanisation; Reduction directe; Coulée continue; Coulée continue; Traitement de la ferraille",
+     main_sider_sub1:"Lignes de LAC",
      main_sider_sub2:"Lignes de LAF",
      main_sider_sub3:"Lignes de galvanisation",
      main_sider_sub4:"Reduction directe",
      main_sider_sub5:"Coulée continue",
      main_sider_sub6:"Traitement de la ferraille",*/
 
-         main_alim_title:"Alimentarire",
-         main_alim_subtitle:"Équipements et structures pour les industries des épices, du chocolat, du thé, etc",
-         main_manip_title:"Manutention",
-         main_manip_subtitle:"Conception et calcul d’éléments de levage et manutention pour tous les types d’industries et de besoins.",
+         main_alim_title:"Pour le secteur alimentaire",
+         main_alim_subtitle:"Au sein du secteur alimentaire, nous mettons en œuvre nos solutions avec divers partenaires en Argentine, l'un des marchés agroalimentaires les plus importants au monde.",
+         main_alim_subtitle_2:" Parmi les nombreux secteurs auxquels nous offrons nos services de conception mécanique de machines et de structures, on peut citer l'industrie du thé, du chocolat et des épices. ",
+
+
+         main_manip_title:"Manutention industrielle",
+         main_manip_subtitle:"Nous proposons des solutions personnalisées pour la manutention et le levage industriel, couvrant une large gamme de besoins. Notre savoir-faire en conception et fabrication nous assure la réalisation de travaux d'une qualité supérieure. ",
 
          main_calc_title:"Notes de Calcul",
-         main_calc_subtitle:"Réalisation de mémoires de calcul pour des modèles physiques de situations réelles réelles",
-         main_simu_title:"Simulations",
-         main_simu_subtitle:"Simulations numériques de modèles physiques de statique, de dynamique, de transfert de chaleur, des vibrations, de la mécanique des fluides ainsi que de fatigue",
+         main_calc_subtitle:"Élaboration de mémoires de calcul pour des modèles physiques représentant des situations réelles.",
+         main_simu_title:"Simulations numériques",
+         main_simu_subtitle:"Simulations numériques de modèles physiques englobant la statique, la dynamique, le transfert de chaleur, les vibrations, la mécanique des fluides et la fatigue, offrant une analyse approfondie pour diverses applications industrielles.",
    
          proyectos_title:"Certains de nos projets",
     
          proy_rotweb_title:"ROTATEUR DE BLOC MOTEUR",
          proy_rotweb_breve:"Un rotateur de bloc moteur pour les tâches de contrôle entre les processus d'usinage",
-         proy_rotweb_subtitle:"Dans ce projet, un rotateur de bloc moteur a été conçu pour les tâches de contrôle entre les processus d'usinage. Il comprenait des calculs dynamiques pour sélectionner la commande, des calculs pour le dimensionnement et la sélection du système pneumatique pour le mouvement et le serrage du châssis, et la vérification théorique FEM des pièces soumises à des charges dans ledit dispositif.",
+         proy_rotweb_subtitle:"Dans le cadre de ce projet, un rotateur de bloc moteur a été conçu pour les tâches de contrôle entre les processus d'usinage. Il comprenait des calculs dynamiques pour la sélection de la commande, des calculs pour le dimensionnement et la sélection du système pneumatique pour le mouvement et le serrage du châssis, ainsi que la vérification théorique par éléments finis (FEM) des pièces soumises à des charges dans ledit dispositif.",
 
         proy_lg_title:"DISPOSITIF DE LEVAGE AUXILIAIRE",
         proy_lg_breve:"Conception et fabrication d'équipements auxiliaires de levage pour le montage et le démontage de compteurs de gaz.",
@@ -155,7 +165,7 @@ const translations = {
     
         proy_gira_title:"ESSORAGE D’ÉCHAPPEMENT MULTIPLE",
         proy_gira_breve:"Ingénierie détaillée d’une fixation et d’un centrifugeur d’échappement de moteur diesel pour une station de mesure et un ensemble d’accessoires dans une usine de moteurs.",
-        proy_gira_subtitle:"Ingénierie détaillée d’une fixation et d’un centrifugeur d’échappement de moteur diesel pour une station de mesure et un ensemble d’accessoires dans une usine de moteurs. Le projet comprenait la modélisation 3D complète, la préparation des documents de construction et l’assistance au montage.",
+        proy_gira_subtitle:"Dans le cadre de ce projet, nous avons réalisé l'ingénierie détaillée pour la conception d'une fixation et d'un centrifugeur d'échappement de moteur diesel destinés à une station de mesure, ainsi qu'un ensemble d'accessoires dans une usine de moteurs. Le projet englobait une modélisation 3D complète, la préparation des documents de construction, et une assistance au montage.",
 
         proy_dev_title:"ENROULEUR DE FIL DE CUIVRE ET EXTRUDEUR DE PLASTIQUE",
         proy_dev_breve:"Bobineuse de fil et extrudeuse de plastique pour une ligne de fabrication de câbles en continu",
@@ -173,13 +183,23 @@ const translations = {
         proy_rea_breve:"Conception, vérification théorique et planimétrie détaillée de la commande d'un agitateur pour un grand réacteur chimique.",
         proy_rea_subtitle:"Conception, vérification théorique et planimétrie détaillée de la commande d'un agitateur pour un grand réacteur chimique. Il comprenait des calculs dynamiques pour la vérification des commandes, des calculs FEM pour le dimensionnement et la vérification des pièces de transmission et la préparation d'une documentation technique détaillée.",
 
-        comp_title: "Nos services",  
-        comp_title1:" Quels services nous proposons...",
-        comp_subtitle1:"Notre engagement et fournir un service de BE de qualité pour les PME et les ateliers mécaniqueshautement qualifiés",
-           comp_1_1:"- Conception et analyse de machines",
-           comp_1_2:"- Réalisation de l’ingénierie détaillée pour la fabrication.",
-           comp_1_3:"- Réalisation des plans de fabrication.",
-           comp_1_4:"- Réalisation de notes de calcul.",
+        comp_title: "Nos services d’ingénierie",  
+        comp_title1:" Quels services proposons-nous ?",
+        comp_subtitle1:"Notre engagement est de fournir des services d'ingénierie de haute qualité destinés aux PME et aux ateliers mécaniques hautement qualifiés.",
+        comp_subtitle1_2:"Nos prestations incluent :",
+           comp_1_1:"1- Conception et Design basic :",
+           comp_1_1_1:"Développement de concepts et design initial de machines et de systèmes mécaniques. Cela implique la création d'idées novatrices et de solutions conceptuelles pour répondre aux exigences spécifiques du client.",
+           comp_1_2:"2- Analyse et Simulation :",
+           comp_1_2_2:"Réalisation d'analyses de résistance structurelle, d'analyses par éléments finis, de simulations thermiques et dynamiques pour évaluer les performances et la sécurité des machines conçues avant la fabrication.",
+           //esto ya es otro slide
+           comp_1_3:"3- Ingénierie Détaillée :",
+           comp_1_3_3:"Élaboration de plans détaillés, de modèles 3D et de documentation technique nécessaire pour la fabrication et l'assemblage des machines. Cela garantit la précision et la faisabilité lors de la mise en œuvre du design.",
+           comp_1_4:"4- Optimisation du Design :",
+           comp_1_4_4:"Amélioration continue et optimisation des designs existants pour accroître l'efficacité, réduire les coûts de production et améliorer les performances globales des machines.",
+           comp_1_5:"5- Prototypage et Tests :",
+           comp_1_5_5:"Développement de prototypes pour évaluer le design dans des conditions pratiques. Les tests sur prototypes permettent d'apporter des ajustements et des améliorations avant la production à grande échelle.",
+           comp_1_6:"6- Conseil en Sélection de Matériaux :",
+           comp_1_6_6:"Recommandation et conseil pour la sélection de matériaux appropriés afin d'assurer la durabilité, la résistance et la conformité aux normes spécifiques.",
 
            comp_title2:"Consulting",
         
@@ -193,11 +213,17 @@ const translations = {
            comp_3_3:"- Réalisation de cahiers des charges détaillés.",
 
            abo_title:"Qui sommes-nous ?",
-           abo_text:"Nous sommes concepteurs de machines et de mécanismes. Depuis notre bureau de Toulouse, nous coordonnons une équipe de concepteurs mécaniques d'élite basés en Argentine, fournissant des solutions efficaces à divers problèmes pour un large éventail d'industries.",
-           abo_team:"Èqiupe d'ingénieurs mécaniques spécialisés:",
-           abo_esp_alvaro:"Ingenieur en dessin mecánique senior",   
-           abo_esp_roman:"Ingénieur mécanique senior & project manager – Basé en FR",
-           abo_esp_santiago:"Ingénieur en dessin mécanique senior",
+           abo_text:"Chez Mecasynapse solutions, nous formons une équipe d'ingénieurs spécialisés dans la conception de machines et de mécanismes, répartie entre la France et l'Argentine. Notre bureau d’étude technique à Toulouse, coordonne notre équipe permanente de concepteurs mécaniques expérimentés, située à Rosario (ARG). Forts de nombreuses années de collaboration, nous proposons des solutions efficaces pour relever divers défis dans un large éventail d'industries.",
+           abo_team:"Associés fondateurs :",
+           abo_esp_alvaro:"Ingénieur concepteur mécanique senior avec plus de 15 ans d’expérience.",   
+           base_A:"Basé à Rosario. ",
+           habla_A:"Langues parlées : l’espagnol et l’anglais.",
+           abo_esp_roman:"Ingénieur mécanique et PM, plus de 9 ans d’expérience dans différentes domaines et pays (Argentine, France, Mexique et Chine).",
+           base_R:"Basé à Toulouse. ",
+           habla_R:"Langues parlées : l’espagnol, le français et l’anglais.",
+           abo_esp_santiago:"ngénieur concepteur mécanique senior et professeur à l’université (dessin de machines) avec plus de 15 ans d’expérience. ",
+           base_S:"Basé à Rosario. ",
+           habla_S:"Langues parlées : l’espagnol et l’anglais.",
 
            cont_title:"Contact",
            cont_frase:"Laissez-nous votre question et nous vous répondrons dans les plus brefs délais.",
@@ -217,6 +243,9 @@ const translations = {
         foot_ss: "Sceau Social",
         foot_oc: "Bureau Central",
         foot_ei: "Etude d'ingénierie", 
+        
+        processingMessage: 'Traitement en cours...',
+        successMessage: 'Votre message a été envoyé avec succès !',
 
     },
 
@@ -326,6 +355,9 @@ en: {
             foot_ss: "Social Seal",
             foot_oc:"Central Oficce",
             foot_ei:"Engineering Study",
+
+            processingMessage: 'Processing...',
+               successMessage: 'Message sent successfully!',
 },
 
 };
