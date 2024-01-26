@@ -3,6 +3,7 @@ const translations = {
         menu_inicio:"Inicio",
         menu_acerca:"Acerca",
         menu_proyectos:"Proyectos",
+        menu_compromiso:"Servicios",
         menu_contacto:"Contacto",
 
         ver:"VER PROYECTO",
@@ -119,9 +120,10 @@ const translations = {
            
 },
     fr: {   
-           menu_inicio:"Début",
+           menu_inicio:"Accueil",
            menu_acerca:"À propos de nous",
            menu_proyectos:"Projets",
+           menu_compromiso:"Sevices",
            menu_contacto:"Contact",
 
            ver: "VOIR LE PROJET",
@@ -132,13 +134,15 @@ const translations = {
 
          main_sider_title: "Pour la sidérurgie",
          main_sider_subtitle:"Nous bénéficions d'une expérience professionnelle étendue au sein de l'industrie sidérurgique, tant sur le terrain que dans la conception d'équipements, acquise dans divers pays. Parmi les secteurs de la sidérurgie où nous avons exercé nos compétences, on compte notamment : ",
-   /*main_sider_subtitle:"Lignes de LAC; Lignes de LAF; Lignes de galvanisation; Reduction directe; Coulée continue; Coulée continue; Traitement de la ferraille",
-     main_sider_sub1:"Lignes de LAC",
-     main_sider_sub2:"Lignes de LAF",
-     main_sider_sub3:"Lignes de galvanisation",
-     main_sider_sub4:"Reduction directe",
-     main_sider_sub5:"Coulée continue",
-     main_sider_sub6:"Traitement de la ferraille",*/
+       
+
+   /*main_sider_subtitle:"Lignes de LAC; Lignes de LAF; Lignes de galvanisation; Reduction directe; Coulée continue; Coulée continue; Traitement de la ferraille",*/
+     main_sider_sub1:"1- Lignes de LAC",
+     main_sider_sub2:"2- Lignes de LAF",
+     main_sider_sub3:"3- Lignes de galvanisation",
+     main_sider_sub4:"4- Reduction directe",
+     main_sider_sub5:"5- Coulée continue",
+     main_sider_sub6:"6- Traitement de la ferraille",
 
          main_alim_title:"Pour le secteur alimentaire",
          main_alim_subtitle:"Au sein du secteur alimentaire, nous mettons en œuvre nos solutions avec divers partenaires en Argentine, l'un des marchés agroalimentaires les plus importants au monde.",
@@ -200,8 +204,13 @@ const translations = {
            comp_1_5_5:"Développement de prototypes pour évaluer le design dans des conditions pratiques. Les tests sur prototypes permettent d'apporter des ajustements et des améliorations avant la production à grande échelle.",
            comp_1_6:"6- Conseil en Sélection de Matériaux :",
            comp_1_6_6:"Recommandation et conseil pour la sélection de matériaux appropriés afin d'assurer la durabilité, la résistance et la conformité aux normes spécifiques.",
+           comp_1_7:"7- Assistance dans les Processus de Fabrication :",
+           comp_1_7_7:"Collaboration avec les fabricants pour garantir que le design est mis en œuvre de manière efficace pendant le processus de fabrication, y compris la supervision de l'assemblage et de la production.",
+           comp_1_8:"8- Conformité Normative et Réglementaire :",
+           comp_1_8_8:"S'assurer que les designs respectent toutes les normes et réglementations pertinentes de l'industrie et de la région.",
+          
 
-           comp_title2:"Consulting",
+           comp_title2:" Quels services proposons-nous ?",
         
            comp_2_1:"- Soutien à la recherche des nouvelles solutions technologiques.",
            comp_2_2:"- Support dans la conception de pièces et de mécanismes.",
@@ -225,8 +234,8 @@ const translations = {
            base_S:"Basé à Rosario. ",
            habla_S:"Langues parlées : l’espagnol et l’anglais.",
 
-           cont_title:"Contact",
-           cont_frase:"Laissez-nous votre question et nous vous répondrons dans les plus brefs délais.",
+           cont_title:"Contactez-nous",
+           cont_frase:"Laissez-nous votre message et nous vous contacterons dans les meilleurs délais.",
            cont_code:"Préfix du Pays",
            cont_from:"contactez-moi de ..  ",
            cont_to:"Au",
@@ -240,9 +249,9 @@ const translations = {
      phoneNumber: 'numéro de téléphone',
      
         },
-        foot_ss: "Sceau Social",
-        foot_oc: "Bureau Central",
-        foot_ei: "Etude d'ingénierie", 
+        foot_ss: "Siège social",
+        foot_oc: "Maison mère en Europe:",
+        foot_ei: "Bureau d’étude :", 
         
         processingMessage: 'Traitement en cours...',
         successMessage: 'Votre message a été envoyé avec succès !',
@@ -253,6 +262,7 @@ en: {
     menu_inicio:"Home",
     menu_acerca:"About",
     menu_proyectos:"Projets",
+    menu_compromiso:"Sevices",
     menu_contacto:"Contact",
 
     ver: "see project",

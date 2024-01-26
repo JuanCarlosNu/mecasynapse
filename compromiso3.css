@@ -140,6 +140,12 @@ display:block
   border: 2.4px solid rgb(69, 69, 69)!important;
   font-weight: 700!important;
 }
+.compromiso_content .izq{
+ justify-content: start;
+ padding-top: 25px;
+
+}
+
 
 
 /*responsive section*/
@@ -148,7 +154,7 @@ display:block
   .flex_container{
     flex-direction: column;
     justify-content:start;
-    height: 720px;
+    height: 767px;
    
     }
     .compromiso_content{
@@ -158,6 +164,13 @@ display:block
       margin-left: 0px;
       margin-right: 3px;
     }
+    .compromiso_content h2{
+      font-size: 22px;
+      
+    }
+    #con_sub{
+      margin-bottom: 5px;
+    }
 
   
 
@@ -166,11 +179,23 @@ display:block
     font-weight: 400;
     line-height: 1.5rem;
    /* font-size: 18px; this is in conflict with footer styling*/
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.compromiso_content .izq{
+padding-bottom: 15px;
+}
+.compromiso_content .izq{ 
+  padding-top: 0px;
+}
+.sub_sub{
+  font-size: 10px;
 }
 .card-text{
   font-size: 18px;
+}
+.point{
+  font-size: 12px;
 }
 
 .u-absolute-vcenter {
@@ -181,7 +206,7 @@ display:block
 
 .image-1{
   display: block;
-  height: 300px;
+  height: 280px;
   object-fit:fill;
 }
 .img_container {
@@ -199,6 +224,14 @@ display:block
 
 #con_sub{
   padding-top: 10px;
+}
+.comp_sumtitle1_2{
+  padding-top: 5px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.u-carousel-inner{
+  height: 650px;
 }
  
 
