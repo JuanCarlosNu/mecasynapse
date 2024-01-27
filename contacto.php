@@ -38,15 +38,15 @@ $mensaje = $_POST["mensaje"];
 // Datos de la cuenta de correo utilizada para enviar vía SMTP
 
 $smtpHost = "c1532453.ferozo.com";  // Dominio alternativo brindado en el email de alta 
-$smtpUsuario ="contacto@mecasynapse.com";  // Mi cuenta de correo
+$smtpUsuario ="contact@mecasynapse.com";  // Mi cuenta de correo
 $smtpClave = "Corcho@2024";  // Mi contraseña
 
 // Email donde se enviaran los datos cargados en el formulario de contacto
-$emailDestino = "contacto@mecasynapse.com";
+$emailDestino = "contact@mecasynapse.com";
 
 $mail = new PHPMailer();
 $mail->IsSMTP();
-$mail->SMTPAuth = true;
+$mail->SMTPAuth = true;d
 $mail->Port = 465; 
 $mail->SMTPSecure = 'ssl';
 $mail->IsHTML(true); 

@@ -678,7 +678,7 @@
     
     <div class="compromiso_container u-carousel data-u-slide u-block-56e1-1" 
     id="carousel_f94d" 
-data-interval="5000"
+data-interval="7000" 
 data-u-ride="carousel">
 <div class="compromiso_heading" >
   <h2
@@ -1321,7 +1321,7 @@ data-u-slide="next">
                           // Get the form element
           
                           var contactForm = document.getElementById("contact");
-                          var responseMessage = document.getElementById("response-message");
+                          var responseMessage = document.getElementById("contact-submit");
                   
                           // Add an event listener for the form submission
           
@@ -1346,6 +1346,7 @@ data-u-slide="next">
           
                   
                               // Create an XMLHttpRequest object
+
                               var xhr = new XMLHttpRequest();
                   
                               // Configure it to send a POST request to contact.php
@@ -1354,7 +1355,8 @@ data-u-slide="next">
                               // Set up the onload function to handle the response
                               xhr.onload = function () {
                                   // Display the response message in the response-message div
-                                  document.getElementById("response-message").innerHTML = xhr.responseText;
+
+                                  document.getElementById("contact-submit").innerHTML = xhr.responseText;
                   
                                   // Reset the form fields
                                   contactForm.reset();
