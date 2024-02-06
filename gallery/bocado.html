@@ -14,6 +14,7 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'><script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
   <link rel="stylesheet" href="../NavBarStyle.css">
 <link rel="stylesheet" href="../footer.css">
+
 <!--Gallery styling-->
 <style
 class="cp-pen-styles">* {
@@ -34,7 +35,7 @@ body {
    
 }
 .nav-links{
-  font-size: 21.6px;
+  font-size: 18px;
 }
 @media screen and (min-width: 37.5em) {
   .title {
@@ -221,8 +222,13 @@ p {
       right: 10px;
   }
   .language{
-    font-size: 21.6px;
+    font-size: 18px;
   }
+  @media screen and (max-width: 995px) {
+    .case-study-gallery{
+      margin-top: 0px;
+    }
+}
   @media screen and (max-width: 770px) {
     .lightbox-content {
       display: block;
@@ -243,9 +249,7 @@ p {
   .nav-container{
     height: 60px;
   }
-  .title{
-    margin-top: 100px;
-  }
+  
  
 </style>
 
@@ -291,11 +295,17 @@ p {
 
 
     <div class="case-study-gallery">
-      <a href="../index.html#proy"><img src="ArrowBack.jpg" 
-        style="height: 50px;width: 50px; float: left;transform: translateX(-100px);" alt=""></a>
-      <a href="reactor.html"><img src="ArrowNext.jpg" style="height: 50px;width: 50px; float: right; transform: translateX(100px);" alt=""></a>
-  <h1 class="title" data-translation-id="proy_saca_title">
-    HERRAMENTAL ACCIONAMIENTO SACABOCADOS </h1>
+
+      <div class="controles" style="display: flex; justify-content: space-between; padding-top: 20px;" >
+        <a href="../index.html#proy"><img src="homeIcon.png" 
+          style="height: 40px;width: 40px;opacity: .4; " alt=""></a>
+        
+        <a href="reactor.html"><img src="ArrowNext.jpg" 
+          style="height: 50px;width: 50px;opacity: .4;" alt=""></a>
+   
+      </div>
+
+      <h1 class="title" data-translation-id="proy_saca_title"> HERRAMENTAL ACCIONAMIENTO SACABOCADOS </h1>
   <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;padding-top: 20px;padding-bottom: 20px;"
   data-translation-id="proy_saca_subtitle">
   Diseño y fabricación de herramental para accionamiento sacabocados en derivaciones "T" para líneas de gas. Cuenta con sistema de liberación rápida para intercambio de herramental.
@@ -350,7 +360,21 @@ p {
 <button class="lightbox-next">&gt;</button>
 </div>
 
+<div class="controles2" style="display: flex; justify-content: center; 
+padding-top: 20px;
+padding-bottom: 20px;
 
+" >
+  <div style="display: flex; justify-content: space-between;width: 40%" >
+    <a href="girador.html"><img src="ArrowBack.jpg" 
+      style="height: 50px;width: 50px;opacity: .4; " alt=""></a>
+      <a href="../index.html#proy"><img src="homeIcon.png" 
+        style="height: 50px;width: 50px;opacity: .4; " alt=""></a>
+    <a href="reactor.html"><img src="ArrowNext.jpg" 
+      style="height: 50px;width: 50px;opacity: .4;" alt=""></a>
+  
+  </div>
+</div>
 
 </div>
 <!--lightbox code-->

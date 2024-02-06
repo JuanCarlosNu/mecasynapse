@@ -85,6 +85,7 @@ background-color:rgba(242, 242, 242, 1);
       @media screen and (max-width: 625px){
         .section_title{
           margin-left: 0.5rem;
+          font-size: 1.7rem;
         }
         
         .section_title1{  

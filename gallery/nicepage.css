@@ -24318,6 +24318,8 @@ span.product-remove:after {
 }
 .u-carousel-indicators li.u-active {
   opacity: 1;
+  height: 3px;
+  background-color: black;
 }
 .u-carousel-caption {
   position: absolute;

@@ -172,14 +172,14 @@ const translations = {
         proy_gira_subtitle:"Dans le cadre de ce projet, nous avons réalisé l'ingénierie détaillée pour la conception d'une fixation et d'un centrifugeur d'échappement de moteur diesel destinés à une station de mesure, ainsi qu'un ensemble d'accessoires dans une usine de moteurs. Le projet englobait une modélisation 3D complète, la préparation des documents de construction, et une assistance au montage.",
 
         proy_dev_title:"ENROULEUR DE FIL DE CUIVRE ET EXTRUDEUR DE PLASTIQUE",
-        proy_dev_breve:"Bobineuse de fil et extrudeuse de plastique pour une ligne de fabrication de câbles en continu",
+        proy_dev_breve:"Bobineuse de fil et extrudeuse de plastique pour une ligne de fabrication de câbles en continu.",
         proy_dev_subtitle:"Ingénierie de détail d'une machine de bobinage de fil et d'une extrudeuse de plastique basée sur une conception proposée par le client pour une ligne de fabrication de câbles continus. Le projet comprenait la modélisation 3D complète des deux machines et la préparation des documents de construction.",
 
         proy_mue_title:"BOUCLIER DE RESSORT DE VÉRIFICATION THÉORIQUE",
         proy_mue_breve:"On a vérifié la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 dont le but est d'absorber l'impact des navires lors de la manœuvre d'accostage.",
         proy_mue_subtitle:"Dans ce projet, la résistance, la rigidité et la stabilité d'une pièce en tôle IRAM IAS 215-6 F36 ont été vérifiées, dont le but est d'absorber l'impact des bateaux lors de la manœuvre d'accostage. La vérification de chaque cordon de soudure a été incluse. À cette fin, des outils de mécanique computationnelle basés sur la théorie de l'élasticité linéaire résolue par la méthode des éléments finis ont été utilisés.",
 
-        proy_saca_title:"Outillage d'entraînement du poinçon",
+        proy_saca_title:"OUTILLAGE D'ENTRAÎNEMENT DU POINÇON",
         proy_saca_breve:"Conception et fabrication d'outillages pour enfoncer des poinçons dans les branches en T des conduites de gaz.",
         proy_saca_subtitle:"Conception et fabrication d'outillages pour enfoncer des poinçons dans les branches en T des conduites de gaz. Il dispose d'un système de libération rapide pour l'échange d'outils.",
 

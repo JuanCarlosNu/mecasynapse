@@ -32,7 +32,7 @@ body {
    
 }
 .nav-links{
-  font-size: 21.6px;
+  font-size: 18px;
 }
 @media screen and (min-width: 37.5em) {
   .title {
@@ -219,8 +219,13 @@ p {
       right: 10px;
   }
   .language{
-    font-size: 21.6px;
+    font-size: 18px;
   }
+  @media screen and (max-width: 995px) {
+    .case-study-gallery{
+      margin-top: 0px;
+    }
+}
   @media screen and (max-width: 770px) {
     .lightbox-content {
       display: block;
@@ -241,9 +246,7 @@ p {
   .nav-container{
     height: 60px;
   }
-  .title{
-    margin-top: 100px;
-  }
+  
  
 </style>
 
@@ -286,9 +289,15 @@ p {
   </div>
 
     <div class="case-study-gallery">
-      <a href="../index.html#proy"><img src="ArrowBack.jpg" 
-        style="height: 50px;width: 50px; float: left;transform: translateX(-100px);" alt=""></a>
-      <a href="muelle.html"><img src="ArrowNext.jpg" style="height: 50px;width: 50px; float: right; transform: translateX(100px);" alt=""></a>
+      <div class="controles" style="display: flex; justify-content: space-between; 
+      padding-top: 20px;" >
+        <a href="../index.html#proy"><img src="homeIcon.png" 
+          style="height: 40px;width: 40px; opacity: .4; " alt=""></a>
+        
+        <a href="devanador.html"><img src="ArrowNext.jpg" 
+          style="height: 50px;width: 50px;opacity: .4;" alt=""></a>
+   
+      </div>
   <h1 class="title" data-translation-id="proy_rea_title">
     DISEÑO Y VERIFICACIÓN DE REACTOR QUÍMICO
 
@@ -355,7 +364,21 @@ p {
     <button class="lightbox-prev">&lt;</button>
 <button class="lightbox-next">&gt;</button>
 </div>
+<div class="controles2" style="display: flex; justify-content: center; 
+padding-top: 20px;
+padding-bottom: 20px;
 
+" >
+  <div style="display: flex; justify-content: space-between;width: 40%" >
+    <a href="bocado.html"><img src="ArrowBack.jpg" 
+      style="height: 50px;width: 50px;opacity: .4;" alt=""></a>
+      <a href="../index.html#proy"><img src="homeIcon.png" 
+        style="height: 50px;width: 50px; opacity: .4; " alt=""></a>
+    <a href="devanador.html"><img src="ArrowNext.jpg" 
+      style="height: 50px;width: 50px;opacity: .4;" alt=""></a>
+  
+  </div>
+</div>
 
 
 </div>

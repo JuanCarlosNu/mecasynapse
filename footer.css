@@ -23,6 +23,11 @@
     
    
 }
+.logoFooter{
+ height: 40px;
+ width: 40px;
+ margin-top: 10px;
+}
 .center{
     display: flex;
     flex-direction: column;
@@ -117,6 +122,12 @@
             
             transform: translateY(-5px);
         }
+        .logoFooter{
+            height: 30px;
+            width: 30px;
+            margin-top: 0;
+            margin-bottom: 8px;
+           }
         .foot_left{
             order: 4;
             padding-left: 0px;
@@ -156,6 +167,14 @@
         .spacer{
             height: 9px;
         }
+        @media screen and (max-width: 720px){
+            .logoFooter{
+                height: 30px;
+                width: 30px;
+                margin-top: 0;
+                margin-bottom: 0px;
+               }}
+            
 
         
         

@@ -93,7 +93,7 @@
             <li><a href="#here" data-translation-id="menu_inicio"  class="nav-links">Inicio</a></li>
             <li><a href="pages/team.html" data-translation-id="menu_acerca" class="nav-links">Acerca</a></li>
             <li><a href="#proy" data-translation-id="menu_proyectos" class="nav-links">Proyectos</a></li>
-            <li><a href="#carousel_f94d" data-translation-id="menu_compromiso" class="nav-links">Servicios</a></li>
+            <li><a href="#servicios" data-translation-id="menu_compromiso" class="nav-links">Servicios</a></li>
           <!-- <li><a href="#" class="nav-links">Expertise</a></li>-->
             <li><a href="#contacto" data-translation-id="menu_contacto" class="nav-links">Contacto</a></li>
           </ul>
@@ -117,29 +117,63 @@
   </div>
  
     <!--Hero slider-->
-   <section class="u-carousel u-slide u-block-d950-1" id="carousel_1fad" data-interval="5000" data-u-ride="carousel">
+   <section
+    class="u-carousel u-slide u-block-d950-1"
+    style="position: relative;"
+     id="carousel_1fad" 
+     data-interval="5000" 
+     data-u-ride="carousel">
+     <!--hero title styling-->
     <style>
-      @media screen and (max-width: 625px)
+    @media screen and (max-width: 625px)
 {
   .hero-overlay h1 {
     margin-bottom: 25px;
     font-size: 30px;
 }
+
 }
     </style>
-      <ol class="u-absolute-hcenter  u-carousel-indicators u-block-d950-2">
-        <li data-u-target="#carousel_1fad" class="u-active u-grey-30" data-u-slide-to="0"></li>
-        <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="1"></li>
-        <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="2"></li>
-        <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="3"></li>
-        <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="4"></li>
-        <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="5"></li>
-        <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="6"></li>
-        
-      </ol>
-      <div id="here" class="u-carousel-inner" role="listbox">
-
-        
+    <ol class="u-absolute-hcenter  u-carousel-indicators u-block-d950-2">
+      <li data-u-target="#carousel_1fad" class="u-active u-grey-30" data-u-slide-to="0"></li>
+      <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="1"></li>
+      <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="2"></li>
+      <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="3"></li>
+      <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="4"></li>
+      <li data-u-target="#carousel_1fad" class="u-grey-30" data-u-slide-to="5"></li>
+      <style>
+        .u-carousel-inner{
+          height: 100%,
+        }
+        .u-carousel-indicators li {
+                     position: relative;
+                         flex: 0 1 auto;
+                        width: 30px;
+                       height: 3px;
+                 margin-right: 3px;
+                  margin-left: 3px;
+                  text-indent: -999px;
+                                }
+        .u-carousel-indicators li.u-active {
+                    height: 5px;
+          background-color: rgba(0, 0, 255, 1);
+                                }
+                                
+    .u-absolute-hcenter{
+          top: 95%;
+        }                          
+     
+   
+                                
+      </style>
+      <script>
+         var screenHeight = window.innerHeight;
+         console.log(screenHeight);
+      </script>
+    </ol>
+     
+      
+      <div id="here" class="u-carousel-inner" style="position: relative;" role="listbox">
         
         <div class="u-active u-align-center u-carousel-item u-clearfix u-container-align-center u-section-2-1">
           <div class="u-clearfix u-sheet u-sheet-1">
@@ -236,6 +270,7 @@
                  <div class="title_container Hero">
                     <h1 data-translation-id="main_calc_title">En Memorias de Cálculo</h1>
                  </div>
+
                  <!--for resizing the images-->
                  <script>
                   // Function to be executed when the screen reaches a specific width
@@ -377,11 +412,41 @@
 
 
    
-    
+    <style>
+      .ancla1{
+     position: absolute;
+    top: -70px;
+      }
+      .ancla2{
+       position: absolute;
+       top: -40px;
+      }
+      .ancla3{
+       position: absolute; 
+       top: -70px;
+      }
+
+      @media screen and (max-width: 995px){
+        .ancla1{
+          top:0px;
+        }
+        .ancla2{
+          top:20px;
+        }
+        .ancla3{
+       top:0px;
+      }}
+        @media screen and (max-width: 995px){
+          .ancla2{
+          top:50px;
+        }
+      }
     </style>
-  <!-- proyects slider-->
-  <div class="one"  id="proy">
     
+  <!-- proyects slider-->
+  
+  <div class="one" style="position: relative;">
+    <i class="ancla1" id="proy" ></i>
   
   <!-- Inner -->
   <div class="gallery-ss" data-design="gallery-4" 
@@ -679,7 +744,9 @@
     <div class="compromiso_container u-carousel data-u-slide u-block-56e1-1" 
     id="carousel_f94d" 
 data-interval="7000" 
-data-u-ride="carousel">
+data-u-ride="carousel"
+style="position: relative;">
+<i class="ancla2"  id="servicios"></i>
 <div class="compromiso_heading" >
   <h2
   data-translation-id="comp_title"
@@ -705,9 +772,9 @@ class="u-grey-30" data-u-slide-to="2">
 
 
 <div class="u-carousel-inner  shadow-4-strong" role="listbox" >
-<!--slide one container-->
 
-<div class="u-active u-align-center u-carousel-item
+<!--slide one -->
+    <div class="u-active u-align-center u-carousel-item
 u-clearfix ">
 <div class="pagina" >
    <div class="flex_container"> 
@@ -751,9 +818,9 @@ u-clearfix ">
   </div>
    </div>
 </div>
-</div>
+    </div>
 <!--slide two-->
-<div class="u-align-center u-carousel-item
+     <div class="u-align-center u-carousel-item
 u-clearfix u-section-2-2">
         <div class="pagina" >
            <div class="flex_container"> 
@@ -792,13 +859,13 @@ u-clearfix u-section-2-2">
                 </div>
            </div>
           </div>
-</div>
-
-<div class=" u-align-center u-carousel-item
-u-clearfix u-section-2-2">
-    <div class="pagina" >
-      <div class="flex_container"> 
-        <div class="img_container" >
+     </div>
+<!--slide three-->
+     <div class=" u-align-center u-carousel-item
+      u-clearfix u-section-2-2">
+       <div class="pagina" >
+        <div class="flex_container"> 
+         <div class="img_container" >
             <img   class="image-1" src="data-comp/3.jpg" 
                     alt="" 
                       >
@@ -864,7 +931,8 @@ data-u-slide="next">
 
 
     <!--contact-->
-    <div class="section_body" id="contacto">
+    <div class="section_body" style="position: relative;">
+      <i class="ancla3" id="contacto"></i>
       <div class="section_title_container" style="margin-left: none;">
         <h2 class="section_title" data-translation-id="cont_title" >
           Contacto
@@ -896,6 +964,7 @@ data-u-slide="next">
                       method="post"
                        id="contact" 
                       class="d-flex flex-wrap ss-border temporal-padding"
+                      novalidate
                        data-ss-id="3HfFA4SHf_ibeav4X70YY">
                            <p class="col-12 col-lg-10 ss-border temporal-padding"
                            style=" font-family: 'Open Sans',sans-serif;
@@ -1268,9 +1337,39 @@ data-u-slide="next">
                             placehlder-key="message"
                             placeholder="Message"
                              class="form-control w-100 ss-border temporal-padding" 
-                             data-ss-id="RNYkQ9WX6a-O76i1NQ1C_">
+                            >
     
                             </textarea> 
+                            <!--
+                              <p id="contact-submit" style="color: red;">Il est nécessaire de remplir toutes les données du formulaire.
+                            -->
+                            </p>
+                            <!--Script for placing the cursor at the beggining-->
+                            <script>
+                              document.addEventListener("DOMContentLoaded", function () {
+                                  var messageTextArea = document.getElementById("mensaje");
+                          
+                                  // Add an event listener for the textarea click
+                                  messageTextArea.addEventListener("click", function () {
+                                      // Set the cursor position to the beginning of the textarea
+                                      setCaretPosition(messageTextArea, 0);
+                                  });
+                          
+                                  // Function to set the cursor position in a textarea
+                                  function setCaretPosition(elem, caretPos) {
+                                      if (elem.setSelectionRange) {
+                                          elem.focus();
+                                          elem.setSelectionRange(caretPos, caretPos);
+                                      } else if (elem.createTextRange) {
+                                          var range = elem.createTextRange();
+                                          range.collapse(true);
+                                          range.moveEnd("character", caretPos);
+                                          range.moveStart("character", caretPos);
+                                          range.select();
+                                      }
+                                  }
+                              });
+                            </script>
                            </fieldset>
                         </div> 
                                      <!--política de privacidad
@@ -1294,22 +1393,55 @@ data-u-slide="next">
 
 
                         <div  class="col-12 mb-4 ss-border temporal-padding"
-                         data-ss-id="lBvo10hvwHt4g2r0LJvmG">
+                         data-ss-id="lBvo10hvwHt4g2r0LJvmG" style="padding-left: 15px;">
                          
                          
                          <div class="correct">
+                        
                          
                          <fieldset>
+                          <style>
+
+                          </style>
+                        <!--btn btn-primary-->
                           <button 
+                          style="cursor:pointer;
+                          /*width:100%;*/
+                          border:none;
+                          background-color: rgb(59, 113, 202);
+                          border-bottom-color:rgb(255, 255, 255) ;
+                          border-radius: 4px;
+                          border-left-color: rgb(255, 255, 255);
+                          border-right-color: rgb(255, 255, 255);
+                          border-top-color: rgb(255, 255, 255);
+                          box-shadow: rgb(59, 113, 202) 0px 4px 9px -4px;
+                          color: rgb(255, 255, 255);
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 12px;
+                          font-weight: 500;
+                          line-height: 18px;
+                          font-stretch: 100%;
+                          padding-block-end: 8px;
+padding-block-start: 10px;
+padding-bottom: 8px;
+padding-inline-end: 24px;
+padding-inline-start: 24px;
+padding-left: 24px;
+padding-right :24px;
+padding-top :10px;
+text-transform: uppercase"
                           name="submit"
                           type="submit"
                             id="contact-submit" 
-                            class="btn btn-primary ss-border temporal-padding"
+                            class="ss-border  temporal-padding"
+                            novalidate
                              data-ss-id="_TaosnPSzLmMDrfaD4Hz_"
                              data-translation-id="cont_button"
                              data-submit="...Enviar">
                              Send
                             </button> 
+                            
+                            
                          </fieldset>
                             
                             </div>
@@ -1328,6 +1460,7 @@ data-u-slide="next">
                           contactForm.addEventListener("submit", function (event) {
                               // Prevent the default form submission
                               event.preventDefault();
+
                               responseMessage.innerHTML = "Processing..."; // Show processing message
                   
                               // Perform the AJAX submission
@@ -1357,19 +1490,29 @@ data-u-slide="next">
                                   // Display the response message in the response-message div
 
                                   document.getElementById("contact-submit").innerHTML = xhr.responseText;
-                  
-                                  // Reset the form fields
-                                  contactForm.reset();
+                                  console.log(xhr.responseText)
+
+                                  // Reset the form fields if success
+                                  
+                                  if (xhr.responseText === 
+                                  "L'e-mail a été envoyé avec succès."
+                                  ||"El correo se envió correctamente."
+                                  ||"The email was sent successfully.") {
+        // Reset the form fields if submission was successful
+        contactForm.reset();
+    }
                               };
                               function getSelectedLanguage() {
-              return localStorage.getItem('selectedLanguage') || 'en'; // Default to English if no language is selected
+              return localStorage.getItem('selectedLanguage') || 'fr'; // Default to English if no language is selected
           };
                   
                               // Send the form data
                               xhr.send(formData);
                           }
                       });
-                    </script> 
+                    </script>
+                    
+                    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 <script>
@@ -1382,37 +1525,9 @@ data-u-slide="next">
       });
     });
   </script>
-                    <div class="reparation" id="reparation">
-                      <div class="rep_content">
-                       <p> Esta sección se encuentra en construcción</p>
-                       <p>para contactarnos, envíanos un mail haciendo click aquí abajo</p>
-                        <a href="mailto:info@mecasynapse.com">info@mecasynapse.com</a>
-                         <p>...o ...</p>
-                       <button onclick="toggleDisplay()">cierra esta ventana</button>
-                            <p>y continúa navegando</p>
-                         </div>
-                          <!--menu javascript-->
-
-    <script>
-
-    function toggleDisplay() {
-        var element = document.getElementById('reparation');
-
-        // Check the current display property and toggle it
-        if (element.style.display === 'none') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-    
-    
-</script>
-
-                    </div>
                     
-                 </div>
+                    
+    </div>
              </div>
              <div data-ss-empty="false" 
                           class="ss-resize-handler ss-border temporal-padding"
@@ -1424,10 +1539,37 @@ data-u-slide="next">
               <div  
                  id="map"
                  class="col col-lg-6 col-sm-6 ss-border temporal-padding" data-ss-id="-Erp_N4a6gkbCyDV-Eqmp">
-             <img  style="width: 100% !important; height: auto !important;" 
-             src="data/mapaFrances.png" class="mw-100 ss-border temporal-padding"
+             <img  
+             id="mapa"
+             style="width: 100% !important; height: auto !important;" 
+             src="data/mapaFrances.png"
+            class="mw-100 ss-border temporal-padding"
               data-ss-id="bVky5PdxF0UIAnvHlr2Wx">
               </div>
+              <script>
+                // Function to be executed when the screen reaches a specific width
+                function onScreenResize() {
+                  var screenWidth = window.innerWidth;
+                   console.log(screenWidth)
+                  // Check if the screen width is greater than or equal to the specific width
+                  if (screenWidth >= 576) {
+                    document.getElementById('mapa').src = 'data/mapaFrances.png';
+                    document.getElementById('mapa').style.opacity = '1';
+                    // Call your specific function or code here
+                    // For example: yourFunction();
+                  } else {
+                    document.getElementById('mapa').style.opacity = '0.4';
+                    document.getElementById('mapa').src = 'data/mapaClarito.png';
+                    
+                  }
+                }
+            
+                // Add an event listener for the 'resize' event
+                window.addEventListener('resize', onScreenResize);
+            
+                // Call the function initially to handle the current screen width
+                onScreenResize();
+              </script>
           
 
          </div>
@@ -1481,43 +1623,47 @@ menu.addEventListener('click', function(){
         
         <div class="foot_left">
          <p class="central"
-            style="transform: translateY(6px);font-size: 18px;"
+            style="transform: translateY(6px);font-size: 16px;"
            data-translation-id="foot_oc" >Oficina Central: </p>
-         <p class="address"><img style="height: 20px;width: 20px;
-          padding-bottom: 3px; transform: translateX(-4px);"
+         <p class="address" style="font-size: 18px;"><img style="height: 20px;width: 20px;
+          padding-bottom: 3px; transform: translateX(-4px);font-size: 18px;"
            src="/data/inconMaps.png"> Toulouse, Francia</p>
          <div class="spacer"></div>   
-         <p class="estudio" style="transform: translateY(6px);font-size: 18px;"
+         <p class="estudio" style="transform: translateY(6px);font-size: 16px;"
          data-translation-id="foot_ei">Estudio de Ingeniería: <i class="glyphicon glyphicon-cloud"></i></span></p>
             <!-- <a class="icon_map"
               href="https://www.google.com/maps/place/Rue+des+Colonnes,+75002+Paris,+France/@48.8695423,2.3369034,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e3b85b96639:0x132d4d89c023736c!8m2!3d48.8695388!4d2.3394783!16s%2Fg%2F1222zhdc?entry=ttu">
             </a>-->
-              <p class="address"
+              <p class="address" style="font-size: 18px;"
              >
-                <img style="height: 20px;width: 20px; padding-bottom: 3px; transform: translateX(-4px);" src="/data/inconMaps.png"> 
+                <img style="height: 20px;width: 20px; padding-bottom: 3px;
+                 transform: translateX(-4px); font-size: 18px;" src="/data/inconMaps.png"> 
                 Rosario, Argentina</p>
                 
         </div>
        
         <div class="center">
-         <a class="cent" href="#here"> <h3>Mecasynapse</h3></a>
+         <a class="cent" href="#here"> 
+          <h3>Mecasynapse</h3></a>
          <p>Solutions TM</p>  
+         <img src="data/logoEnBlanco.png" class="logoFooter" alt="logo">
         </div>
         <div class="bar2"></div>
         <div class="foot_right">
           
-          <a class="left" href="mailto:info@mecasynapse.com"> 
-            <p class="info" style="transform: translateY(6px);">info@mecasynapse.com</p>
+          <a class="left" href="mailto:contact@mecasynapse.com"> 
+            <p class="info" style="transform: translateY(6px);">contact@mecasynapse.com</p>
           </a> 
 
           <div class="footer-icons">
             <a href="https://www.linkedin.com/in/roman-faranna-ars?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="generic-anchor" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="mailto:info@mecasynapse.com" class="generic-anchor" target="_blank"><i class="fa fa-envelope"></i></a>
+            <a href="mailto:contact@mecasynapse.com" class="generic-anchor" target="_blank"><i class="fa fa-envelope"></i></a>
           </div>
           <p class="sello" 
              style="transform: translateY(6px);font-size: 18px;"
              data-translation-id="foot_ss">Sello Social: </p>
-         <p class="addressR"><img style="height: 20px;width: 20px; padding-bottom: 3px; transform: translateX(-4px);" src="/data/inconMaps.png"> 9 Rue des Colonnes 75002 Paris</p>
+         <p class="addressR">
+          <img style="height: 20px;width: 20px; padding-bottom: 3px; transform: translateX(-4px);" src="/data/inconMaps.png"> 9 Rue des Colonnes 75002 Paris</p>
           
          
         </div>

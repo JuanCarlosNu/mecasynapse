@@ -46,6 +46,11 @@
                     z-index:-1;
                  }
              }
+             @media screen and (max-width: 385px) {
+              #map{
+                top: 250px;
+              }
+             }
            
                 
           /*      @media screen and (max-width: 992px) {

@@ -377,7 +377,7 @@
     }
 
 
-    @media screen and (max-width: 475px){
+    @media screen and (max-width: 500px){
      
         .nav-container{
           height: calc(3rem + 8px);
@@ -389,9 +389,21 @@
           margin: 0 0.5rem;
         }
         #logo{
-          width: 250px;
+          width: 210px; /*was in 250px , pull it down for the lang not to go to next line*/
           height: auto;
         }
+        .language {
+          top:10px;
+        }
+      }
+      @media screen and (max-width: 415px){
+        #logo{
+          width: 180px; /*was in 250px , pull it down for the lang not to go to next line*/
+          height: auto;
+        }
+        
+
+      
       }
       
 
