@@ -23,9 +23,9 @@
  ) {
      // Language-specific messages for missing fields
      $missingFieldsMessage = [
-         "en" => "It is necessary to complete all the form data.",
-         "es" => "Es necesario completar todos los datos del formulario.",
-         "fr" => "Il est nécessaire de remplir toutes les données du formulaire."
+         "en" => "It is necessary to complete the fields in red",
+         "es" => "Es necesario completar los campos en rojo",
+         "fr" => "Il est nécessaire de remplir les champs en rouge"
      ];
  
      die($missingFieldsMessage[$selectedLanguage]);

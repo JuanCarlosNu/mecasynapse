@@ -1224,7 +1224,9 @@ data-u-slide="next">
                       </div>
                       
                       <!-- Phone Number -->
-                      <div class="col-6 col-lg-5 mb-4 ss-border temporal-padding"
+                      <div
+                      id="phoneNumber" 
+                      class="col-6 col-lg-5 mb-4 ss-border temporal-padding"
                        data-ss-id="phoneNumber">
 
                          <!-- <label for="phoneNumber" class="form-label">Phone Number:</label>-->
@@ -1237,7 +1239,9 @@ data-u-slide="next">
 
                            
                                          <!-- Email -->
-                        <div class="col-12 col-lg-10 mb-4 ss-border temporal-padding" data-ss-id="TTDS-c1I957dZBjcwYJuV"> 
+                        <div 
+                        class="col-12 col-lg-10 mb-4 ss-border temporal-padding" 
+                        data-ss-id="TTDS-c1I957dZBjcwYJuV"> 
                             <fieldset>
                               <input type="email" 
                             name="email"
@@ -1494,14 +1498,17 @@ text-transform: uppercase"
 
                                   // Reset the form fields if success
                                   
-                                  if (xhr.responseText === 
-                                  "L'e-mail a été envoyé avec succès."
-                                  ||"El correo se envió correctamente."
-                                  ||"The email was sent successfully.") {
-        // Reset the form fields if submission was successful
-        contactForm.reset();
-    }
-                              };
+                                  if (xhr.responseText === "L'e-mail a été envoyé avec succès." ||
+                                       xhr.responseText === "El correo se envió correctamente." ||
+                                        xhr.responseText === "The email was sent successfully.") {
+                                  // Reset the form fields if submission was successful
+                                 contactForm.reset();
+                                   }else{
+                                    document.getElementById("ss_field_mail").style.borderColor= "red";
+                                    document.getElementById("phoneNumber").style.borderColor= "red";
+                                    document.getElementById("countryCode").style.borderColor= "red";
+                                   }
+                                      };
                               function getSelectedLanguage() {
               return localStorage.getItem('selectedLanguage') || 'fr'; // Default to English if no language is selected
           };
