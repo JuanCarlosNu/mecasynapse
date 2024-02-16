@@ -6,16 +6,52 @@
        
     }
    */
+   /* Define the colors for map references*/
+
+
+   .color-red { background-color: rgb(0,80,130); }
+   .color-green { background-color: rgb(234, 178, 0); }
+   .color-blue { background-color: rgb(197,90,17); }
+   
+   /* Style the list */
+   
+   .square-list {
+     list-style: none;
+     padding-left: 0;
+     transform: translate(50%, -100%);
+     
+
+    }
+   
+   /* Style the list items */
+   .square-list li {
+     margin-bottom: 5px;
+   }
+   
+   /* Style the colored squares */
+   .square {
+     display: inline-block;
+     width: 10px;
+     height: 10px;
+     margin-right: 5px;
+     border: 1px solid #000; /* Add border for clarity */
+   }
+   @media screen and (max-width: 1076px) {
+    .square-list {transform: translate(50%, -50%);}
+
+   }
+
     
    
    
-       @media screen and (max-width: 575px) {
-        .correct{
-          width: 100%;
-          display: flex;
-          justify-content: center;
-
+       @media screen and (max-width: 576px) {
+        .square-list{
+          opacity: .3;
+         position: relative;
+         bottom: -80px;
+         font-size: 7px;
         }
+        
         .section_title_container1{
           display: inline;
           justify-content: center;
@@ -48,7 +84,7 @@
              }
              @media screen and (max-width: 385px) {
               #map{
-                top: 250px;
+                top: 200px;
               }
              }
            
