@@ -10,7 +10,7 @@
      <link rel="icon" href="data/logoSoloElLogo.png" type="image/png">  
      <link rel="shortcut icon" href="data/logoSoloElLogo.png" type="image/png">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <link rel="codes" href="">
 <!-- Google Fonts -->
 
  <!--Conains proyect corusel Css styling-->
@@ -123,6 +123,18 @@
      id="carousel_1fad" 
      data-interval="5000" 
      data-u-ride="carousel">
+     <div class="hero-overlay2">
+     <!--
+       <p data-u-target="#carousel_1fad" class="u-active u-grey-30"
+       data-u-slide-to="0">click to see</p>
+     -->
+      <p data-u-target="#carousel_1fad" data-u-slide-to="1"   >Siderurgie</p>
+      <p data-u-target="#carousel_1fad" data-u-slide-to="2"  >Alimentaire</p>
+      <p data-u-target="#carousel_1fad" data-u-slide-to="3" >Manutention indus</p>
+      <p data-u-target="#carousel_1fad" data-u-slide-to="4" >Simulation</p>
+      <p data-u-slide-to="5">Notes de calcul</p>
+    </div>
+
      <!--hero title styling-->
     <style>
     @media screen and (max-width: 625px)
@@ -161,7 +173,10 @@
                                 
     .u-absolute-hcenter{
           top: 95%;
-        }                          
+         }             
+         .u-absolute-hcenter li {
+          background-color: rgb(179,179,179);
+         }             
      
    
                                 
@@ -178,6 +193,7 @@
         <div class="u-active u-align-center u-carousel-item u-clearfix u-container-align-center u-section-2-1">
           <div class="u-clearfix u-sheet u-sheet-1">
             <div class="hero-section">
+            
               <img src="data/pexels-pixabay-236722.jpg">
               <div class="hero-overlay">
                 <div class="title_container Hero">
@@ -225,7 +241,7 @@
              </div>
           </div>
         </div>
-
+      
         <div class="u-align-center u-carousel-item u-clearfix u-container-align-center u-section-2-4">
           <div class="u-clearfix u-sheet u-sheet-1">
             <div class="hero-section">
@@ -243,7 +259,7 @@
           </div>
           </div>
         </div>
-
+      
         <div class="u-align-center u-carousel-item u-clearfix u-container-align-center u-section-2-4">
           <div class="u-clearfix u-sheet u-sheet-1">
             <div class="hero-section">
@@ -261,7 +277,7 @@
              
           </div>
         </div>
-
+      
         <div class="u-align-center u-carousel-item u-clearfix u-container-align-center u-section-2-4">
           <div class="u-clearfix u-sheet u-sheet-1">
             <div class="hero-section">
@@ -270,7 +286,7 @@
                  <div class="title_container Hero">
                     <h1 data-translation-id="main_calc_title">En Memorias de Cálculo</h1>
                  </div>
-
+      
                  <!--for resizing the images-->
                  <script>
                   // Function to be executed when the screen reaches a specific width
@@ -343,6 +359,7 @@
              
           </div>
         </div>
+       
       </div>
 
         
@@ -740,11 +757,15 @@
   <div class="spacer" style="height: 60px;"></div>
     
     <!--compromiso-->
+    <script>
+    $('#carousel_f94d').carousel({
+      interval: 2000
+    })
+    </script>
     
     <div class="compromiso_container u-carousel data-u-slide u-block-56e1-1" 
     id="carousel_f94d" 
-data-interval="7000" 
-data-u-ride="carousel"
+
 style="position: relative;">
 <i class="ancla2"  id="servicios"></i>
 <div class="compromiso_heading" >
@@ -1650,21 +1671,35 @@ menu.addEventListener('click', function(){
         </div>
        
         <div class="center">
-         <a class="cent" href="#here"> 
-          <h3>Mecasynapse</h3></a>
-         <p>Solutions TM</p>  
-         <img src="data/logoEnBlanco.png" class="logoFooter" alt="logo">
+         <a class="cent" href="#here" style="display: flex;"> 
+          <img src="data/logoEnBlanco.png" class="logoFooter" alt="logo"
+          style="
+          margin-right: 10px;
+          " ><h3
+          style="margin-top: 15px;
+          font-family:orbitron;">Mecasynapse</h3></a>
+         <p style="
+         font-family: orbitron;
+         align-self: flex-end;">Solutions TM</p>  
+         <a href="https://www.linkedin.com/in/roman-faranna-ars?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="generic-anchor" target="_blank">
+         <i class="fa fa-linkedin"
+         style="color: white;
+         font-size: 23px;
+    margin-top: 20px;"></i>
         </div>
         <div class="bar2"></div>
         <div class="foot_right">
           
-          <a class="left" href="mailto:contact@mecasynapse.com"> 
-            <p class="info" style="transform: translateY(6px);">contact@mecasynapse.com</p>
-          </a> 
+         
 
           <div class="footer-icons">
-            <a href="https://www.linkedin.com/in/roman-faranna-ars?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="generic-anchor" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="mailto:contact@mecasynapse.com" class="generic-anchor" target="_blank"><i class="fa fa-envelope"></i></a>
+           <div class="enlinea" style="display: flex;justify-content: end;">
+            <a class="left" href="mailto:contact@mecasynapse.com"> 
+              <p class="info" style="transform: translateY(6px);">contact@mecasynapse.com</p>
+            </a>
+             <a href="mailto:contact@mecasynapse.com" class="generic-anchor" target="_blank"><i class="fa fa-envelope"></i></a>
+          </div>
+            
           </div>
           <p class="sello" 
              style="transform: translateY(6px);font-size: 18px;"

@@ -376,9 +376,9 @@ en: {
            comp_1_4_old:"- Calculations and calculation reports of Static, Dynamic, Heat, Vibrations, Fatigue and Buckling phenomena.",
            
            comp_title2_old:"Consulting Services",
-           comp_2_1_old"- Support in reaching solutions to problems in the steel, automotive, agricultural machinery and food industries.",
-           comp_2_2_old"- Partnership with SMEs for advice on designing parts and mechanisms.",
-           comp_2_3_old- Contributing with our expertise to industrial solutions.",
+           comp_2_1_old:"- Support in reaching solutions to problems in the steel, automotive, agricultural machinery and food industries.",
+           comp_2_2_old:"- Partnership with SMEs for advice on designing parts and mechanisms.",
+           comp_2_3_old:"Contributing with our expertise to industrial solutions.",
 
            comp_title3:"Engineering",
            comp_3_1_old:"- Design and calculation of mechanisms and machines pursuing a useful effect in the most efficient and economical way possible.",

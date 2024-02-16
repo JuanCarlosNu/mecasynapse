@@ -4237,6 +4237,7 @@ textarea.form-control-lg {
 .card-title {
     margin-bottom: var(--mdb-card-title-spacer-y);
     text-align: center;
+    font-weight: 700;
 }
 .card-text{
     text-align: center;
